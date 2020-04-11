@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MoneyHeist.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{3D4475C3-95EB-4DE2-8236-15862DB3A20F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MoneyHeist.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MoneyHeistEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{2772379B-75F1-4C8B-B31B-CF0B18EC4581}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MoneyHeist">
+      <UniqueIdentifier>{707463C4-8FA7-4280-B01E-122C275CE06B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MoneyHeist\MoneyHeist.Build.cs">
+      <Filter>Source\MoneyHeist</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MoneyHeist\MoneyHeist.cpp">
+      <Filter>Source\MoneyHeist</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MoneyHeist\MoneyHeist.h">
+      <Filter>Source\MoneyHeist</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MoneyHeist\MoneyHeistGameModeBase.cpp">
+      <Filter>Source\MoneyHeist</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MoneyHeist\MoneyHeistGameModeBase.h">
+      <Filter>Source\MoneyHeist</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MoneyHeist",
+			"Path": "C:\\Users\\TheK-B1000\\Desktop\\The K-B Folder\\Unreal\\repos\\MyGame\\MoneyHeist\\Source\\MoneyHeist.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MoneyHeistEditor",
+			"Path": "C:\\Users\\TheK-B1000\\Desktop\\The K-B Folder\\Unreal\\repos\\MyGame\\MoneyHeist\\Source\\MoneyHeistEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
