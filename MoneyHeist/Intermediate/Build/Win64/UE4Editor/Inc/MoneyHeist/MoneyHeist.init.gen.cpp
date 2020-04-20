@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeMoneyHeist_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x7BF02031,
-				0x616631A5,
+				0xB7E0F3E5,
+				0x34875C66,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

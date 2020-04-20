@@ -1,0 +1,1584 @@
+﻿Log file open, 04/18/20 10:21:36
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: MoneyHeist
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.152373
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-10757647
+LogInit: Engine Version: 4.24.1-10757647+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Dec 17 2019 02:08:03
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Config/Windows/Engine.ini]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Config/Windows/Engine.ini]
+[2020.04.18-17.21.36:712][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Config/Windows/Engine.ini]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Config/Windows/Engine.ini]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.18-17.21.36:712][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Config/Windows/Engine.ini]
+[2020.04.18-17.21.36:712][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Config/Windows/Engine.ini]
+[2020.04.18-17.21.36:718][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.21.36:718][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.18-17.21.36:718][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.18-17.21.36:718][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.21.36:718][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.18-17.21.36:718][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.18-17.21.36:719][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.18-17.21.36:720][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.18-17.21.36:720][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.18-17.21.36:720][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.18-17.21.36:727][  0]LogHAL: Display: Platform has ~ 8 GB [8462237696 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.18-17.21.36:727][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.18-17.21.36:727][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.18-17.21.36:727][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.18-17.21.36:728][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.21.36:729][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.18-17.21.36:729][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.18-17.21.36:729][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.18-17.21.36:729][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.18-17.21.36:729][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.18-17.21.36:729][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.18-17.21.36:729][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Config/Windows/Engine.ini]
+[2020.04.18-17.21.36:729][  0]LogInit: Computer: LAPTOP-7TARG8CR
+[2020.04.18-17.21.36:729][  0]LogInit: User: TheKB1000
+[2020.04.18-17.21.36:729][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.04.18-17.21.36:729][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.18-17.21.36:729][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.04.18-17.21.36:730][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.18-17.21.36:730][  0]LogMemory: Process Physical Memory: 105.59 MB used, 105.59 MB peak
+[2020.04.18-17.21.36:730][  0]LogMemory: Process Virtual Memory: 99.99 MB used, 99.99 MB peak
+[2020.04.18-17.21.36:730][  0]LogMemory: Physical Memory: 5675.96 MB used,  2394.26 MB free, 8070.22 MB total
+[2020.04.18-17.21.36:730][  0]LogMemory: Virtual Memory: 5121.11 MB used,  134212608.00 MB free, 134217728.00 MB total
+[2020.04.18-17.21.36:736][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.04.18-17.21.36:823][  0]LogInit: Using OS detected language (en-US).
+[2020.04.18-17.21.36:824][  0]LogInit: Using OS detected locale (en-US).
+[2020.04.18-17.21.36:828][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.04.18-17.21.37:102][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.18-17.21.37:185][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.18-17.21.37:185][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.18-17.21.37:443][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.18-17.21.37:443][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.04.18-17.21.37:443][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.04.18-17.21.37:443][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.18-17.21.37:549][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2020.04.18-17.21.37:549][  0]LogD3D11RHI:       4055/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.04.18-17.21.37:573][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2020.04.18-17.21.37:574][  0]LogD3D11RHI:       128/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.04.18-17.21.37:582][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.18-17.21.37:582][  0]LogD3D11RHI:       0/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.18-17.21.37:582][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.18-17.21.37:670][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.18-17.21.37:670][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2020.04.18-17.21.37:670][  0]LogWindows: EnumDisplayDevices:
+[2020.04.18-17.21.37:671][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2020.04.18-17.21.37:671][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.04.18-17.21.37:672][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.04.18-17.21.37:674][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.04.18-17.21.37:674][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2020.04.18-17.21.37:674][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.04.18-17.21.37:674][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.04.18-17.21.37:674][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2020.04.18-17.21.37:741][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.04.18-17.21.37:741][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.18-17.21.37:763][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.04.18-17.21.38:330][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.04.18-17.21.38:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.04.18-17.21.38:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.04.18-17.21.38:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.04.18-17.21.38:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.04.18-17.21.38:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.04.18-17.21.38:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.04.18-17.21.38:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.04.18-17.21.38:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.04.18-17.21.38:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.04.18-17.21.38:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.18-17.21.38:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.04.18-17.21.38:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.04.18-17.21.38:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.18-17.21.38:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.18-17.21.38:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.18-17.21.38:416][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.18-17.21.38:416][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.04.18-17.21.38:416][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.04.18-17.21.38:510][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.04.18-17.21.38:511][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.04.18-17.21.38:529][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.18-17.21.38:547][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.04.18-17.21.38:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.04.18-17.21.38:579][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.04.18-17.21.38:594][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.04.18-17.21.38:605][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.04.18-17.21.38:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.04.18-17.21.38:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.04.18-17.21.38:670][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.04.18-17.21.38:670][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.04.18-17.21.38:686][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.18-17.21.38:701][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.04.18-17.21.38:716][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.04.18-17.21.38:728][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.04.18-17.21.38:728][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.18-17.21.38:740][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.18-17.21.38:834][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Intermediate/Shaders/WorkingDirectory/28024/).
+[2020.04.18-17.21.38:834][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TheK-B1000/AppData/Local/Temp/UnrealShaderWorkingDir/B512CD7745F1E914283E50BBFD273C59/'.
+[2020.04.18-17.21.38:835][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.18-17.21.38:835][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.18-17.21.38:835][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.18-17.21.40:053][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.18-17.21.40:164][  0]LogDerivedDataCache: Loaded boot cache 0.11s 78MB C:/Users/TheK-B1000/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.18-17.21.40:164][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.04.18-17.21.40:164][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.18-17.21.40:164][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.18-17.21.40:164][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.18-17.21.40:164][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.18-17.21.40:181][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.18-17.21.40:181][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.18-17.21.40:181][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.18-17.21.40:182][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.18-17.21.40:182][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.18-17.21.40:182][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.18-17.21.40:228][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.18-17.21.40:231][  0]LogSlate: Using FreeType 2.10.0
+[2020.04.18-17.21.40:232][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.18-17.21.40:314][  0]LogAssetRegistry: FAssetRegistry took 0.0030 seconds to start up
+[2020.04.18-17.21.40:818][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.18-17.21.41:084][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.18-17.21.41:084][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.18-17.21.41:084][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.18-17.21.41:084][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.18-17.21.41:084][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.18-17.21.41:102][  0]LogNetVersion: MoneyHeist 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 995432495)
+[2020.04.18-17.21.42:750][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.055727 seconds
+[2020.04.18-17.21.42:762][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.04.18-17.21.42:762][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.04.18-17.21.42:762][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.18-17.21.43:549][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.18-17.21.43:559][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.18-17.21.43:693][  0]SourceControl: Source control is disabled
+[2020.04.18-17.21.43:693][  0]SourceControl: Source control is disabled
+[2020.04.18-17.21.43:696][  0]SourceControl: Source control is disabled
+[2020.04.18-17.21.43:700][  0]SourceControl: Source control is disabled
+[2020.04.18-17.21.43:702][  0]SourceControl: Source control is disabled
+[2020.04.18-17.21.44:003][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.18-17.21.44:044][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.18-17.21.44:044][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.18-17.21.44:227][  0]LogOcInput: OculusInput pre-init called
+[2020.04.18-17.21.44:251][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.04.18-17.21.44:251][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.04.18-17.21.44:386][  0]LogEngine: Initializing Engine...
+[2020.04.18-17.21.44:388][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.18-17.21.44:392][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.04.18-17.21.44:976][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.18-17.21.45:002][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.18-17.21.45:031][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.18-17.21.45:031][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.18-17.21.45:031][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.18-17.21.45:031][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.18-17.21.45:031][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.18-17.21.45:031][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.18-17.21.45:031][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.18-17.21.45:031][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.18-17.21.45:031][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.18-17.21.45:031][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.18-17.21.45:084][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.18-17.21.45:084][  0]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.18-17.21.45:084][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.04.18-17.21.45:084][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.18-17.21.45:084][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.18-17.21.45:084][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.18-17.21.45:084][  0]LogAudioMixer: Display: Channel Order:
+[2020.04.18-17.21.45:084][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.18-17.21.45:084][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.04.18-17.21.45:929][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.18-17.21.45:936][  0]LogInit: FAudioDevice initialized.
+[2020.04.18-17.21.45:936][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.18-17.21.46:200][  0]LogDerivedDataCache: Saved boot cache 0.26s 78MB C:/Users/TheK-B1000/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.18-17.21.46:201][  0]LogInit: Texture streaming: Enabled
+[2020.04.18-17.21.46:239][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.18-17.21.46:239][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.04.18-17.21.46:247][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.04.18-17.21.46:313][  0]LogInit: Transaction tracking system initialized
+[2020.04.18-17.21.46:346][  0]BlueprintLog: New page: Editor Load
+[2020.04.18-17.21.46:448][  0]LocalizationService: Localization service is disabled
+[2020.04.18-17.21.46:542][  0]LogLinker: Warning: Failed to load '/Game/CloseCombat/CloseCombat_Greeting_Tutorial': Can't find file.
+[2020.04.18-17.21.46:543][  0]LogLinker: Warning: Failed to load '/Game/CloseCombat/CloseCombat_Greeting_Tutorial': Can't find file.
+[2020.04.18-17.21.46:543][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/CloseCombat/CloseCombat_Greeting_Tutorial.CloseCombat_Greeting_Tutorial_C'
+[2020.04.18-17.21.46:958][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/' took 0.01s
+[2020.04.18-17.21.46:958][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.18-17.21.46:958][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.18-17.21.48:266][  0]SourceControl: Source control is disabled
+[2020.04.18-17.21.48:497][  0]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.18-17.21.54:578][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2020.04.18-17.21.54:579][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.18-17.21.54:582][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.18-17.21.56:304][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2020.04.18-17.21.56:305][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.18-17.21.56:307][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.18-17.21.56:319][  0]Cmd: MAP LOAD FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/MainLobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.18-17.21.56:321][  0]LightingResults: New page: Lighting Build
+[2020.04.18-17.21.56:322][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-17.21.56:322][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-17.21.56:322][  0]MapCheck: New page: Map Check
+[2020.04.18-17.21.56:322][  0]LightingResults: New page: Lighting Build
+[2020.04.18-17.21.56:368][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
+[2020.04.18-17.21.58:429][  0]LogAIModule: Creating AISystem for world MainLobby
+[2020.04.18-17.21.58:545][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.18-17.21.58:620][  0]LogUObjectHash: Compacting FUObjectHashTables data took   6.63ms
+[2020.04.18-17.21.58:621][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.18-17.21.58:621][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.412ms to complete.
+[2020.04.18-17.21.58:621][  0]LogFileHelpers: Loading map 'MainLobby' took 2.303
+[2020.04.18-17.21.58:760][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.18-17.21.58:773][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.18-17.21.58:786][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.18-17.21.58:796][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.18-17.21.58:825][  0]LogCollectionManager: Loaded 0 collections in 0.003618 seconds
+[2020.04.18-17.21.58:872][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Collections/' took 0.00s
+[2020.04.18-17.21.58:872][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/Developers/TheKB1000/Collections/' took 0.00s
+[2020.04.18-17.21.58:872][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/Collections/' took 0.00s
+[2020.04.18-17.21.58:872][  0]LogContentBrowser: Native class hierarchy populated in 0.0162 seconds. Added 3017 classes and 720 folders.
+[2020.04.18-17.21.58:885][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2020.04.18-17.21.59:136][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.04.18-17.21.59:150][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 2 classes and 3 folders.
+[2020.04.18-17.21.59:465][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.18-17.21.59:476][  0]LogSlate: Took 0.001006 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.18-17.21.59:644][  0]LogRenderer: Reallocating scene render targets to support 1040x436 Format 10 NumSamples 1 (Frame:1).
+[2020.04.18-17.21.59:820][  0]LogSlate: Took 0.001225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.18-17.21.59:948][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.04.18-17.21.59:948][  0]LogLoad: (Engine Initialization) Total time: 25.79 seconds
+[2020.04.18-17.21.59:948][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.18-17.22.00:031][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.18-17.22.00:136][  1]LogAssetRegistry: Asset discovery search completed in 19.8238 seconds
+[2020.04.18-17.22.00:141][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000011 seconds (updated 0 objects)
+[2020.04.18-17.22.03:264][132]MapCheck: New page: Map Check
+[2020.04.18-17.22.03:318][132]Cmd: MAP REBUILD ALLVISIBLE
+[2020.04.18-17.22.03:319][132]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.04.18-17.22.03:593][132]LogWorld: UWorld::CleanupWorld for MainLobby, bSessionEnded=true, bCleanupResources=false
+[2020.04.18-17.22.03:792][132]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2020.04.18-17.22.03:820][132]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.18-17.22.03:851][132]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.04.18-17.22.03:851][132]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.04.18-17.22.03:851][132]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.18-17.22.03:873][132]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.18-17.22.03:896][132]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.18-17.22.03:922][132]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.04.18-17.22.03:923][132]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.18-17.22.03:944][132]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.18-17.22.03:969][132]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.18-17.22.03:991][132]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.18-17.22.04:016][132]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.18-17.22.07:625][132]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 15
+[2020.04.18-17.22.07:625][132]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
+[2020.04.18-17.22.07:625][132]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 13
+[2020.04.18-17.22.07:625][132]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 12
+[2020.04.18-17.22.07:625][132]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 11
+[2020.04.18-17.22.07:625][132]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 10
+[2020.04.18-17.22.07:625][132]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.04.18-17.22.07:625][132]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 8
+[2020.04.18-17.22.07:625][132]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.04.18-17.22.07:625][132]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2020.04.18-17.22.07:625][132]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2020.04.18-17.22.07:625][132]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.04.18-17.22.07:626][132]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.04.18-17.22.07:626][132]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.04.18-17.22.07:626][132]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2020.04.18-17.22.07:626][132]TextureStreamingBuild: Display: Compiling optional shaders took 3.824 seconds.
+[2020.04.18-17.22.07:645][132]LogLevel: Display: Export Material TexCoord Scales took 0.019 seconds.
+[2020.04.18-17.22.07:671][132]TextureStreamingBuild: Display: Build Texture Streaming took 0.026 seconds.
+[2020.04.18-17.22.07:728][132]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.04.18-17.22.07:738][132]LightingResults: New page: Lighting Build - Apr 18, 2020, 3:22:07 AM
+[2020.04.18-17.22.07:840][132]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.04.18-17.22.08:069][132]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.04.18-17.22.08:101][132]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.04.18-17.22.09:167][132]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.04.18-17.22.09:167][132]LogSwarmInterface: [TryOpenConnection] Local Process ID is 28024
+[2020.04.18-17.22.13:039][132]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.04.18-17.22.13:043][132]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.04.18-17.22.13:043][132]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.04.18-17.22.13:043][132]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.04.18-17.22.13:043][132]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.04.18-17.22.13:043][132]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.04.18-17.22.13:718][132]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.04.18-17.22.13:719][132]MapCheck: New page: MainLobby - Apr 18, 2020, 3:22:13 AM
+[2020.04.18-17.22.13:719][132]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2020.04.18-17.22.13:732][132]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 13.436ms to complete.
+[2020.04.18-17.22.13:734][132]LogEditorBuildUtils: Build time 0:10
+[2020.04.18-17.22.14:487][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.04.18-17.31.51:039][821]LogSlate: Took 0.001753 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.18-17.32.00:660][847]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.04.18-17.32.02:391][847]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/MainLobby_Auto1D1E4C4EE4CA2FEC501E89B953DC0BF8D.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Autosaves/Game/MainLobby_Auto1.umap'
+[2020.04.18-17.32.02:471][847]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MainLobby' took 2.150
+[2020.04.18-17.32.02:471][847]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.150
+[2020.04.18-17.46.11:570][399]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.04.18-17.46.12:528][399]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/MainLobbyE08B54B742C3ADD6E6FC14AC60B516CC.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/MainLobby.umap'
+[2020.04.18-17.46.12:578][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLobby_BuiltData" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/MainLobby_BuiltData.uasset" SILENT=true
+[2020.04.18-17.46.12:664][399]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/MainLobby_BuiltDataC4949DD540609A409F94AF87E61DF952.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/MainLobby_BuiltData.uasset'
+[2020.04.18-17.46.12:764][399]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.18-17.46.12:766][399]LogContentValidation: Display: Validating World /Game/MainLobby.MainLobby
+[2020.04.18-17.46.12:767][399]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainLobby_BuiltData.MainLobby_BuiltData
+[2020.04.18-17.47.26:974][617]Job is a success!
+[2020.04.18-17.47.27:641][618]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.060s
+[2020.04.18-17.47.27:641][618]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.04.18-17.47.27:642][618]LogVolumetricLightmapImport:      BrickData (all levels) 0.9Mb
+[2020.04.18-17.47.27:642][618]LogVolumetricLightmapImport:      Bricks at depth
+[2020.04.18-17.47.27:642][618]LogVolumetricLightmapImport:          0: 0.5% covering 100.0% of volume
+[2020.04.18-17.47.27:642][618]LogVolumetricLightmapImport:          1: 4.7% covering 14.1% of volume
+[2020.04.18-17.47.27:642][618]LogVolumetricLightmapImport:          2: 94.8% covering 4.5% of volume
+[2020.04.18-17.47.27:642][618]LogVolumetricLightmapImport:      Bricks in each level
+[2020.04.18-17.47.27:642][618]LogVolumetricLightmapImport:          MainLobby 			 193 bricks 	 100.0% (Persistent Level)
+[2020.04.18-17.51.07:962][618]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:002][618]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:003][618]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:003][618]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:003][618]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:004][618]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:004][618]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:004][618]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:004][618]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:004][618]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:004][618]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:004][618]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:005][618]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:006][618]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:006][618]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:006][618]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:006][618]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:006][618]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:006][618]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:006][618]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:006][618]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:006][618]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:006][618]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:006][618]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:006][618]LogTexture: Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:006][618]LogTexture: Display: Building textures: LQ_Lightmap_0_13 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:006][618]LogTexture: Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:006][618]LogTexture: Display: Building textures: LQ_Lightmap_0_14 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:006][618]LogTexture: Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:007][618]LogTexture: Display: Building textures: LQ_Lightmap_0_15 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:007][618]LogTexture: Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:007][618]LogTexture: Display: Building textures: LQ_Lightmap_0_16 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:007][618]LogTexture: Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: LQ_Lightmap_0_17 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: LQ_Lightmap_0_18 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: LQ_Lightmap_0_19 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: LQ_Lightmap_0_20 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: LQ_Lightmap_0_21 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: LQ_Lightmap_0_22 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: HQ_Lightmap0_23 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: LQ_Lightmap_0_23 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: HQ_Lightmap0_24 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: LQ_Lightmap_0_24 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: HQ_Lightmap0_25 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: LQ_Lightmap_0_25 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: HQ_Lightmap0_26 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: LQ_Lightmap_0_26 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: HQ_Lightmap0_27 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: LQ_Lightmap_0_27 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: HQ_Lightmap0_28 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: LQ_Lightmap_0_28 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: HQ_Lightmap0_29 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: LQ_Lightmap_0_29 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: HQ_Lightmap0_30 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: LQ_Lightmap_0_30 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:008][618]LogTexture: Display: Building textures: HQ_Lightmap0_31 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:010][618]LogTexture: Display: Building textures: LQ_Lightmap_0_31 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:010][618]LogTexture: Display: Building textures: HQ_Lightmap0_32 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:010][618]LogTexture: Display: Building textures: LQ_Lightmap_0_32 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:010][618]LogTexture: Display: Building textures: HQ_Lightmap0_33 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:010][618]LogTexture: Display: Building textures: LQ_Lightmap_0_33 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:012][618]LogTexture: Display: Building textures: HQ_Lightmap0_34 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:014][618]LogTexture: Display: Building textures: LQ_Lightmap_0_34 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:014][618]LogTexture: Display: Building textures: HQ_Lightmap0_35 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:015][618]LogTexture: Display: Building textures: LQ_Lightmap_0_35 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:015][618]LogTexture: Display: Building textures: HQ_Lightmap0_36 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:015][618]LogTexture: Display: Building textures: LQ_Lightmap_0_36 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:015][618]LogTexture: Display: Building textures: HQ_Lightmap0_37 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:015][618]LogTexture: Display: Building textures: LQ_Lightmap_0_37 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:015][618]LogTexture: Display: Building textures: HQ_Lightmap0_38 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:015][618]LogTexture: Display: Building textures: LQ_Lightmap_0_38 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:015][618]LogTexture: Display: Building textures: HQ_Lightmap0_39 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:015][618]LogTexture: Display: Building textures: LQ_Lightmap_0_39 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:015][618]LogTexture: Display: Building textures: HQ_Lightmap0_40 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:015][618]LogTexture: Display: Building textures: LQ_Lightmap_0_40 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:016][618]LogTexture: Display: Building textures: HQ_Lightmap0_41 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:016][618]LogTexture: Display: Building textures: LQ_Lightmap_0_41 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:016][618]LogTexture: Display: Building textures: HQ_Lightmap0_42 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:016][618]LogTexture: Display: Building textures: LQ_Lightmap_0_42 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:016][618]LogTexture: Display: Building textures: HQ_Lightmap0_43 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:016][618]LogTexture: Display: Building textures: LQ_Lightmap_0_43 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:016][618]LogTexture: Display: Building textures: HQ_Lightmap0_44 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:016][618]LogTexture: Display: Building textures: LQ_Lightmap_0_44 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:016][618]LogTexture: Display: Building textures: HQ_Lightmap0_45 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:016][618]LogTexture: Display: Building textures: LQ_Lightmap_0_45 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:016][618]LogTexture: Display: Building textures: HQ_Lightmap0_46 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:016][618]LogTexture: Display: Building textures: LQ_Lightmap_0_46 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:016][618]LogTexture: Display: Building textures: HQ_Lightmap0_47 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:016][618]LogTexture: Display: Building textures: LQ_Lightmap_0_47 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:016][618]LogTexture: Display: Building textures: HQ_Lightmap0_48 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:016][618]LogTexture: Display: Building textures: LQ_Lightmap_0_48 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:016][618]LogTexture: Display: Building textures: HQ_Lightmap0_49 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:016][618]LogTexture: Display: Building textures: LQ_Lightmap_0_49 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:016][618]LogTexture: Display: Building textures: HQ_Lightmap0_50 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:016][618]LogTexture: Display: Building textures: LQ_Lightmap_0_50 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:016][618]LogTexture: Display: Building textures: HQ_Lightmap0_51 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:016][618]LogTexture: Display: Building textures: LQ_Lightmap_0_51 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:016][618]LogTexture: Display: Building textures: HQ_Lightmap0_52 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: LQ_Lightmap_0_52 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: HQ_Lightmap0_53 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: LQ_Lightmap_0_53 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: HQ_Lightmap0_54 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: LQ_Lightmap_0_54 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: HQ_Lightmap0_55 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: LQ_Lightmap_0_55 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: HQ_Lightmap0_56 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: LQ_Lightmap_0_56 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: HQ_Lightmap0_57 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: LQ_Lightmap_0_57 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: HQ_Lightmap0_58 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: LQ_Lightmap_0_58 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: HQ_Lightmap0_59 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: LQ_Lightmap_0_59 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: HQ_Lightmap0_60 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: LQ_Lightmap_0_60 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: HQ_Lightmap0_61 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: LQ_Lightmap_0_61 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: HQ_Lightmap0_62 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: LQ_Lightmap_0_62 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: HQ_Lightmap0_63 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: LQ_Lightmap_0_63 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:017][618]LogTexture: Display: Building textures: HQ_Lightmap0_64 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:018][618]LogTexture: Display: Building textures: LQ_Lightmap_0_64 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:018][618]LogTexture: Display: Building textures: HQ_Lightmap0_65 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:018][618]LogTexture: Display: Building textures: LQ_Lightmap_0_65 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:018][618]LogTexture: Display: Building textures: HQ_Lightmap0_66 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:018][618]LogTexture: Display: Building textures: LQ_Lightmap_0_66 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:018][618]LogTexture: Display: Building textures: HQ_Lightmap0_67 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:018][618]LogTexture: Display: Building textures: LQ_Lightmap_0_67 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:018][618]LogTexture: Display: Building textures: HQ_Lightmap0_68 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:018][618]LogTexture: Display: Building textures: LQ_Lightmap_0_68 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:018][618]LogTexture: Display: Building textures: HQ_Lightmap0_69 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:018][618]LogTexture: Display: Building textures: LQ_Lightmap_0_69 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:018][618]LogTexture: Display: Building textures: HQ_Lightmap0_70 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:018][618]LogTexture: Display: Building textures: LQ_Lightmap_0_70 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:018][618]LogTexture: Display: Building textures: HQ_Lightmap0_71 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:018][618]LogTexture: Display: Building textures: LQ_Lightmap_0_71 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:021][618]LogTexture: Display: Building textures: HQ_Lightmap0_72 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:022][618]LogTexture: Display: Building textures: LQ_Lightmap_0_72 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:027][618]LogTexture: Display: Building textures: HQ_Lightmap0_73 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:029][618]LogTexture: Display: Building textures: LQ_Lightmap_0_73 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:029][618]LogTexture: Display: Building textures: HQ_Lightmap0_74 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:029][618]LogTexture: Display: Building textures: LQ_Lightmap_0_74 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:029][618]LogTexture: Display: Building textures: HQ_Lightmap0_75 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:029][618]LogTexture: Display: Building textures: LQ_Lightmap_0_75 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:029][618]LogTexture: Display: Building textures: HQ_Lightmap0_76 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:029][618]LogTexture: Display: Building textures: LQ_Lightmap_0_76 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:029][618]LogTexture: Display: Building textures: HQ_Lightmap0_77 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:029][618]LogTexture: Display: Building textures: LQ_Lightmap_0_77 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:029][618]LogTexture: Display: Building textures: HQ_Lightmap0_78 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:029][618]LogTexture: Display: Building textures: LQ_Lightmap_0_78 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:029][618]LogTexture: Display: Building textures: HQ_Lightmap0_79 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:029][618]LogTexture: Display: Building textures: LQ_Lightmap_0_79 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:029][618]LogTexture: Display: Building textures: HQ_Lightmap0_80 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:029][618]LogTexture: Display: Building textures: LQ_Lightmap_0_80 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:029][618]LogTexture: Display: Building textures: HQ_Lightmap0_81 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:029][618]LogTexture: Display: Building textures: LQ_Lightmap_0_81 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:030][618]LogTexture: Display: Building textures: HQ_Lightmap0_82 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:030][618]LogTexture: Display: Building textures: LQ_Lightmap_0_82 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:030][618]LogTexture: Display: Building textures: HQ_Lightmap0_83 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:030][618]LogTexture: Display: Building textures: LQ_Lightmap_0_83 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:030][618]LogTexture: Display: Building textures: HQ_Lightmap0_84 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:030][618]LogTexture: Display: Building textures: LQ_Lightmap_0_84 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:030][618]LogTexture: Display: Building textures: HQ_Lightmap0_85 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:030][618]LogTexture: Display: Building textures: LQ_Lightmap_0_85 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:030][618]LogTexture: Display: Building textures: HQ_Lightmap0_86 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:030][618]LogTexture: Display: Building textures: LQ_Lightmap_0_86 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:030][618]LogTexture: Display: Building textures: HQ_Lightmap0_87 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:030][618]LogTexture: Display: Building textures: LQ_Lightmap_0_87 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:030][618]LogTexture: Display: Building textures: HQ_Lightmap0_88 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:030][618]LogTexture: Display: Building textures: LQ_Lightmap_0_88 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:030][618]LogTexture: Display: Building textures: HQ_Lightmap0_89 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:030][618]LogTexture: Display: Building textures: LQ_Lightmap_0_89 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:030][618]LogTexture: Display: Building textures: HQ_Lightmap0_90 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:030][618]LogTexture: Display: Building textures: LQ_Lightmap_0_90 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:030][618]LogTexture: Display: Building textures: HQ_Lightmap0_91 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:030][618]LogTexture: Display: Building textures: LQ_Lightmap_0_91 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:030][618]LogTexture: Display: Building textures: HQ_Lightmap0_92 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:030][618]LogTexture: Display: Building textures: LQ_Lightmap_0_92 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:030][618]LogTexture: Display: Building textures: HQ_Lightmap0_93 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:031][618]LogTexture: Display: Building textures: LQ_Lightmap_0_93 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:031][618]LogTexture: Display: Building textures: HQ_Lightmap0_94 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:031][618]LogTexture: Display: Building textures: LQ_Lightmap_0_94 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:031][618]LogTexture: Display: Building textures: HQ_Lightmap0_95 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:031][618]LogTexture: Display: Building textures: LQ_Lightmap_0_95 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:031][618]LogTexture: Display: Building textures: HQ_Lightmap0_96 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:031][618]LogTexture: Display: Building textures: LQ_Lightmap_0_96 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:031][618]LogTexture: Display: Building textures: HQ_Lightmap0_97 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:031][618]LogTexture: Display: Building textures: LQ_Lightmap_0_97 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:031][618]LogTexture: Display: Building textures: HQ_Lightmap0_98 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:032][618]LogTexture: Display: Building textures: LQ_Lightmap_0_98 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:032][618]LogTexture: Display: Building textures: HQ_Lightmap0_99 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:032][618]LogTexture: Display: Building textures: LQ_Lightmap_0_99 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:032][618]LogTexture: Display: Building textures: HQ_Lightmap0_100 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:032][618]LogTexture: Display: Building textures: LQ_Lightmap_0_100 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:032][618]LogTexture: Display: Building textures: HQ_Lightmap0_101 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:032][618]LogTexture: Display: Building textures: LQ_Lightmap_0_101 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:032][618]LogTexture: Display: Building textures: HQ_Lightmap0_102 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:032][618]LogTexture: Display: Building textures: LQ_Lightmap_0_102 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:032][618]LogTexture: Display: Building textures: HQ_Lightmap0_103 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:032][618]LogTexture: Display: Building textures: LQ_Lightmap_0_103 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:032][618]LogTexture: Display: Building textures: HQ_Lightmap0_104 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:032][618]LogTexture: Display: Building textures: LQ_Lightmap_0_104 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:032][618]LogTexture: Display: Building textures: HQ_Lightmap0_105 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:032][618]LogTexture: Display: Building textures: LQ_Lightmap_0_105 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:032][618]LogTexture: Display: Building textures: HQ_Lightmap0_106 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:032][618]LogTexture: Display: Building textures: LQ_Lightmap_0_106 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:032][618]LogTexture: Display: Building textures: HQ_Lightmap0_107 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:032][618]LogTexture: Display: Building textures: LQ_Lightmap_0_107 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:032][618]LogTexture: Display: Building textures: HQ_Lightmap0_108 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:032][618]LogTexture: Display: Building textures: LQ_Lightmap_0_108 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:032][618]LogTexture: Display: Building textures: HQ_Lightmap0_109 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:033][618]LogTexture: Display: Building textures: LQ_Lightmap_0_109 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:033][618]LogTexture: Display: Building textures: HQ_Lightmap0_110 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:033][618]LogTexture: Display: Building textures: LQ_Lightmap_0_110 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:033][618]LogTexture: Display: Building textures: HQ_Lightmap0_111 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:033][618]LogTexture: Display: Building textures: LQ_Lightmap_0_111 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:033][618]LogTexture: Display: Building textures: HQ_Lightmap0_112 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:033][618]LogTexture: Display: Building textures: LQ_Lightmap_0_112 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:033][618]LogTexture: Display: Building textures: HQ_Lightmap0_113 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:033][618]LogTexture: Display: Building textures: LQ_Lightmap_0_113 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:033][618]LogTexture: Display: Building textures: HQ_Lightmap0_114 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:033][618]LogTexture: Display: Building textures: LQ_Lightmap_0_114 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:033][618]LogTexture: Display: Building textures: HQ_Lightmap0_115 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:033][618]LogTexture: Display: Building textures: LQ_Lightmap_0_115 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:033][618]LogTexture: Display: Building textures: HQ_Lightmap0_116 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:033][618]LogTexture: Display: Building textures: LQ_Lightmap_0_116 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:033][618]LogTexture: Display: Building textures: HQ_Lightmap0_117 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:033][618]LogTexture: Display: Building textures: LQ_Lightmap_0_117 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:033][618]LogTexture: Display: Building textures: HQ_Lightmap0_118 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:033][618]LogTexture: Display: Building textures: LQ_Lightmap_0_118 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:034][618]LogTexture: Display: Building textures: HQ_Lightmap0_119 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:034][618]LogTexture: Display: Building textures: LQ_Lightmap_0_119 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:034][618]LogTexture: Display: Building textures: HQ_Lightmap0_120 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:034][618]LogTexture: Display: Building textures: LQ_Lightmap_0_120 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:034][618]LogTexture: Display: Building textures: HQ_Lightmap0_121 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:034][618]LogTexture: Display: Building textures: LQ_Lightmap_0_121 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:034][618]LogTexture: Display: Building textures: HQ_Lightmap0_122 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:034][618]LogTexture: Display: Building textures: LQ_Lightmap_0_122 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:034][618]LogTexture: Display: Building textures: HQ_Lightmap0_123 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:034][618]LogTexture: Display: Building textures: LQ_Lightmap_0_123 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:034][618]LogTexture: Display: Building textures: HQ_Lightmap0_124 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:034][618]LogTexture: Display: Building textures: LQ_Lightmap_0_124 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:034][618]LogTexture: Display: Building textures: HQ_Lightmap0_125 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:034][618]LogTexture: Display: Building textures: LQ_Lightmap_0_125 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:034][618]LogTexture: Display: Building textures: HQ_Lightmap0_126 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:034][618]LogTexture: Display: Building textures: LQ_Lightmap_0_126 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:034][618]LogTexture: Display: Building textures: HQ_Lightmap0_127 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:034][618]LogTexture: Display: Building textures: LQ_Lightmap_0_127 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:034][618]LogTexture: Display: Building textures: HQ_Lightmap0_128 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:034][618]LogTexture: Display: Building textures: LQ_Lightmap_0_128 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: HQ_Lightmap0_129 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: LQ_Lightmap_0_129 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: HQ_Lightmap0_130 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: LQ_Lightmap_0_130 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: HQ_Lightmap0_131 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: LQ_Lightmap_0_131 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: HQ_Lightmap0_132 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: LQ_Lightmap_0_132 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: HQ_Lightmap0_133 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: LQ_Lightmap_0_133 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: HQ_Lightmap0_134 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: LQ_Lightmap_0_134 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: HQ_Lightmap0_135 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: LQ_Lightmap_0_135 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: HQ_Lightmap0_136 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: LQ_Lightmap_0_136 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: HQ_Lightmap0_137 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: LQ_Lightmap_0_137 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: HQ_Lightmap0_138 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: LQ_Lightmap_0_138 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: HQ_Lightmap0_139 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: LQ_Lightmap_0_139 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: HQ_Lightmap0_140 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: LQ_Lightmap_0_140 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: HQ_Lightmap0_141 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:035][618]LogTexture: Display: Building textures: LQ_Lightmap_0_141 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:037][618]LogTexture: Display: Building textures: HQ_Lightmap0_142 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:037][618]LogTexture: Display: Building textures: LQ_Lightmap_0_142 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:037][618]LogTexture: Display: Building textures: HQ_Lightmap0_143 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:037][618]LogTexture: Display: Building textures: LQ_Lightmap_0_143 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:037][618]LogTexture: Display: Building textures: HQ_Lightmap0_144 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:037][618]LogTexture: Display: Building textures: LQ_Lightmap_0_144 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:037][618]LogTexture: Display: Building textures: HQ_Lightmap0_145 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:037][618]LogTexture: Display: Building textures: LQ_Lightmap_0_145 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:038][618]LogTexture: Display: Building textures: HQ_Lightmap0_146 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:038][618]LogTexture: Display: Building textures: LQ_Lightmap_0_146 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:039][618]LogTexture: Display: Building textures: HQ_Lightmap0_147 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:039][618]LogTexture: Display: Building textures: LQ_Lightmap_0_147 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:039][618]LogTexture: Display: Building textures: HQ_Lightmap0_148 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:039][618]LogTexture: Display: Building textures: LQ_Lightmap_0_148 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:039][618]LogTexture: Display: Building textures: HQ_Lightmap0_149 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:039][618]LogTexture: Display: Building textures: LQ_Lightmap_0_149 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:039][618]LogTexture: Display: Building textures: HQ_Lightmap0_150 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:039][618]LogTexture: Display: Building textures: LQ_Lightmap_0_150 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:039][618]LogTexture: Display: Building textures: HQ_Lightmap0_151 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:039][618]LogTexture: Display: Building textures: LQ_Lightmap_0_151 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:039][618]LogTexture: Display: Building textures: HQ_Lightmap0_152 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:039][618]LogTexture: Display: Building textures: LQ_Lightmap_0_152 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:039][618]LogTexture: Display: Building textures: HQ_Lightmap0_153 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:039][618]LogTexture: Display: Building textures: LQ_Lightmap_0_153 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:039][618]LogTexture: Display: Building textures: HQ_Lightmap0_154 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:039][618]LogTexture: Display: Building textures: LQ_Lightmap_0_154 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:039][618]LogTexture: Display: Building textures: HQ_Lightmap0_155 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:039][618]LogTexture: Display: Building textures: LQ_Lightmap_0_155 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:039][618]LogTexture: Display: Building textures: HQ_Lightmap0_156 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:039][618]LogTexture: Display: Building textures: LQ_Lightmap_0_156 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:039][618]LogTexture: Display: Building textures: HQ_Lightmap0_157 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:039][618]LogTexture: Display: Building textures: LQ_Lightmap_0_157 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:039][618]LogTexture: Display: Building textures: HQ_Lightmap0_158 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:042][618]LogTexture: Display: Building textures: LQ_Lightmap_0_158 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:043][618]LogTexture: Display: Building textures: HQ_Lightmap0_159 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:043][618]LogTexture: Display: Building textures: LQ_Lightmap_0_159 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:043][618]LogTexture: Display: Building textures: HQ_Lightmap0_160 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:043][618]LogTexture: Display: Building textures: LQ_Lightmap_0_160 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:043][618]LogTexture: Display: Building textures: HQ_Lightmap0_161 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:043][618]LogTexture: Display: Building textures: LQ_Lightmap_0_161 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:043][618]LogTexture: Display: Building textures: HQ_Lightmap0_162 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:043][618]LogTexture: Display: Building textures: LQ_Lightmap_0_162 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:043][618]LogTexture: Display: Building textures: HQ_Lightmap0_163 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:043][618]LogTexture: Display: Building textures: LQ_Lightmap_0_163 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:043][618]LogTexture: Display: Building textures: HQ_Lightmap0_164 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:043][618]LogTexture: Display: Building textures: LQ_Lightmap_0_164 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:045][618]LogTexture: Display: Building textures: HQ_Lightmap0_165 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:045][618]LogTexture: Display: Building textures: LQ_Lightmap_0_165 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:045][618]LogTexture: Display: Building textures: HQ_Lightmap0_166 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:045][618]LogTexture: Display: Building textures: LQ_Lightmap_0_166 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:045][618]LogTexture: Display: Building textures: HQ_Lightmap0_167 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:045][618]LogTexture: Display: Building textures: LQ_Lightmap_0_167 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:046][618]LogTexture: Display: Building textures: HQ_Lightmap0_168 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:046][618]LogTexture: Display: Building textures: LQ_Lightmap_0_168 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:046][618]LogTexture: Display: Building textures: HQ_Lightmap0_169 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:046][618]LogTexture: Display: Building textures: LQ_Lightmap_0_169 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:046][618]LogTexture: Display: Building textures: HQ_Lightmap0_170 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:046][618]LogTexture: Display: Building textures: LQ_Lightmap_0_170 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:046][618]LogTexture: Display: Building textures: HQ_Lightmap0_171 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:046][618]LogTexture: Display: Building textures: LQ_Lightmap_0_171 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:046][618]LogTexture: Display: Building textures: HQ_Lightmap0_172 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:046][618]LogTexture: Display: Building textures: LQ_Lightmap_0_172 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:046][618]LogTexture: Display: Building textures: HQ_Lightmap0_173 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:046][618]LogTexture: Display: Building textures: LQ_Lightmap_0_173 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:046][618]LogTexture: Display: Building textures: HQ_Lightmap0_174 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:046][618]LogTexture: Display: Building textures: LQ_Lightmap_0_174 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:046][618]LogTexture: Display: Building textures: HQ_Lightmap0_175 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:046][618]LogTexture: Display: Building textures: LQ_Lightmap_0_175 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:046][618]LogTexture: Display: Building textures: HQ_Lightmap0_176 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:046][618]LogTexture: Display: Building textures: LQ_Lightmap_0_176 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:046][618]LogTexture: Display: Building textures: HQ_Lightmap0_177 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:046][618]LogTexture: Display: Building textures: LQ_Lightmap_0_177 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:046][618]LogTexture: Display: Building textures: HQ_Lightmap0_178 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:046][618]LogTexture: Display: Building textures: LQ_Lightmap_0_178 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:046][618]LogTexture: Display: Building textures: HQ_Lightmap0_179 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:047][618]LogTexture: Display: Building textures: LQ_Lightmap_0_179 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:047][618]LogTexture: Display: Building textures: HQ_Lightmap0_180 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:047][618]LogTexture: Display: Building textures: LQ_Lightmap_0_180 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:047][618]LogTexture: Display: Building textures: HQ_Lightmap0_181 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:047][618]LogTexture: Display: Building textures: LQ_Lightmap_0_181 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:047][618]LogTexture: Display: Building textures: HQ_Lightmap0_182 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:047][618]LogTexture: Display: Building textures: LQ_Lightmap_0_182 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:047][618]LogTexture: Display: Building textures: HQ_Lightmap0_183 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:047][618]LogTexture: Display: Building textures: LQ_Lightmap_0_183 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:047][618]LogTexture: Display: Building textures: HQ_Lightmap0_184 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:047][618]LogTexture: Display: Building textures: LQ_Lightmap_0_184 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:047][618]LogTexture: Display: Building textures: HQ_Lightmap0_185 (AutoDXT, 1024X1024)
+[2020.04.18-17.51.08:047][618]LogTexture: Display: Building textures: LQ_Lightmap_0_185 (DXT1, 1024X1024)
+[2020.04.18-17.51.08:047][618]LogTexture: Display: Building textures: HQ_Lightmap0_186 (AutoDXT, 512X512)
+[2020.04.18-17.51.08:047][618]LogTexture: Display: Building textures: LQ_Lightmap_0_186 (DXT1, 512X512)
+[2020.04.18-17.51.08:047][618]LogTexture: Display: Building textures: HQ_Lightmap0_187 (AutoDXT, 64X64)
+[2020.04.18-17.51.08:047][618]LogTexture: Display: Building textures: LQ_Lightmap_0_187 (DXT1, 64X64)
+[2020.04.18-17.51.09:438][618]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X1024)
+[2020.04.18-17.51.09:438][618]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X1024)
+[2020.04.18-17.51.09:438][618]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X1024)
+[2020.04.18-17.51.09:439][618]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 1024X1024)
+[2020.04.18-17.51.09:811][618]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 1024X1024)
+[2020.04.18-17.51.09:811][618]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 1024X1024)
+[2020.04.18-17.51.09:811][618]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (BGRA8, 1024X1024)
+[2020.04.18-17.51.10:735][618]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (BGRA8, 1024X1024)
+[2020.04.18-17.51.10:735][618]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (BGRA8, 1024X1024)
+[2020.04.18-17.51.10:735][618]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (BGRA8, 1024X1024)
+[2020.04.18-17.51.10:746][618]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (BGRA8, 1024X1024)
+[2020.04.18-17.51.10:746][618]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (BGRA8, 1024X1024)
+[2020.04.18-17.51.10:746][618]LogTexture: Display: Building textures: ShadowMapTexture2D_15 (G8, 1024X1024)
+[2020.04.18-17.51.10:746][618]LogTexture: Display: Building textures: ShadowMapTexture2D_14 (BGRA8, 1024X1024)
+[2020.04.18-17.51.11:000][618]LogTexture: Display: Building textures: ShadowMapTexture2D_16 (G8, 1024X1024)
+[2020.04.18-17.51.11:027][618]LogTexture: Display: Building textures: ShadowMapTexture2D_18 (G8, 1024X1024)
+[2020.04.18-17.51.11:377][618]LogTexture: Display: Building textures: ShadowMapTexture2D_17 (G8, 1024X1024)
+[2020.04.18-17.51.11:377][618]LogTexture: Display: Building textures: ShadowMapTexture2D_19 (BGRA8, 1024X1024)
+[2020.04.18-17.51.11:377][618]LogTexture: Display: Building textures: ShadowMapTexture2D_20 (G8, 1024X1024)
+[2020.04.18-17.51.11:453][618]LogTexture: Display: Building textures: ShadowMapTexture2D_21 (G8, 1024X1024)
+[2020.04.18-17.51.12:156][618]LogTexture: Display: Building textures: ShadowMapTexture2D_22 (G8, 1024X1024)
+[2020.04.18-17.51.12:157][618]LogTexture: Display: Building textures: ShadowMapTexture2D_23 (G8, 1024X1024)
+[2020.04.18-17.51.12:158][618]LogTexture: Display: Building textures: ShadowMapTexture2D_25 (G8, 1024X1024)
+[2020.04.18-17.51.12:158][618]LogTexture: Display: Building textures: ShadowMapTexture2D_24 (G8, 1024X1024)
+[2020.04.18-17.51.12:158][618]LogTexture: Display: Building textures: ShadowMapTexture2D_26 (G8, 1024X1024)
+[2020.04.18-17.51.12:733][618]LogTexture: Display: Building textures: ShadowMapTexture2D_27 (BGRA8, 1024X1024)
+[2020.04.18-17.51.12:733][618]LogTexture: Display: Building textures: ShadowMapTexture2D_28 (BGRA8, 1024X1024)
+[2020.04.18-17.51.12:733][618]LogTexture: Display: Building textures: ShadowMapTexture2D_29 (BGRA8, 1024X1024)
+[2020.04.18-17.51.12:733][618]LogTexture: Display: Building textures: ShadowMapTexture2D_31 (BGRA8, 1024X1024)
+[2020.04.18-17.51.12:733][618]LogTexture: Display: Building textures: ShadowMapTexture2D_30 (BGRA8, 1024X1024)
+[2020.04.18-17.51.14:148][618]LogTexture: Display: Building textures: ShadowMapTexture2D_32 (BGRA8, 1024X1024)
+[2020.04.18-17.51.14:148][618]LogTexture: Display: Building textures: ShadowMapTexture2D_33 (BGRA8, 1024X1024)
+[2020.04.18-17.51.14:148][618]LogTexture: Display: Building textures: ShadowMapTexture2D_34 (G8, 1024X1024)
+[2020.04.18-17.51.14:148][618]LogTexture: Display: Building textures: ShadowMapTexture2D_37 (G8, 32X32)
+[2020.04.18-17.51.14:148][618]LogTexture: Display: Building textures: ShadowMapTexture2D_35 (G8, 1024X1024)
+[2020.04.18-17.51.14:148][618]LogTexture: Display: Building textures: ShadowMapTexture2D_36 (G8, 1024X1024)
+[2020.04.18-17.51.14:148][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/7/3/temp.66FEF9CC46C3FBEEEFA4C7B5AA396D05 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:151][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/7/3/temp.66FEF9CC46C3FBEEEFA4C7B5AA396D05! Error: 112 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:152][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/1/9/temp.308B394E48EA3B88C1E800892EAB33F0 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:152][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/1/9/temp.308B394E48EA3B88C1E800892EAB33F0! Error: 112 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:152][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/6/5/temp.A6760A6E4C420ACDB05FB5931F3D7397 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:153][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/7/3/temp.6954C4004C88746AEAAE268572E4021C (There is not enough space on the disk.)
+[2020.04.18-17.51.14:153][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/7/3/temp.6954C4004C88746AEAAE268572E4021C! Error: 112 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:153][618]LogDerivedDataCache: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_564290F8998644E39A2118D5C683187B_BGRA8_600DF8054963B1DC3A6B61B8BE4D05A__08A30820148A0E900DB0BA52BE5C99B4546EFA92.
+[2020.04.18-17.51.14:153][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/6/5/temp.A6760A6E4C420ACDB05FB5931F3D7397! Error: 112 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:153][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/6/5/temp.E3865D4246892E38DC5298941874572C (There is not enough space on the disk.)
+[2020.04.18-17.51.14:153][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/6/5/temp.E3865D4246892E38DC5298941874572C! Error: 112 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:153][618]LogDerivedDataCache: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_564290F8998644E39A2118D5C683187B_BGRA8_600DF8054963B1DC3A6B61B8BE4D05A__FEC5C3ABDF0A1205F55C25026EF3E8D99FC8C43A.
+[2020.04.18-17.51.14:153][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/9/temp.E69329A34D826755C01CD59558B09F89 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:153][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/9/temp.E69329A34D826755C01CD59558B09F89! Error: 112 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:153][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/1/2/temp.494C453C437E2E6629FDE6BE42AD9C08 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:153][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/1/2/temp.494C453C437E2E6629FDE6BE42AD9C08! Error: 112 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:153][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/1/2/temp.7E8D26D249079D27A9AB58836932B95F (There is not enough space on the disk.)
+[2020.04.18-17.51.14:153][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/1/2/temp.7E8D26D249079D27A9AB58836932B95F! Error: 112 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:153][618]LogDerivedDataCache: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_564290F8998644E39A2118D5C683187B_BGRA8_D5DC8AA24965D3C378596C8C6E4E3E3__EA3E680563B4A7234F113F7AECCCE6CB7E0178F0.
+[2020.04.18-17.51.14:154][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/6/3/temp.7F1A60C84D9C5C9E9350D0AD980B46B6 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:154][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/6/3/temp.7F1A60C84D9C5C9E9350D0AD980B46B6! Error: 0 (The operation completed successfully.)
+[2020.04.18-17.51.14:154][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/1/6/temp.2B28602D49B77DCE804C168A16C18FFF (There is not enough space on the disk.)
+[2020.04.18-17.51.14:154][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/6/3/temp.328176FD4B39ADD0C21377ACADB6B70A (There is not enough space on the disk.)
+[2020.04.18-17.51.14:158][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/6/3/temp.328176FD4B39ADD0C21377ACADB6B70A! Error: 0 (The operation completed successfully.)
+[2020.04.18-17.51.14:158][618]LogDerivedDataCache: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_564290F8998644E39A2118D5C683187B_BGRA8_D5DC8AA24965D3C378596C8C6E4E3E3__68FAB21B0E178328D9D5FCF8A522258D45011D79.
+[2020.04.18-17.51.14:158][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/9/temp.6443E9A146D702E4B5516FB86EBE7528 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:158][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/9/temp.6443E9A146D702E4B5516FB86EBE7528! Error: 0 (The operation completed successfully.)
+[2020.04.18-17.51.14:158][618]LogDerivedDataCache: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_564290F8998644E39A2118D5C683187B_BGRA8_D5DC8AA24965D3C378596C8C6E4E3E3__DAD8A7F4A10CBB1BB318A9892ED9D096BC5C0A7A.
+[2020.04.18-17.51.14:160][618]LogFileManager: Error: Error flushing file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/1/9/temp.03965E59490564D7B2467CAD2AD06027 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:160][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/1/9/temp.03965E59490564D7B2467CAD2AD06027!
+[2020.04.18-17.51.14:162][618]LogFileManager: Error: Error flushing file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/1/9/temp.79B8C59541C6B129C7E77B8F84C3F4E3 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:162][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/1/9/temp.79B8C59541C6B129C7E77B8F84C3F4E3!
+[2020.04.18-17.51.14:162][618]LogDerivedDataCache: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_564290F8998644E39A2118D5C683187B_G8_2C274DF04E78D85675FEEF9A12E34B93_0__BC1C05984ADA3B6284CCCB8ECD8496FB71CEF00F.
+[2020.04.18-17.51.14:162][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/4/temp.DFB836FB48231BACE23FABACF814790E (There is not enough space on the disk.)
+[2020.04.18-17.51.14:162][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/4/temp.DFB836FB48231BACE23FABACF814790E! Error: 0 (The operation completed successfully.)
+[2020.04.18-17.51.14:162][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/4/6/temp.2DEB3C1A401EDB043D7020BD0F0E5D4B (There is not enough space on the disk.)
+[2020.04.18-17.51.14:162][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/4/6/temp.2DEB3C1A401EDB043D7020BD0F0E5D4B! Error: 0 (The operation completed successfully.)
+[2020.04.18-17.51.14:162][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/4/temp.CE67959C45E3E6B0D600BF8329F38119 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:162][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/4/temp.CE67959C45E3E6B0D600BF8329F38119! Error: 0 (The operation completed successfully.)
+[2020.04.18-17.51.14:162][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/1/6/temp.2B28602D49B77DCE804C168A16C18FFF! Error: 0 (The operation completed successfully.)
+[2020.04.18-17.51.14:162][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/4/6/temp.FA99582E4FD5FEAF534DCF86743619AD (There is not enough space on the disk.)
+[2020.04.18-17.51.14:162][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/4/6/temp.FA99582E4FD5FEAF534DCF86743619AD! Error: 0 (The operation completed successfully.)
+[2020.04.18-17.51.14:163][618]LogDerivedDataCache: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_564290F8998644E39A2118D5C683187B_G8_9624C8504489C72EAC6F04A390AC16E7_0__F205992F65151021C35E1FEB93BC5B0BAC91D4B6.
+[2020.04.18-17.51.14:163][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/1/6/temp.D43C0AA342DC3793F6B900BE5A8576C0 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:163][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/1/6/temp.D43C0AA342DC3793F6B900BE5A8576C0! Error: 0 (The operation completed successfully.)
+[2020.04.18-17.51.14:163][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/8/3/temp.B0351BB94EDAEFC49F015F81263ADF6E (There is not enough space on the disk.)
+[2020.04.18-17.51.14:163][618]LogDerivedDataCache: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_564290F8998644E39A2118D5C683187B_G8_9624C8504489C72EAC6F04A390AC16E7_0__48E6A9181A4BACDB1A8FA9A97CDCF3D3A70A0472.
+[2020.04.18-17.51.14:163][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/8/3/temp.B0351BB94EDAEFC49F015F81263ADF6E! Error: 0 (The operation completed successfully.)
+[2020.04.18-17.51.14:163][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/1/5/temp.CB01C5B247ED47586C52B989C14D5C39 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:163][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/1/5/temp.CB01C5B247ED47586C52B989C14D5C39! Error: 0 (The operation completed successfully.)
+[2020.04.18-17.51.14:163][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/8/3/temp.9E9F83A441892349D8CE94BB33391EF0 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:163][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/8/3/temp.9E9F83A441892349D8CE94BB33391EF0! Error: 0 (The operation completed successfully.)
+[2020.04.18-17.51.14:163][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/1/5/temp.25D20CCE48BDF286B3E01280D0B39FC4 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:163][618]LogDerivedDataCache: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_564290F8998644E39A2118D5C683187B_G8_9624C8504489C72EAC6F04A390AC16E7_0__FE0B5673DBB9B1BEB130681104B32E8B0CF45B05.
+[2020.04.18-17.51.14:164][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/1/5/temp.25D20CCE48BDF286B3E01280D0B39FC4! Error: 0 (The operation completed successfully.)
+[2020.04.18-17.51.14:164][618]LogDerivedDataCache: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_564290F8998644E39A2118D5C683187B_G8_9624C8504489C72EAC6F04A390AC16E7_0__ABD958DEF08B933117D570979FCB704A26E305F0.
+[2020.04.18-17.51.14:165][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/3/4/temp.6C40469B4171A2C9B257308F1CFBF810 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:165][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/3/4/temp.6C40469B4171A2C9B257308F1CFBF810! Error: 0 (The operation completed successfully.)
+[2020.04.18-17.51.14:165][618]LogDerivedDataCache: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_564290F8998644E39A2118D5C683187B_BGRA8_D5DC8AA24965D3C378596C8C6E4E3E3__DC8DD629E3731A84D076D39221C966FB214A33D5.
+[2020.04.18-17.51.14:165][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/3/4/temp.9FCCA1D342C3951808185AA229DA52DC (There is not enough space on the disk.)
+[2020.04.18-17.51.14:165][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/3/4/temp.9FCCA1D342C3951808185AA229DA52DC! Error: 0 (The operation completed successfully.)
+[2020.04.18-17.51.14:165][618]LogDerivedDataCache: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_564290F8998644E39A2118D5C683187B_G8_9624C8504489C72EAC6F04A390AC16E7_0__ADF84B3006E0BAB19BE05E8B4427450A0776D5C5.
+[2020.04.18-17.51.14:166][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/8/4/temp.D03191C3411D8BCFD7D896B9EC5AD652 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:166][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/7/4/temp.7B6698204D3106D137748A9D5D433F47 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:166][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/7/4/temp.7B6698204D3106D137748A9D5D433F47! Error: 0 (The operation completed successfully.)
+[2020.04.18-17.51.14:166][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/8/4/temp.D03191C3411D8BCFD7D896B9EC5AD652! Error: 0 (The operation completed successfully.)
+[2020.04.18-17.51.14:166][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/5/1/temp.6E13DD15463C33AC0D4D7594778D97FA (There is not enough space on the disk.)
+[2020.04.18-17.51.14:166][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/7/4/temp.B389126E4EFD1D40AD9CEC96EE717010 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:166][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/5/1/temp.6E13DD15463C33AC0D4D7594778D97FA! Error: 0 (The operation completed successfully.)
+[2020.04.18-17.51.14:166][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/7/4/temp.B389126E4EFD1D40AD9CEC96EE717010! Error: 0 (The operation completed successfully.)
+[2020.04.18-17.51.14:166][618]LogDerivedDataCache: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_564290F8998644E39A2118D5C683187B_G8_2DE264FA4C2F51D23EACD0BA3CD742CA_0__6FB3C4192115BBB226A54DA9D9F037855E1929B4.
+[2020.04.18-17.51.14:166][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/5/1/temp.76E5CCED45F6E28F47D26681061B7FD5 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:166][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/2/4/temp.D5F6EE3A4E3BE7EB1B7CB5BDE5157C65 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:166][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/2/4/temp.D5F6EE3A4E3BE7EB1B7CB5BDE5157C65! Error: 0 (The operation completed successfully.)
+[2020.04.18-17.51.14:166][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/8/4/temp.23E5940E47647499EAA98097518DB899 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:166][618]LogFileManager: Error: Error writing to file: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/2/4/temp.2092C72C4DFA33DF42767DB4D7676F06 (There is not enough space on the disk.)
+[2020.04.18-17.51.14:167][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/5/1/temp.76E5CCED45F6E28F47D26681061B7FD5! Error: 0 (The operation completed successfully.)
+[2020.04.18-17.51.14:167][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/2/4/temp.2092C72C4DFA33DF42767DB4D7676F06! Error: 0 (The operation completed successfully.)
+[2020.04.18-17.51.14:167][618]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Could not write temp file C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/8/4/temp.23E5940E47647499EAA98097518DB899! Error: 0 (The operation completed successfully.)
+[2020.04.18-17.51.14:167][618]LogDerivedDataCache: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_564290F8998644E39A2118D5C683187B_G8_2DE264FA4C2F51D23EACD0BA3CD742CA_0__A4AA772[2020.04.18-17.51.22:525][618]Lightmass on LAPTOP-7TARG8CR: 28:58 min total, 565 ms importing, 416 ms setup, 4:00 min photons, 24:57 min processing, 0 ms extra exporting [1482/1482 mappings]. Threads: 1:39:48 hours total, 54:45 min processing.
+[2020.04.18-17.51.22:560][618]LogStaticLightingSystem: MainLobby_BuiltData storing lightmap data for 1482 meshes in 308 LightmapResourceClusters (4.8 Meshes per cluster).
+[2020.04.18-17.51.24:258][618]LogUObjectHash: Compacting FUObjectHashTables data took 117.35ms
+[2020.04.18-18.15.29:567][618]LogSlate: Window 'Message' being destroyed
+[2020.04.18-18.15.30:163][618]LogStaticLightingSystem: Illumination: 53:21 min (3:22 min encoding lightmaps, 5.67 sec encoding shadowmaps)
+[2020.04.18-18.15.30:164][618]LogStaticLightingSystem: Lightmap texture memory:  370.5 MB (370.5 MB streaming, 0.0 MB non-streaming), 374 textures
+[2020.04.18-18.15.30:165][618]LogStaticLightingSystem: Shadowmap texture memory: 114.7 MB (114.7 MB streaming, 0.0 MB non-streaming), 36 textures
+[2020.04.18-18.15.32:102][618]LogStaticLightingSystem: Warning: Failed to build lighting!!! Lighting build failed.
+[2020.04.18-18.15.32:254][618]DumpUnbuiltLightIteractions
+[2020.04.18-18.15.32:254][618]Lights with unbuilt interactions: 0
+[2020.04.18-18.15.32:254][618]
+[2020.04.18-18.15.32:254][618]Primitives with unbuilt interactions: 0
+[2020.04.18-18.15.34:891][619]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.04.18-18.15.34:916][619]MapCheck: New page: MainLobby - Apr 18, 2020, 4:15:34 AM
+[2020.04.18-18.15.35:075][619]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 174.528ms to complete.
+[2020.04.18-18.15.35:874][621]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Env_Roof_59)
+[2020.04.18-18.15.38:730][641]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2020.04.18-18.15.39:789][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Roof_67)
+[2020.04.18-18.16.08:265][662]LogUObjectHash: Compacting FUObjectHashTables data took  20.32ms
+[2020.04.18-18.16.09:273][662]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/MainLobby8FFD180B4E7FB5B4919119BE4DCEAC99.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/MainLobby.umap'
+[2020.04.18-18.16.09:337][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLobby_BuiltData" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/MainLobby_BuiltData.uasset" SILENT=true
+[2020.04.18-18.17.28:085][662]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/MainLobby_BuiltData5A1FB97842B03CF4EE2430A666CC4C01.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/MainLobby_BuiltData.uasset'
+[2020.04.18-18.17.28:205][662]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.18-18.17.28:212][662]LogContentValidation: Display: Validating World /Game/MainLobby.MainLobby
+[2020.04.18-18.17.28:213][662]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainLobby_BuiltData.MainLobby_BuiltData
+[2020.04.18-18.21.35:398][392]Cmd: SELECT NONE
+[2020.04.18-18.21.36:568][436]LogUObjectHash: Compacting FUObjectHashTables data took   7.51ms
+[2020.04.18-18.21.37:315][436]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/MainLobby44F9B298478D2DD409383C9570EDC4C5.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/MainLobby.umap'
+[2020.04.18-18.21.37:348][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLobby_BuiltData" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/MainLobby_BuiltData.uasset" SILENT=true
+[2020.04.18-18.22.37:991][436]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/MainLobby_BuiltDataC04B81F74B1D1D00E0D0CB9A99962EC7.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/MainLobby_BuiltData.uasset'
+[2020.04.18-18.22.39:365][436]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.18-18.22.39:365][436]LogContentValidation: Display: Validating World /Game/MainLobby.MainLobby
+[2020.04.18-18.22.39:365][436]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainLobby_BuiltData.MainLobby_BuiltData
+[2020.04.18-18.38.41:122][198]LogUObjectHash: Compacting FUObjectHashTables data took  40.97ms
+[2020.04.18-18.38.41:296][198]LogSlate: Window 'MoneyHeist - Unreal Editor' being destroyed
+[2020.04.18-18.38.41:320][198]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.18-18.38.43:169][199]Cmd: QUIT_EDITOR
+[2020.04.18-18.38.43:170][199]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.04.18-18.38.43:235][199]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.04.18-18.38.43:255][199]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.18-18.38.43:738][199]LogExit: Preparing to exit.
+[2020.04.18-18.38.45:271][199]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.38.45:281][199]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.38.45:749][199]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.04.18-18.38.46:000][199]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.38.46:121][199]LogExit: Editor shut down
+[2020.04.18-18.38.46:145][199]LogExit: Transaction tracking system shut down
+[2020.04.18-18.38.49:399][199]LogExit: Object subsystem successfully closed.
+[2020.04.18-18.38.49:562][199]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.04.18-18.38.50:014][199]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (700)
+[2020.04.18-18.38.50:014][199]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (698)
+[2020.04.18-18.38.50:015][199]LogModuleManager: Shutting down and abandoning module SceneOutliner (696)
+[2020.04.18-18.38.50:015][199]LogModuleManager: Shutting down and abandoning module AddContentDialog (694)
+[2020.04.18-18.38.50:066][199]LogModuleManager: Shutting down and abandoning module WidgetCarousel (693)
+[2020.04.18-18.38.50:067][199]LogModuleManager: Shutting down and abandoning module EditorWidgets (690)
+[2020.04.18-18.38.50:067][199]LogModuleManager: Shutting down and abandoning module CollectionManager (688)
+[2020.04.18-18.38.50:068][199]LogModuleManager: Shutting down and abandoning module StatsViewer (686)
+[2020.04.18-18.38.50:070][199]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (684)
+[2020.04.18-18.38.50:070][199]LogModuleManager: Shutting down and abandoning module FoliageEdit (682)
+[2020.04.18-18.38.50:076][199]LogModuleManager: Shutting down and abandoning module LandscapeEditor (680)
+[2020.04.18-18.38.50:085][199]LogModuleManager: Shutting down and abandoning module MeshPaintMode (678)
+[2020.04.18-18.38.50:086][199]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (676)
+[2020.04.18-18.38.50:086][199]LogModuleManager: Shutting down and abandoning module ActorPickerMode (674)
+[2020.04.18-18.38.50:086][199]LogModuleManager: Shutting down and abandoning module GeometryMode (672)
+[2020.04.18-18.38.50:087][199]LogModuleManager: Shutting down and abandoning module TextureAlignMode (670)
+[2020.04.18-18.38.50:087][199]LogModuleManager: Shutting down and abandoning module BspMode (668)
+[2020.04.18-18.38.50:087][199]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (666)
+[2020.04.18-18.38.50:090][199]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (664)
+[2020.04.18-18.38.50:092][199]LogModuleManager: Shutting down and abandoning module AutomationWorker (662)
+[2020.04.18-18.38.50:094][199]LogModuleManager: Shutting down and abandoning module SteamVREditor (660)
+[2020.04.18-18.38.50:094][199]LogModuleManager: Shutting down and abandoning module OculusMR (658)
+[2020.04.18-18.38.50:095][199]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (656)
+[2020.04.18-18.38.50:095][199]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (654)
+[2020.04.18-18.38.50:097][199]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (652)
+[2020.04.18-18.38.50:109][199]LogModuleManager: Shutting down and abandoning module PlacementMode (651)
+[2020.04.18-18.38.50:110][199]LogModuleManager: Shutting down and abandoning module MaterialEditor (650)
+[2020.04.18-18.38.50:115][199]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (646)
+[2020.04.18-18.38.50:117][199]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (644)
+[2020.04.18-18.38.50:117][199]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (642)
+[2020.04.18-18.38.50:117][199]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (640)
+[2020.04.18-18.38.50:117][199]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (638)
+[2020.04.18-18.38.50:117][199]LogModuleManager: Shutting down and abandoning module WebMMedia (636)
+[2020.04.18-18.38.50:117][199]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (634)
+[2020.04.18-18.38.50:119][199]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (632)
+[2020.04.18-18.38.50:126][199]LogModuleManager: Shutting down and abandoning module SequenceRecorder (631)
+[2020.04.18-18.38.50:127][199]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (628)
+[2020.04.18-18.38.50:127][199]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (626)
+[2020.04.18-18.38.50:127][199]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (624)
+[2020.04.18-18.38.50:128][199]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (622)
+[2020.04.18-18.38.50:128][199]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (620)
+[2020.04.18-18.38.50:128][199]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (618)
+[2020.04.18-18.38.50:128][199]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (616)
+[2020.04.18-18.38.50:128][199]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (614)
+[2020.04.18-18.38.50:128][199]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (612)
+[2020.04.18-18.38.50:128][199]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (610)
+[2020.04.18-18.38.50:128][199]LogModuleManager: Shutting down and abandoning module CharacterAI (608)
+[2020.04.18-18.38.50:128][199]LogModuleManager: Shutting down and abandoning module SmartSnapping (606)
+[2020.04.18-18.38.50:128][199]LogModuleManager: Shutting down and abandoning module SessionServices (604)
+[2020.04.18-18.38.50:128][199]LogModuleManager: Shutting down and abandoning module MeshPaint (602)
+[2020.04.18-18.38.50:130][199]LogModuleManager: Shutting down and abandoning module ViewportSnapping (600)
+[2020.04.18-18.38.50:130][199]LogModuleManager: Shutting down and abandoning module ViewportInteraction (598)
+[2020.04.18-18.38.50:131][199]LogModuleManager: Shutting down and abandoning module ClothPainter (596)
+[2020.04.18-18.38.50:134][199]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (595)
+[2020.04.18-18.38.50:137][199]LogModuleManager: Shutting down and abandoning module LogVisualizer (592)
+[2020.04.18-18.38.50:145][199]LogModuleManager: Shutting down and abandoning module IntroTutorials (590)
+[2020.04.18-18.38.50:148][199]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (589)
+[2020.04.18-18.38.50:151][199]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (586)
+[2020.04.18-18.38.50:151][199]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (584)
+[2020.04.18-18.38.50:151][199]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (582)
+[2020.04.18-18.38.50:151][199]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (581)
+[2020.04.18-18.38.51:067][199]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (578)
+[2020.04.18-18.38.51:067][199]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (576)
+[2020.04.18-18.38.51:067][199]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (574)
+[2020.04.18-18.38.51:067][199]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (572)
+[2020.04.18-18.38.51:067][199]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (570)
+[2020.04.18-18.38.51:067][199]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (568)
+[2020.04.18-18.38.51:068][199]LogModuleManager: Shutting down and abandoning module InputBindingEditor (566)
+[2020.04.18-18.38.51:069][199]LogModuleManager: Shutting down and abandoning module MergeActors (564)
+[2020.04.18-18.38.51:076][199]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (562)
+[2020.04.18-18.38.51:078][199]LogModuleManager: Shutting down and abandoning module LocalizationService (561)
+[2020.04.18-18.38.51:079][199]LogModuleManager: Shutting down and abandoning module HardwareTargeting (558)
+[2020.04.18-18.38.51:079][199]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (556)
+[2020.04.18-18.38.51:081][199]LogModuleManager: Shutting down and abandoning module UndoHistory (554)
+[2020.04.18-18.38.51:082][199]LogModuleManager: Shutting down and abandoning module XmlParser (552)
+[2020.04.18-18.38.51:082][199]LogModuleManager: Shutting down and abandoning module Blutility (550)
+[2020.04.18-18.38.51:082][199]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (548)
+[2020.04.18-18.38.51:083][199]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (547)
+[2020.04.18-18.38.51:085][199]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (544)
+[2020.04.18-18.38.51:086][199]LogModuleManager: Shutting down and abandoning module SettingsEditor (542)
+[2020.04.18-18.38.51:091][199]LogModuleManager: Shutting down and abandoning module ProjectLauncher (540)
+[2020.04.18-18.38.51:093][199]LogModuleManager: Shutting down and abandoning module SessionFrontend (538)
+[2020.04.18-18.38.51:094][199]LogModuleManager: Shutting down and abandoning module ProfilerClient (536)
+[2020.04.18-18.38.51:094][199]LogModuleManager: Shutting down and abandoning module DeviceManager (534)
+[2020.04.18-18.38.51:095][199]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (533)
+[2020.04.18-18.38.51:132][199]LogModuleManager: Shutting down and abandoning module AutomationController (530)
+[2020.04.18-18.38.51:133][199]LogModuleManager: Shutting down and abandoning module AutomationWindow (528)
+[2020.04.18-18.38.51:134][199]LogModuleManager: Shutting down and abandoning module Layers (526)
+[2020.04.18-18.38.51:136][199]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (524)
+[2020.04.18-18.38.51:136][199]LogModuleManager: Shutting down and abandoning module DetailCustomizations (522)
+[2020.04.18-18.38.51:137][199]LogModuleManager: Shutting down and abandoning module PackagesDialog (520)
+[2020.04.18-18.38.51:148][199]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (518)
+[2020.04.18-18.38.51:152][199]LogModuleManager: Shutting down and abandoning module Persona (516)
+[2020.04.18-18.38.51:157][199]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (515)
+[2020.04.18-18.38.51:159][199]LogModuleManager: Shutting down and abandoning module AnimGraph (513)
+[2020.04.18-18.38.51:160][199]LogModuleManager: Shutting down and abandoning module Kismet (510)
+[2020.04.18-18.38.51:166][199]LogModuleManager: Shutting down and abandoning module KismetWidgets (509)
+[2020.04.18-18.38.51:167][199]LogModuleManager: Shutting down and abandoning module GraphEditor (506)
+[2020.04.18-18.38.51:171][199]LogModuleManager: Shutting down and abandoning module StructViewer (504)
+[2020.04.18-18.38.51:177][199]LogModuleManager: Shutting down and abandoning module ClassViewer (502)
+[2020.04.18-18.38.51:178][199]LogModuleManager: Shutting down and abandoning module Toolbox (500)
+[2020.04.18-18.38.51:179][199]LogModuleManager: Shutting down and abandoning module ModuleUI (498)
+[2020.04.18-18.38.51:180][199]LogModuleManager: Shutting down and abandoning module OutputLog (496)
+[2020.04.18-18.38.51:182][199]LogModuleManager: Shutting down and abandoning module GammaUI (494)
+[2020.04.18-18.38.51:183][199]LogModuleManager: Shutting down and abandoning module Documentation (492)
+[2020.04.18-18.38.51:183][199]LogModuleManager: Shutting down and abandoning module ToolMenus (490)
+[2020.04.18-18.38.51:183][199]LogModuleManager: Shutting down and abandoning module LiveCoding (488)
+[2020.04.18-18.38.51:185][199]LogModuleManager: Shutting down and abandoning module LevelSequence (486)
+[2020.04.18-18.38.51:186][199]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (484)
+[2020.04.18-18.38.51:187][199]LogModuleManager: Shutting down and abandoning module MovieScene (482)
+[2020.04.18-18.38.51:190][199]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (480)
+[2020.04.18-18.38.51:191][199]LogModuleManager: Shutting down and abandoning module LauncherPlatform (478)
+[2020.04.18-18.38.51:191][199]LogModuleManager: Shutting down and abandoning module AnalyticsET (476)
+[2020.04.18-18.38.51:192][199]LogModuleManager: Shutting down and abandoning module PortalServices (474)
+[2020.04.18-18.38.51:192][199]LogModuleManager: Shutting down and abandoning module PortalRpc (472)
+[2020.04.18-18.38.51:192][199]LogModuleManager: Shutting down and abandoning module MessagingRpc (470)
+[2020.04.18-18.38.51:192][199]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (468)
+[2020.04.18-18.38.51:193][199]LogModuleManager: Shutting down and abandoning module AIModule (466)
+[2020.04.18-18.38.51:195][199]LogModuleManager: Shutting down and abandoning module GameplayDebugger (465)
+[2020.04.18-18.38.51:195][199]LogModuleManager: Shutting down and abandoning module AITestSuite (463)
+[2020.04.18-18.38.51:196][199]LogModuleManager: Shutting down and abandoning module NavigationSystem (461)
+[2020.04.18-18.38.51:196][199]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (458)
+[2020.04.18-18.38.51:215][199]LogModuleManager: Shutting down and abandoning module ProfilerService (456)
+[2020.04.18-18.38.51:416][199]LogModuleManager: Shutting down and abandoning module TaskGraph (454)
+[2020.04.18-18.38.51:418][199]LogModuleManager: Shutting down and abandoning module ScreenshotTools (452)
+[2020.04.18-18.38.51:418][199]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (450)
+[2020.04.18-18.38.51:418][199]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (448)
+[2020.04.18-18.38.51:418][199]LogModuleManager: Shutting down and abandoning module OculusEditor (446)
+[2020.04.18-18.38.51:418][199]LogModuleManager: Shutting down and abandoning module OculusInput (444)
+[2020.04.18-18.38.51:418][199]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (442)
+[2020.04.18-18.38.51:418][199]LogModuleManager: Shutting down and abandoning module EditableMesh (440)
+[2020.04.18-18.38.51:419][199]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (438)
+[2020.04.18-18.38.51:419][199]LogModuleManager: Shutting down and abandoning module CableComponent (436)
+[2020.04.18-18.38.51:419][199]LogModuleManager: Shutting down and abandoning module AudioCapture (434)
+[2020.04.18-18.38.51:419][199]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (433)
+[2020.04.18-18.38.51:419][199]LogModuleManager: Shutting down and abandoning module AssetTags (430)
+[2020.04.18-18.38.51:419][199]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (428)
+[2020.04.18-18.38.51:419][199]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (426)
+[2020.04.18-18.38.51:419][199]LogModuleManager: Shutting down and abandoning module AppleImageUtils (424)
+[2020.04.18-18.38.51:419][199]LogModuleManager: Shutting down and abandoning module AndroidPermission (422)
+[2020.04.18-18.38.51:419][199]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (420)
+[2020.04.18-18.38.51:420][199]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (418)
+[2020.04.18-18.38.51:423][199]LogModuleManager: Shutting down and abandoning module MediaCompositing (416)
+[2020.04.18-18.38.51:425][199]LogModuleManager: Shutting down and abandoning module ImgMedia (414)
+[2020.04.18-18.38.51:425][199]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (412)
+[2020.04.18-18.38.51:425][199]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (410)
+[2020.04.18-18.38.51:425][199]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (408)
+[2020.04.18-18.38.51:425][199]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (406)
+[2020.04.18-18.38.51:425][199]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (404)
+[2020.04.18-18.38.51:425][199]LogModuleManager: Shutting down and abandoning module BackChannel (402)
+[2020.04.18-18.38.51:426][199]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (400)
+[2020.04.18-18.38.51:426][199]LogModuleManager: Shutting down and abandoning module AutomationUtils (398)
+[2020.04.18-18.38.51:426][199]LogModuleManager: Shutting down and abandoning module AlembicImporter (396)
+[2020.04.18-18.38.51:427][199]LogModuleManager: Shutting down and abandoning module AlembicLibrary (395)
+[2020.04.18-18.38.51:427][199]LogModuleManager: Shutting down and abandoning module GeometryCache (394)
+[2020.04.18-18.38.51:427][199]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (393)
+[2020.04.18-18.38.51:427][199]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (388)
+[2020.04.18-18.38.51:428][199]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (386)
+[2020.04.18-18.38.51:429][199]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (384)
+[2020.04.18-18.38.51:429][199]LogModuleManager: Shutting down and abandoning module PluginBrowser (382)
+[2020.04.18-18.38.51:434][199]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (380)
+[2020.04.18-18.38.51:435][199]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (378)
+[2020.04.18-18.38.51:436][199]LogModuleManager: Shutting down and abandoning module CurveEditorTools (376)
+[2020.04.18-18.38.51:437][199]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (374)
+[2020.04.18-18.38.51:438][199]LogModuleManager: Shutting down and abandoning module CryptoKeys (372)
+[2020.04.18-18.38.51:442][199]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (370)
+[2020.04.18-18.38.51:444][199]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (368)
+[2020.04.18-18.38.51:445][199]LogModuleManager: Shutting down and abandoning module UObjectPlugin (366)
+[2020.04.18-18.38.51:445][199]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (364)
+[2020.04.18-18.38.51:446][199]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (362)
+[2020.04.18-18.38.51:448][199]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (360)
+[2020.04.18-18.38.51:450][199]LogModuleManager: Shutting down and abandoning module GitSourceControl (358)
+[2020.04.18-18.38.51:452][199]LogModuleManager: Shutting down and abandoning module SourceControl (357)
+[2020.04.18-18.38.51:452][199]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (354)
+[2020.04.18-18.38.51:452][199]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (352)
+[2020.04.18-18.38.51:452][199]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (350)
+[2020.04.18-18.38.51:453][199]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (348)
+[2020.04.18-18.38.51:453][199]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (346)
+[2020.04.18-18.38.51:453][199]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (344)
+[2020.04.18-18.38.51:453][199]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (342)
+[2020.04.18-18.38.51:453][199]LogModuleManager: Shutting down and abandoning module Paper2DEditor (340)
+[2020.04.18-18.38.51:459][199]LogModuleManager: Shutting down and abandoning module MoneyHeist (338)
+[2020.04.18-18.38.51:459][199]LogModuleManager: Shutting down and abandoning module SignificanceManager (336)
+[2020.04.18-18.38.51:459][199]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (334)
+[2020.04.18-18.38.51:459][199]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (332)
+[2020.04.18-18.38.51:460][199]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (328)
+[2020.04.18-18.38.51:460][199]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
+[2020.04.18-18.38.51:460][199]LogModuleManager: Shutting down and abandoning module UdpMessaging (324)
+[2020.04.18-18.38.51:562][199]LogModuleManager: Shutting down and abandoning module TcpMessaging (322)
+[2020.04.18-18.38.51:664][199]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (320)
+[2020.04.18-18.38.51:664][199]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (318)
+[2020.04.18-18.38.51:666][199]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.04.18-18.38.51:666][199]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (316)
+[2020.04.18-18.38.51:666][199]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (314)
+[2020.04.18-18.38.51:666][199]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (312)
+[2020.04.18-18.38.51:666][199]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (310)
+[2020.04.18-18.38.51:667][199]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (308)
+[2020.04.18-18.38.51:668][199]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (306)
+[2020.04.18-18.38.51:668][199]LogModuleManager: Shutting down and abandoning module MagicLeapController (304)
+[2020.04.18-18.38.51:676][199]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.04.18-18.38.51:676][199]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (302)
+[2020.04.18-18.38.51:676][199]LogModuleManager: Shutting down and abandoning module MagicLeapAR (300)
+[2020.04.18-18.38.51:676][199]LogModuleManager: Shutting down and abandoning module AugmentedReality (299)
+[2020.04.18-18.38.51:676][199]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (296)
+[2020.04.18-18.38.51:678][199]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (294)
+[2020.04.18-18.38.51:679][199]LogModuleManager: Shutting down and abandoning module FacialAnimation (292)
+[2020.04.18-18.38.51:679][199]LogModuleManager: Shutting down and abandoning module DataValidation (290)
+[2020.04.18-18.38.51:680][199]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (288)
+[2020.04.18-18.38.51:681][199]LogModuleManager: Shutting down and abandoning module LevelEditor (287)
+[2020.04.18-18.38.51:713][199]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (286)
+[2020.04.18-18.38.51:714][199]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (284)
+[2020.04.18-18.38.51:716][199]LogModuleManager: Shutting down and abandoning module MainFrame (282)
+[2020.04.18-18.38.51:718][199]LogModuleManager: Shutting down and abandoning module HotReload (281)
+[2020.04.18-18.38.51:725][199]LogModuleManager: Shutting down and abandoning module ContentBrowser (277)
+[2020.04.18-18.38.51:736][199]LogModuleManager: Shutting down and abandoning module TreeMap (275)
+[2020.04.18-18.38.51:738][199]LogModuleManager: Shutting down and abandoning module AnimationSharing (272)
+[2020.04.18-18.38.51:738][199]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (270)
+[2020.04.18-18.38.51:738][199]LogModuleManager: Shutting down and abandoning module Paper2D (268)
+[2020.04.18-18.38.51:742][199]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (266)
+[2020.04.18-18.38.51:751][199]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (264)
+[2020.04.18-18.38.51:752][199]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (262)
+[2020.04.18-18.38.51:752][199]LogModuleManager: Shutting down and abandoning module PacketHandler (260)
+[2020.04.18-18.38.51:753][199]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (258)
+[2020.04.18-18.38.51:753][199]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (256)
+[2020.04.18-18.38.51:759][199]LogModuleManager: Shutting down and abandoning module MediaAssets (254)
+[2020.04.18-18.38.51:759][199]LogModuleManager: Shutting down and abandoning module Overlay (252)
+[2020.04.18-18.38.51:759][199]LogModuleManager: Shutting down and abandoning module OverlayEditor (251)
+[2020.04.18-18.38.51:759][199]LogModuleManager: Shutting down and abandoning module VREditor (248)
+[2020.04.18-18.38.51:761][199]LogModuleManager: Shutting down and abandoning module StringTableEditor (246)
+[2020.04.18-18.38.51:762][199]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (244)
+[2020.04.18-18.38.51:762][199]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (242)
+[2020.04.18-18.38.51:764][199]LogModuleManager: Shutting down and abandoning module FunctionalTesting (240)
+[2020.04.18-18.38.51:764][199]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (238)
+[2020.04.18-18.38.51:767][199]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (237)
+[2020.04.18-18.38.51:769][199]LogModuleManager: Shutting down and abandoning module UMG (234)
+[2020.04.18-18.38.51:770][199]LogModuleManager: Shutting down and abandoning module UMGEditor (233)
+[2020.04.18-18.38.51:779][199]LogModuleManager: Shutting down and abandoning module MessageLog (231)
+[2020.04.18-18.38.51:780][199]LogModuleManager: Shutting down and abandoning module SlateReflector (226)
+[2020.04.18-18.38.51:783][199]LogModuleManager: Shutting down and abandoning module Slate (224)
+[2020.04.18-18.38.51:783][199]LogModuleManager: Shutting down and abandoning module SlateCore (222)
+[2020.04.18-18.38.51:783][199]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (220)
+[2020.04.18-18.38.51:783][199]LogModuleManager: Shutting down and abandoning module UnrealEd (218)
+[2020.04.18-18.38.51:784][199]LogModuleManager: Shutting down and abandoning module MRMesh (216)
+[2020.04.18-18.38.51:784][199]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (214)
+[2020.04.18-18.38.51:784][199]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (212)
+[2020.04.18-18.38.51:784][199]LogModuleManager: Shutting down and abandoning module XAudio2 (210)
+[2020.04.18-18.38.51:785][199]LogModuleManager: Shutting down and abandoning module Networking (208)
+[2020.04.18-18.38.51:785][199]LogModuleManager: Shutting down and abandoning module Core (206)
+[2020.04.18-18.38.51:785][199]LogModuleManager: Shutting down and abandoning module MovieSceneTools (204)
+[2020.04.18-18.38.51:792][199]LogModuleManager: Shutting down and abandoning module CurveEditor (203)
+[2020.04.18-18.38.51:796][199]LogModuleManager: Shutting down and abandoning module Sequencer (201)
+[2020.04.18-18.38.51:800][199]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2020.04.18-18.38.51:828][199]LogModuleManager: Shutting down and abandoning module KismetCompiler (196)
+[2020.04.18-18.38.51:829][199]LogModuleManager: Shutting down and abandoning module MeshUtilities (194)
+[2020.04.18-18.38.51:830][199]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (193)
+[2020.04.18-18.38.51:832][199]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (192)
+[2020.04.18-18.38.51:832][199]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (191)
+[2020.04.18-18.38.51:832][199]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (189)
+[2020.04.18-18.38.51:833][199]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (187)
+[2020.04.18-18.38.51:836][199]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (185)
+[2020.04.18-18.38.51:836][199]LogModuleManager: Shutting down and abandoning module MaterialBaking (181)
+[2020.04.18-18.38.51:837][199]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (176)
+[2020.04.18-18.38.51:837][199]LogModuleManager: Shutting down and abandoning module DerivedDataCache (174)
+[2020.04.18-18.38.51:843][199]LogDerivedDataCache: Shutdown
+[2020.04.18-18.38.51:843][199]LogModuleManager: Shutting down and abandoning module XGEController (172)
+[2020.04.18-18.38.51:845][199]LogModuleManager: Shutting down and abandoning module TargetPlatform (170)
+[2020.04.18-18.38.51:847][199]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (169)
+[2020.04.18-18.38.51:847][199]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (167)
+[2020.04.18-18.38.51:848][199]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (165)
+[2020.04.18-18.38.51:849][199]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (163)
+[2020.04.18-18.38.51:849][199]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (161)
+[2020.04.18-18.38.51:850][199]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (159)
+[2020.04.18-18.38.51:851][199]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (157)
+[2020.04.18-18.38.51:851][199]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (155)
+[2020.04.18-18.38.51:852][199]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (153)
+[2020.04.18-18.38.51:861][199]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (151)
+[2020.04.18-18.38.51:861][199]LogModuleManager: Shutting down and abandoning module ImageWrapper (150)
+[2020.04.18-18.38.51:861][199]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (147)
+[2020.04.18-18.38.51:862][199]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (145)
+[2020.04.18-18.38.51:862][199]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (143)
+[2020.04.18-18.38.51:862][199]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (141)
+[2020.04.18-18.38.51:862][199]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (139)
+[2020.04.18-18.38.51:862][199]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (137)
+[2020.04.18-18.38.51:862][199]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (135)
+[2020.04.18-18.38.51:862][199]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (133)
+[2020.04.18-18.38.51:863][199]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (131)
+[2020.04.18-18.38.51:964][199]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2020.04.18-18.38.52:011][199]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (127)
+[2020.04.18-18.38.52:012][199]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (125)
+[2020.04.18-18.38.52:012][199]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (123)
+[2020.04.18-18.38.52:012][199]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2020.04.18-18.38.52:013][199]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2020.04.18-18.38.52:014][199]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (117)
+[2020.04.18-18.38.52:014][199]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2020.04.18-18.38.52:014][199]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2020.04.18-18.38.52:031][199]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2020.04.18-18.38.52:182][199]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (109)
+[2020.04.18-18.38.52:183][199]LogModuleManager: Shutting down and abandoning module InputCore (106)
+[2020.04.18-18.38.52:183][199]LogModuleManager: Shutting down and abandoning module Settings (104)
+[2020.04.18-18.38.52:183][199]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (102)
+[2020.04.18-18.38.52:197][199]LogModuleManager: Shutting down and abandoning module PhysXCooking (100)
+[2020.04.18-18.38.52:197][199]LogModuleManager: Shutting down and abandoning module ChaosSolvers (98)
+[2020.04.18-18.38.52:199][199]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (97)
+[2020.04.18-18.38.52:200][199]LogModuleManager: Shutting down and abandoning module Chaos (94)
+[2020.04.18-18.38.52:202][199]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (92)
+[2020.04.18-18.38.52:203][199]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (91)
+[2020.04.18-18.38.52:203][199]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (88)
+[2020.04.18-18.38.52:212][199]LogModuleManager: Shutting down and abandoning module SteamVRInput (86)
+[2020.04.18-18.38.52:212][199]LogModuleManager: Shutting down and abandoning module SteamVR (84)
+[2020.04.18-18.38.52:213][199]LogHMD: Freeing OpenVRDLLHandle.
+[2020.04.18-18.38.52:213][199]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
+[2020.04.18-18.38.52:214][199]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
+[2020.04.18-18.38.52:214][199]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (78)
+[2020.04.18-18.38.52:214][199]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (76)
+[2020.04.18-18.38.52:214][199]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
+[2020.04.18-18.38.52:228][199]LogModuleManager: Shutting down and abandoning module XMPP (67)
+[2020.04.18-18.38.52:230][199]LogModuleManager: Shutting down and abandoning module WebSockets (66)
+[2020.04.18-18.38.52:282][199]LogModuleManager: Shutting down and abandoning module HTTP (63)
+[2020.04.18-18.38.52:283][199]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.04.18-18.38.52:283][199]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B123AD1C1-4870-68A2-57EC-FDBEBB1291E3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2020.04.18-18.38.52:294][199]LogModuleManager: Shutting down and abandoning module SSL (62)
+[2020.04.18-18.38.52:349][199]LogModuleManager: Shutting down and abandoning module WmfMedia (58)
+[2020.04.18-18.38.52:361][199]LogModuleManager: Shutting down and abandoning module Media (57)
+[2020.04.18-18.38.52:363][199]LogModuleManager: Shutting down and abandoning module MagicLeap (54)
+[2020.04.18-18.38.52:363][199]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.04.18-18.38.52:363][199]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.04.18-18.38.52:366][199]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.04.18-18.38.52:366][199]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.04.18-18.38.52:368][199]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.04.18-18.38.52:368][199]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.04.18-18.38.52:368][199]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.04.18-18.38.52:368][199]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.04.18-18.38.52:369][199]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.04.18-18.38.52:378][199]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.04.18-18.38.52:386][199]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.04.18-18.38.52:389][199]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.04.18-18.38.52:390][199]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.04.18-18.38.52:391][199]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.04.18-18.38.52:415][199]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.04.18-18.38.52:415][199]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.04.18-18.38.52:416][199]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.04.18-18.38.52:416][199]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.04.18-18.38.52:418][199]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.04.18-18.38.52:418][199]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.04.18-18.38.52:418][199]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.04.18-18.38.52:419][199]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.04.18-18.38.52:419][199]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.04.18-18.38.52:419][199]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.04.18-18.38.52:420][199]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.04.18-18.38.52:425][199]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.04.18-18.39.01:414][199]LogD3D11RHI: Shutdown
+[2020.04.18-18.39.01:414][199]LogD3D11RHI: CleanupD3DDevice
+[2020.04.18-18.39.04:862][199]LogExit: Exiting.
+[2020.04.18-18.39.09:251][199]Log file closed, 04/18/20 11:39:09

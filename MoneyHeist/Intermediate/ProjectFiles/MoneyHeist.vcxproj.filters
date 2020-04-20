@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MoneyHeist.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3D4475C3-95EB-4DE2-8236-15862DB3A20F}</UniqueIdentifier>
+      <UniqueIdentifier>{0E3AA51D-BA14-4CF6-8105-AD7CB973734C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MoneyHeist.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{2772379B-75F1-4C8B-B31B-CF0B18EC4581}</UniqueIdentifier>
+      <UniqueIdentifier>{27812BCE-FA0F-42B8-90B1-F88899402463}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MoneyHeist">
-      <UniqueIdentifier>{707463C4-8FA7-4280-B01E-122C275CE06B}</UniqueIdentifier>
+      <UniqueIdentifier>{1CFDA4B9-0468-43C4-8096-9B8B8A127DBF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MoneyHeist\MoneyHeist.Build.cs">
       <Filter>Source\MoneyHeist</Filter>
@@ -40,6 +40,18 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\MoneyHeist\MoneyHeistGameModeBase.h">
       <Filter>Source\MoneyHeist</Filter>
+    </ClInclude>
+    <Filter Include="Source\MoneyHeist\Private">
+      <UniqueIdentifier>{7D8D5107-474D-47D5-A751-A438B1B6B328}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MoneyHeist\Private\OpenDoor.cpp">
+      <Filter>Source\MoneyHeist\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\MoneyHeist\Public">
+      <UniqueIdentifier>{BB061B7A-3E63-4692-8B4B-18A3E7358FE3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MoneyHeist\Public\OpenDoor.h">
+      <Filter>Source\MoneyHeist\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
