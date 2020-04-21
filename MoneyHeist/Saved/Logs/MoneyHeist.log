@@ -1777,3 +1777,275 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.21-19.06.11:535][889]AssetCheck: New page: Asset Save: multiple assets
 [2020.04.21-19.06.11:535][889]LogContentValidation: Display: Validating World /Game/MainLobby.MainLobby
 [2020.04.21-19.06.11:536][889]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainLobby_BuiltData.MainLobby_BuiltData
+[2020.04.21-19.21.41:337][207]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.21-19.21.41:376][207]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.21-19.21.41:377][207]PIE: New page: PIE session: MainLobby (Apr 21, 2020, 5:21:41 AM)
+[2020.04.21-19.21.41:387][207]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLobby
+[2020.04.21-19.21.41:630][207]LogPlayLevel: PIE: StaticDuplicateObject took: (0.241008s)
+[2020.04.21-19.21.41:641][207]LogAIModule: Creating AISystem for world MainLobby
+[2020.04.21-19.21.41:648][207]LogPlayLevel: PIE: World Init took: (0.017668s)
+[2020.04.21-19.21.41:649][207]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLobby.MainLobby to /Game/UEDPIE_0_MainLobby.MainLobby (0.262013s)
+[2020.04.21-19.21.41:705][207]LogUObjectHash: Compacting FUObjectHashTables data took   5.48ms
+[2020.04.21-19.21.41:734][207]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.21-19.21.41:734][207]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.21-19.21.41:734][207]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.21-19.21.41:734][207]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.21-19.21.41:734][207]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.21-19.21.41:734][207]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.21-19.21.41:734][207]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.21-19.21.41:734][207]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.21-19.21.41:737][207]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.21-19.21.41:737][207]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.21-19.21.41:770][207]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.21-19.21.41:771][207]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.21-19.21.41:771][207]LogAudioMixer: Display: Is Default: Yes
+[2020.04.21-19.21.41:771][207]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.21-19.21.41:771][207]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.21-19.21.41:771][207]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.21-19.21.41:771][207]LogAudioMixer: Display: Channel Order:
+[2020.04.21-19.21.41:771][207]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.21-19.21.41:771][207]LogAudioMixer: Display: 1: FrontRight
+[2020.04.21-19.21.41:888][207]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.21-19.21.41:909][207]LogInit: FAudioDevice initialized.
+[2020.04.21-19.21.41:941][207]LogLoad: Game class is 'GameModeBase'
+[2020.04.21-19.21.42:043][207]LogWorld: Bringing World /Game/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 60) at 2020.04.21-12.21.42
+[2020.04.21-19.21.42:046][207]LogWorld: Bringing up level for play took: 0.103196
+[2020.04.21-19.21.42:047][207]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.04.21-19.21.42:084][207]PIE: Play in editor start time for /Game/UEDPIE_0_MainLobby 1.144
+[2020.04.21-19.21.49:694][609]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-19.21.49:694][609]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-19.21.49:697][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.21-19.21.49:697][609]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLobby
+[2020.04.21-19.21.49:699][609]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-19.21.49:701][609]LogWorld: UWorld::CleanupWorld for MainLobby, bSessionEnded=true, bCleanupResources=true
+[2020.04.21-19.21.49:711][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.21-19.21.49:727][609]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.21-19.21.49:733][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.21-19.21.49:772][609]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-19.21.49:779][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.21-19.21.49:801][609]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.04.21-19.21.49:841][610]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.04.21-19.21.50:718][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Door_6)
+[2020.04.21-19.21.55:141][859]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.21-19.21.55:158][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.21-19.21.55:159][859]PIE: New page: PIE session: MainLobby (Apr 21, 2020, 5:21:55 AM)
+[2020.04.21-19.21.55:159][859]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLobby
+[2020.04.21-19.21.55:266][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.106787s)
+[2020.04.21-19.21.55:267][859]LogAIModule: Creating AISystem for world MainLobby
+[2020.04.21-19.21.55:268][859]LogPlayLevel: PIE: World Init took: (0.001990s)
+[2020.04.21-19.21.55:268][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLobby.MainLobby to /Game/UEDPIE_0_MainLobby.MainLobby (0.109442s)
+[2020.04.21-19.21.55:303][859]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2020.04.21-19.21.55:304][859]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.21-19.21.55:304][859]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.21-19.21.55:304][859]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.21-19.21.55:304][859]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.21-19.21.55:304][859]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.21-19.21.55:304][859]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.21-19.21.55:304][859]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.21-19.21.55:304][859]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.21-19.21.55:305][859]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.21-19.21.55:305][859]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.21-19.21.55:332][859]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.21-19.21.55:332][859]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.21-19.21.55:332][859]LogAudioMixer: Display: Is Default: Yes
+[2020.04.21-19.21.55:332][859]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.21-19.21.55:332][859]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.21-19.21.55:332][859]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.21-19.21.55:332][859]LogAudioMixer: Display: Channel Order:
+[2020.04.21-19.21.55:332][859]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.21-19.21.55:332][859]LogAudioMixer: Display: 1: FrontRight
+[2020.04.21-19.21.55:442][859]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.21-19.21.55:445][859]LogInit: FAudioDevice initialized.
+[2020.04.21-19.21.55:455][859]LogLoad: Game class is 'GameModeBase'
+[2020.04.21-19.21.55:502][859]LogWorld: Bringing World /Game/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 60) at 2020.04.21-12.21.55
+[2020.04.21-19.21.55:504][859]LogWorld: Bringing up level for play took: 0.047271
+[2020.04.21-19.21.55:504][859]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.04.21-19.21.55:510][859]PIE: Play in editor start time for /Game/UEDPIE_0_MainLobby 0.57
+[2020.04.21-19.21.58:083][991]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-19.21.58:088][991]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.21-19.21.58:107][991]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.21-19.21.58:108][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.21-19.21.58:108][991]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLobby
+[2020.04.21-19.21.58:108][991]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-19.21.58:109][991]LogWorld: UWorld::CleanupWorld for MainLobby, bSessionEnded=true, bCleanupResources=true
+[2020.04.21-19.21.58:120][991]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.21-19.21.58:132][991]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.21-19.21.58:139][991]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.21-19.21.58:170][991]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-19.21.58:176][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.21-19.21.58:193][991]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.04.21-19.21.58:236][992]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.04.21-19.21.59:100][ 12]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.21-19.21.59:111][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.21-19.21.59:111][ 12]PIE: New page: PIE session: MainLobby (Apr 21, 2020, 5:21:59 AM)
+[2020.04.21-19.21.59:111][ 12]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLobby
+[2020.04.21-19.21.59:204][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093133s)
+[2020.04.21-19.21.59:206][ 12]LogAIModule: Creating AISystem for world MainLobby
+[2020.04.21-19.21.59:207][ 12]LogPlayLevel: PIE: World Init took: (0.001920s)
+[2020.04.21-19.21.59:208][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLobby.MainLobby to /Game/UEDPIE_0_MainLobby.MainLobby (0.095761s)
+[2020.04.21-19.21.59:242][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2020.04.21-19.21.59:243][ 12]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.21-19.21.59:243][ 12]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.21-19.21.59:243][ 12]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.21-19.21.59:243][ 12]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.21-19.21.59:243][ 12]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.21-19.21.59:243][ 12]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.21-19.21.59:243][ 12]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.21-19.21.59:243][ 12]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.21-19.21.59:244][ 12]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.21-19.21.59:244][ 12]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.21-19.21.59:271][ 12]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.21-19.21.59:271][ 12]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.21-19.21.59:271][ 12]LogAudioMixer: Display: Is Default: Yes
+[2020.04.21-19.21.59:271][ 12]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.21-19.21.59:271][ 12]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.21-19.21.59:271][ 12]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.21-19.21.59:271][ 12]LogAudioMixer: Display: Channel Order:
+[2020.04.21-19.21.59:271][ 12]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.21-19.21.59:271][ 12]LogAudioMixer: Display: 1: FrontRight
+[2020.04.21-19.21.59:392][ 12]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.21-19.21.59:396][ 12]LogInit: FAudioDevice initialized.
+[2020.04.21-19.21.59:409][ 12]LogLoad: Game class is 'GameModeBase'
+[2020.04.21-19.21.59:458][ 12]LogWorld: Bringing World /Game/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 60) at 2020.04.21-12.21.59
+[2020.04.21-19.21.59:461][ 12]LogWorld: Bringing up level for play took: 0.050885
+[2020.04.21-19.21.59:461][ 12]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.04.21-19.21.59:470][ 12]PIE: Play in editor start time for /Game/UEDPIE_0_MainLobby 0.53
+[2020.04.21-19.22.03:447][173]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Door_6)
+[2020.04.21-19.22.13:626][698]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Skylight_4)
+[2020.04.21-19.22.14:555][720]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Floor_145)
+[2020.04.21-19.22.15:343][741]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Roof_24)
+[2020.04.21-19.22.24:584][257]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-19.22.24:584][257]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-19.22.24:584][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.21-19.22.24:584][257]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLobby
+[2020.04.21-19.22.24:585][257]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-19.22.24:586][257]LogWorld: UWorld::CleanupWorld for MainLobby, bSessionEnded=true, bCleanupResources=true
+[2020.04.21-19.22.24:595][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.21-19.22.24:609][257]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.21-19.22.24:614][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.21-19.22.24:648][257]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-19.22.24:653][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.21-19.22.24:665][257]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.04.21-19.22.24:726][258]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.04.21-19.23.14:396][447]Candidate modules for hot reload:
+[2020.04.21-19.23.14:397][447]  MoneyHeist
+[2020.04.21-19.23.14:399][447]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,5769 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.21-19.23.14:455][447]Warning: Starting HotReload took  0.2s.
+[2020.04.21-19.23.53:607][557]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 5:23:53 AM
+[2020.04.21-19.23.53:609][557]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.21-19.23.53:609][557]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.21-19.23.53:609][557]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.21-19.23.53:609][557]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 14.9600749 seconds
+[2020.04.21-19.23.53:609][557]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.21-19.23.53:610][557]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.21-19.23.53:610][557]CompilerResultsLog: [Upgrade]
+[2020.04.21-19.23.53:610][557]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.21-19.23.53:610][557]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.21-19.23.53:611][557]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.21-19.23.53:611][557]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.21-19.23.53:611][557]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.21-19.23.53:611][557]CompilerResultsLog: [Upgrade]
+[2020.04.21-19.23.53:611][557]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.04.21-19.23.53:611][557]CompilerResultsLog:   [1/4] OpenDoor.cpp
+[2020.04.21-19.23.53:611][557]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Private\OpenDoor.cpp(59): warning C4458: declaration of 'CurrentYaw' hides class member
+[2020.04.21-19.23.53:611][557]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Public\OpenDoor.h(30): note: see declaration of 'UOpenDoor::CurrentYaw'
+[2020.04.21-19.23.53:611][557]CompilerResultsLog:   [2/4] UE4Editor-MoneyHeist-5769.lib
+[2020.04.21-19.23.53:611][557]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-5769.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-5769.exp
+[2020.04.21-19.23.53:612][557]CompilerResultsLog:   [3/4] UE4Editor-MoneyHeist-5769.dll
+[2020.04.21-19.23.53:612][557]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-5769.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-5769.suppressed.exp
+[2020.04.21-19.23.53:612][557]CompilerResultsLog:   [4/4] MoneyHeistEditor.target
+[2020.04.21-19.23.53:612][557]CompilerResultsLog: Total time in Parallel executor: 18.31 seconds
+[2020.04.21-19.23.53:612][557]CompilerResultsLog: Total execution time: 38.23 seconds
+[2020.04.21-19.23.53:613][557]LogMainFrame: MainFrame: Module compiling took 39.247 seconds
+[2020.04.21-19.23.53:652][557]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.04.21-19.23.54:921][557]LogContentBrowser: Native class hierarchy updated for 'MoneyHeist' in 0.0130 seconds. Added 2 classes and 3 folders.
+[2020.04.21-19.23.54:930][557]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.21-19.23.55:312][557]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2020.04.21-19.23.55:522][557]LogContentBrowser: Native class hierarchy populated in 0.1492 seconds. Added 3019 classes and 723 folders.
+[2020.04.21-19.23.55:526][557]Display: HotReload took 41.2s.
+[2020.04.21-19.23.58:649][590]Candidate modules for hot reload:
+[2020.04.21-19.23.58:649][590]  MoneyHeist
+[2020.04.21-19.23.58:649][590]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,5263 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.21-19.23.58:668][590]Warning: Starting HotReload took  0.1s.
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 5:24:28 AM
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 13.1700229 seconds
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog: [Upgrade]
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog: [Upgrade]
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog:   [1/4] OpenDoor.cpp
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Private\OpenDoor.cpp(59): warning C4458: declaration of 'CurrentYaw' hides class member
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Public\OpenDoor.h(30): note: see declaration of 'UOpenDoor::CurrentYaw'
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog:   [2/4] UE4Editor-MoneyHeist-5263.lib
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-5263.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-5263.exp
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog:   [3/4] UE4Editor-MoneyHeist-5263.dll
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-5263.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-5263.suppressed.exp
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog:   [4/4] MoneyHeistEditor.target
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog: Total time in Parallel executor: 13.81 seconds
+[2020.04.21-19.24.28:512][ 36]CompilerResultsLog: Total execution time: 29.60 seconds
+[2020.04.21-19.24.28:513][ 36]LogMainFrame: MainFrame: Module compiling took 29.880 seconds
+[2020.04.21-19.24.28:549][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2020.04.21-19.24.29:287][ 36]LogContentBrowser: Native class hierarchy updated for 'MoneyHeist' in 0.0007 seconds. Added 2 classes and 3 folders.
+[2020.04.21-19.24.29:291][ 36]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.21-19.24.29:410][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.04.21-19.24.29:427][ 36]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 3019 classes and 723 folders.
+[2020.04.21-19.24.29:428][ 36]Display: HotReload took 30.8s.
+[2020.04.21-19.24.33:409][234]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.21-19.24.33:431][234]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.21-19.24.33:431][234]PIE: New page: PIE session: MainLobby (Apr 21, 2020, 5:24:33 AM)
+[2020.04.21-19.24.33:431][234]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLobby
+[2020.04.21-19.24.33:525][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094445s)
+[2020.04.21-19.24.33:527][234]LogAIModule: Creating AISystem for world MainLobby
+[2020.04.21-19.24.33:527][234]LogPlayLevel: PIE: World Init took: (0.001959s)
+[2020.04.21-19.24.33:527][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLobby.MainLobby to /Game/UEDPIE_0_MainLobby.MainLobby (0.096907s)
+[2020.04.21-19.24.33:558][234]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.04.21-19.24.33:559][234]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.21-19.24.33:559][234]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.21-19.24.33:559][234]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.21-19.24.33:559][234]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.21-19.24.33:559][234]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.21-19.24.33:559][234]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.21-19.24.33:559][234]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.21-19.24.33:559][234]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.21-19.24.33:559][234]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.21-19.24.33:559][234]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.21-19.24.33:587][234]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.21-19.24.33:587][234]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.21-19.24.33:587][234]LogAudioMixer: Display: Is Default: Yes
+[2020.04.21-19.24.33:588][234]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.21-19.24.33:588][234]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.21-19.24.33:588][234]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.21-19.24.33:588][234]LogAudioMixer: Display: Channel Order:
+[2020.04.21-19.24.33:588][234]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.21-19.24.33:588][234]LogAudioMixer: Display: 1: FrontRight
+[2020.04.21-19.24.33:701][234]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.21-19.24.33:705][234]LogInit: FAudioDevice initialized.
+[2020.04.21-19.24.33:713][234]LogLoad: Game class is 'GameModeBase'
+[2020.04.21-19.24.33:760][234]LogWorld: Bringing World /Game/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 60) at 2020.04.21-12.24.33
+[2020.04.21-19.24.33:762][234]LogWorld: Bringing up level for play took: 0.047997
+[2020.04.21-19.24.33:762][234]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.04.21-19.24.33:766][234]LogTemp: Error: SM_Env_Door_261 is missing an ActorThatOpens
+[2020.04.21-19.24.33:767][234]PIE: Play in editor start time for /Game/UEDPIE_0_MainLobby 0.827
+[2020.04.21-19.24.49:922][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Door_6)
+[2020.04.21-19.24.59:924][603]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-19.24.59:924][603]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-19.24.59:930][603]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.21-19.24.59:930][603]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLobby
+[2020.04.21-19.24.59:930][603]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-19.24.59:932][603]LogWorld: UWorld::CleanupWorld for MainLobby, bSessionEnded=true, bCleanupResources=true
+[2020.04.21-19.24.59:943][603]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.21-19.24.59:952][603]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.21-19.24.59:958][603]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.21-19.25.00:007][603]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-19.25.00:016][603]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.21-19.25.00:032][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.04.21-19.25.00:089][604]LogPlayLevel: Display: Destroying online subsystem :Context_11

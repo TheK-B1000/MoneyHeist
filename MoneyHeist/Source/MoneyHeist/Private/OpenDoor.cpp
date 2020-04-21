@@ -23,14 +23,22 @@ void UOpenDoor::BeginPlay()
 {
 	Super::BeginPlay();
 	// Door can open anywhere 
-	CurrentYaw = GetOwner()->GetActorRotation().Yaw;
-	InitialYaw = CurrentYaw;
+	InitialYaw = GetOwner()->GetActorRotation().Yaw;
+	CurrentYaw = InitialYaw;
 	OpenAngle += InitialYaw;
 
 	if (!PressurePlate)
 	{
 		UE_LOG(LogTemp, Error, TEXT("%s is missing a PressurePlate"), *GetOwner()->GetName());
 	}
+
+	if (!ActorThatOpens)
+	{
+		UE_LOG(LogTemp, Error, TEXT("%s is missing an ActorThatOpens"), *GetOwner()->GetName());
+	}
+
+	ActorThatOpens = GetWorld()->GetFirstPlayerController()->GetPawn();
+
 }
 
 
@@ -48,7 +56,7 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 void UOpenDoor::OpenDoor(float DeltaTime)
 {
 	// Rotate Actor with code
-	float CurrentYaw = FMath::Lerp(CurrentYaw, OpenAngle, DeltaTime * 1.f);
+	float CurrentYaw = FMath::Lerp(CurrentYaw, OpenAngle, DeltaTime * .5f);
 	FRotator DoorRotation = GetOwner()->GetActorRotation();
 	DoorRotation.Yaw = CurrentYaw;
 	GetOwner()->SetActorRotation(DoorRotation);
