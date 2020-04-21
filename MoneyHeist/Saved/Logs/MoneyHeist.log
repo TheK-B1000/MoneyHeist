@@ -850,3 +850,930 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.21-16.43.56:447][250]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/MainLobby_Auto180D3CFCD4612611751E34FBC4AC2112B.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Autosaves/Game/MainLobby_Auto1.umap'
 [2020.04.21-16.43.56:633][250]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MainLobby' took 5.055
 [2020.04.21-16.43.56:633][250]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 5.055
+[2020.04.21-17.28.09:762][723]Job is a success!
+[2020.04.21-17.28.13:902][724]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.102s
+[2020.04.21-17.28.13:902][724]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.04.21-17.28.13:903][724]LogVolumetricLightmapImport:      BrickData (all levels) 0.9Mb
+[2020.04.21-17.28.13:903][724]LogVolumetricLightmapImport:      Bricks at depth
+[2020.04.21-17.28.13:903][724]LogVolumetricLightmapImport:          0: 0.5% covering 100.0% of volume
+[2020.04.21-17.28.13:903][724]LogVolumetricLightmapImport:          1: 4.7% covering 14.1% of volume
+[2020.04.21-17.28.13:903][724]LogVolumetricLightmapImport:          2: 94.8% covering 4.5% of volume
+[2020.04.21-17.28.13:903][724]LogVolumetricLightmapImport:      Bricks in each level
+[2020.04.21-17.28.13:903][724]LogVolumetricLightmapImport:          MainLobby 			 193 bricks 	 100.0% (Persistent Level)
+[2020.04.21-17.28.32:169][724]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.04.21-17.28.35:099][724]LightingResults: Warning: PointLight5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2020.04.21-17.28.35:104][724]LightingResults: Warning: PointLight8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2020.04.21-17.28.35:104][724]LightingResults: Warning: PointLight11 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2020.04.21-17.28.35:104][724]LightingResults: Warning: PointLight9 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2020.04.21-17.28.35:104][724]LightingResults: Warning: PointLight10 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2020.04.21-17.28.35:105][724]LightingResults: Warning: PointLight2_4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2020.04.21-17.32.03:903][724]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:934][724]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:935][724]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:935][724]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:935][724]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:935][724]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:935][724]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:935][724]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:935][724]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:935][724]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:935][724]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:935][724]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:935][724]LogTexture: Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:935][724]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:935][724]LogTexture: Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:935][724]LogTexture: Display: Building textures: LQ_Lightmap_1_8 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:935][724]LogTexture: Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:935][724]LogTexture: Display: Building textures: LQ_Lightmap_1_9 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:935][724]LogTexture: Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:935][724]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.04.21-17.32.03:935][724]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.04.21-17.32.03:935][724]LogTexture: Display: Building textures: LQ_Lightmap_1_10 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:935][724]LogTexture: Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:936][724]LogTexture: Display: Building textures: LQ_Lightmap_1_11 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:936][724]LogTexture: Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:936][724]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.04.21-17.32.03:936][724]LogTexture: Display: Building textures: LQ_Lightmap_1_12 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:936][724]LogTexture: Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:937][724]LogTexture: Display: Building textures: LQ_Lightmap_1_13 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:937][724]LogTexture: Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:937][724]LogTexture: Display: Building textures: LQ_Lightmap_1_14 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:937][724]LogTexture: Display: Building textures: HQ_Lightmap1_15 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:937][724]LogTexture: Display: Building textures: LQ_Lightmap_1_15 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:937][724]LogTexture: Display: Building textures: HQ_Lightmap1_16 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:937][724]LogTexture: Display: Building textures: LQ_Lightmap_1_16 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:937][724]LogTexture: Display: Building textures: HQ_Lightmap1_17 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:937][724]LogTexture: Display: Building textures: LQ_Lightmap_1_17 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:937][724]LogTexture: Display: Building textures: HQ_Lightmap1_18 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:937][724]LogTexture: Display: Building textures: LQ_Lightmap_1_18 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:939][724]LogTexture: Display: Building textures: HQ_Lightmap1_19 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:940][724]LogTexture: Display: Building textures: LQ_Lightmap_1_19 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:940][724]LogTexture: Display: Building textures: HQ_Lightmap1_20 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:940][724]LogTexture: Display: Building textures: LQ_Lightmap_1_20 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:940][724]LogTexture: Display: Building textures: HQ_Lightmap1_21 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:940][724]LogTexture: Display: Building textures: LQ_Lightmap_1_21 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:940][724]LogTexture: Display: Building textures: HQ_Lightmap1_22 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:941][724]LogTexture: Display: Building textures: LQ_Lightmap_1_22 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:943][724]LogTexture: Display: Building textures: HQ_Lightmap1_23 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:944][724]LogTexture: Display: Building textures: LQ_Lightmap_1_23 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:944][724]LogTexture: Display: Building textures: HQ_Lightmap1_24 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:944][724]LogTexture: Display: Building textures: LQ_Lightmap_1_24 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:944][724]LogTexture: Display: Building textures: HQ_Lightmap1_25 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:944][724]LogTexture: Display: Building textures: LQ_Lightmap_1_25 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:944][724]LogTexture: Display: Building textures: HQ_Lightmap1_26 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:944][724]LogTexture: Display: Building textures: LQ_Lightmap_1_26 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:944][724]LogTexture: Display: Building textures: HQ_Lightmap1_27 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:944][724]LogTexture: Display: Building textures: LQ_Lightmap_1_27 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:944][724]LogTexture: Display: Building textures: HQ_Lightmap1_28 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:944][724]LogTexture: Display: Building textures: LQ_Lightmap_1_28 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:944][724]LogTexture: Display: Building textures: HQ_Lightmap1_29 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:944][724]LogTexture: Display: Building textures: LQ_Lightmap_1_29 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:947][724]LogTexture: Display: Building textures: HQ_Lightmap1_30 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:947][724]LogTexture: Display: Building textures: LQ_Lightmap_1_30 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:947][724]LogTexture: Display: Building textures: HQ_Lightmap1_31 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:947][724]LogTexture: Display: Building textures: LQ_Lightmap_1_31 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:947][724]LogTexture: Display: Building textures: HQ_Lightmap1_32 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:947][724]LogTexture: Display: Building textures: LQ_Lightmap_1_32 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: HQ_Lightmap1_33 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: LQ_Lightmap_1_33 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: HQ_Lightmap1_34 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: LQ_Lightmap_1_34 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: HQ_Lightmap1_35 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: LQ_Lightmap_1_35 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: HQ_Lightmap1_36 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: LQ_Lightmap_1_36 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: HQ_Lightmap1_37 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: LQ_Lightmap_1_37 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: HQ_Lightmap1_38 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: LQ_Lightmap_1_38 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: HQ_Lightmap1_39 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: LQ_Lightmap_1_39 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: HQ_Lightmap1_40 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: LQ_Lightmap_1_40 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: HQ_Lightmap1_41 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: LQ_Lightmap_1_41 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: HQ_Lightmap1_42 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: LQ_Lightmap_1_42 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: HQ_Lightmap1_43 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: LQ_Lightmap_1_43 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: HQ_Lightmap1_44 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: LQ_Lightmap_1_44 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: HQ_Lightmap1_45 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: LQ_Lightmap_1_45 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: HQ_Lightmap1_46 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:949][724]LogTexture: Display: Building textures: LQ_Lightmap_1_46 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: HQ_Lightmap1_47 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: LQ_Lightmap_1_47 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: HQ_Lightmap1_48 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: LQ_Lightmap_1_48 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: HQ_Lightmap1_49 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: LQ_Lightmap_1_49 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: HQ_Lightmap1_50 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: LQ_Lightmap_1_50 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: HQ_Lightmap1_51 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: LQ_Lightmap_1_51 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: HQ_Lightmap1_52 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: LQ_Lightmap_1_52 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: HQ_Lightmap1_53 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: LQ_Lightmap_1_53 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: HQ_Lightmap1_54 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: LQ_Lightmap_1_54 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: HQ_Lightmap1_55 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: LQ_Lightmap_1_55 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: HQ_Lightmap1_56 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: LQ_Lightmap_1_56 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: HQ_Lightmap1_57 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: LQ_Lightmap_1_57 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: HQ_Lightmap1_58 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: LQ_Lightmap_1_58 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: HQ_Lightmap1_59 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: LQ_Lightmap_1_59 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: HQ_Lightmap1_60 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: LQ_Lightmap_1_60 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:950][724]LogTexture: Display: Building textures: HQ_Lightmap1_61 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: LQ_Lightmap_1_61 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: HQ_Lightmap1_62 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: LQ_Lightmap_1_62 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: HQ_Lightmap1_63 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: LQ_Lightmap_1_63 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: HQ_Lightmap1_64 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: LQ_Lightmap_1_64 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: HQ_Lightmap1_65 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: LQ_Lightmap_1_65 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: HQ_Lightmap1_66 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: LQ_Lightmap_1_66 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: HQ_Lightmap1_67 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: LQ_Lightmap_1_67 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: HQ_Lightmap1_68 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: LQ_Lightmap_1_68 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: HQ_Lightmap1_69 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: LQ_Lightmap_1_69 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: HQ_Lightmap1_70 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: LQ_Lightmap_1_70 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: HQ_Lightmap1_71 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: LQ_Lightmap_1_71 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: HQ_Lightmap1_72 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: LQ_Lightmap_1_72 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: HQ_Lightmap1_73 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: LQ_Lightmap_1_73 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: HQ_Lightmap1_74 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: LQ_Lightmap_1_74 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: HQ_Lightmap1_75 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: LQ_Lightmap_1_75 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: LQ_Lightmap_1_76 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: HQ_Lightmap1_76 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: HQ_Lightmap1_77 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: LQ_Lightmap_1_77 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: HQ_Lightmap1_78 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: LQ_Lightmap_1_78 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: HQ_Lightmap1_79 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: LQ_Lightmap_1_79 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: HQ_Lightmap1_80 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: LQ_Lightmap_1_80 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: HQ_Lightmap1_81 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: LQ_Lightmap_1_81 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:951][724]LogTexture: Display: Building textures: HQ_Lightmap1_82 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: LQ_Lightmap_1_82 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: HQ_Lightmap1_83 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: LQ_Lightmap_1_83 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: HQ_Lightmap1_84 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: LQ_Lightmap_1_84 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: HQ_Lightmap1_85 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: LQ_Lightmap_1_85 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: HQ_Lightmap1_86 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: LQ_Lightmap_1_86 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: HQ_Lightmap1_87 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: LQ_Lightmap_1_87 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: HQ_Lightmap1_88 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: LQ_Lightmap_1_88 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: HQ_Lightmap1_89 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: LQ_Lightmap_1_89 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: HQ_Lightmap1_90 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: LQ_Lightmap_1_90 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: HQ_Lightmap1_91 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: LQ_Lightmap_1_91 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: HQ_Lightmap1_92 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: LQ_Lightmap_1_92 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: HQ_Lightmap1_93 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: LQ_Lightmap_1_93 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: HQ_Lightmap1_94 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: LQ_Lightmap_1_94 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: HQ_Lightmap1_95 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: LQ_Lightmap_1_95 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:952][724]LogTexture: Display: Building textures: HQ_Lightmap1_96 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:953][724]LogTexture: Display: Building textures: LQ_Lightmap_1_96 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:953][724]LogTexture: Display: Building textures: HQ_Lightmap1_97 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:953][724]LogTexture: Display: Building textures: LQ_Lightmap_1_97 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:953][724]LogTexture: Display: Building textures: HQ_Lightmap1_98 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:953][724]LogTexture: Display: Building textures: LQ_Lightmap_1_98 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:953][724]LogTexture: Display: Building textures: HQ_Lightmap1_99 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:953][724]LogTexture: Display: Building textures: LQ_Lightmap_1_99 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:953][724]LogTexture: Display: Building textures: HQ_Lightmap1_100 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:954][724]LogTexture: Display: Building textures: LQ_Lightmap_1_100 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: HQ_Lightmap1_101 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: LQ_Lightmap_1_101 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: HQ_Lightmap1_102 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: LQ_Lightmap_1_102 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: HQ_Lightmap1_103 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: LQ_Lightmap_1_103 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: HQ_Lightmap1_104 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: LQ_Lightmap_1_104 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: HQ_Lightmap1_105 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: LQ_Lightmap_1_105 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: HQ_Lightmap1_106 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: LQ_Lightmap_1_106 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: HQ_Lightmap1_107 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: LQ_Lightmap_1_107 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: HQ_Lightmap1_108 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: LQ_Lightmap_1_108 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: HQ_Lightmap1_109 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: LQ_Lightmap_1_109 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: HQ_Lightmap1_110 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: LQ_Lightmap_1_110 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: HQ_Lightmap1_111 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: LQ_Lightmap_1_111 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: HQ_Lightmap1_112 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: LQ_Lightmap_1_112 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: HQ_Lightmap1_113 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: LQ_Lightmap_1_113 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: HQ_Lightmap1_114 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: LQ_Lightmap_1_114 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: HQ_Lightmap1_115 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: LQ_Lightmap_1_115 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: HQ_Lightmap1_116 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: LQ_Lightmap_1_116 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:955][724]LogTexture: Display: Building textures: HQ_Lightmap1_117 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:956][724]LogTexture: Display: Building textures: LQ_Lightmap_1_117 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:956][724]LogTexture: Display: Building textures: HQ_Lightmap1_118 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:956][724]LogTexture: Display: Building textures: LQ_Lightmap_1_118 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:956][724]LogTexture: Display: Building textures: HQ_Lightmap1_119 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:956][724]LogTexture: Display: Building textures: LQ_Lightmap_1_119 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:956][724]LogTexture: Display: Building textures: HQ_Lightmap1_120 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:956][724]LogTexture: Display: Building textures: LQ_Lightmap_1_120 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:956][724]LogTexture: Display: Building textures: HQ_Lightmap1_121 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:956][724]LogTexture: Display: Building textures: LQ_Lightmap_1_121 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:956][724]LogTexture: Display: Building textures: HQ_Lightmap1_122 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:956][724]LogTexture: Display: Building textures: LQ_Lightmap_1_122 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:957][724]LogTexture: Display: Building textures: HQ_Lightmap1_123 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:957][724]LogTexture: Display: Building textures: LQ_Lightmap_1_123 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:957][724]LogTexture: Display: Building textures: HQ_Lightmap1_124 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:957][724]LogTexture: Display: Building textures: LQ_Lightmap_1_124 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:958][724]LogTexture: Display: Building textures: HQ_Lightmap1_125 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:958][724]LogTexture: Display: Building textures: LQ_Lightmap_1_125 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:958][724]LogTexture: Display: Building textures: HQ_Lightmap1_126 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:958][724]LogTexture: Display: Building textures: LQ_Lightmap_1_126 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:959][724]LogTexture: Display: Building textures: HQ_Lightmap1_127 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:959][724]LogTexture: Display: Building textures: LQ_Lightmap_1_127 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:960][724]LogTexture: Display: Building textures: HQ_Lightmap1_128 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:960][724]LogTexture: Display: Building textures: LQ_Lightmap_1_128 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:960][724]LogTexture: Display: Building textures: HQ_Lightmap1_129 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:960][724]LogTexture: Display: Building textures: LQ_Lightmap_1_129 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:960][724]LogTexture: Display: Building textures: HQ_Lightmap1_130 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:960][724]LogTexture: Display: Building textures: LQ_Lightmap_1_130 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:960][724]LogTexture: Display: Building textures: HQ_Lightmap1_131 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:960][724]LogTexture: Display: Building textures: LQ_Lightmap_1_131 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:960][724]LogTexture: Display: Building textures: HQ_Lightmap1_132 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:960][724]LogTexture: Display: Building textures: LQ_Lightmap_1_132 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:960][724]LogTexture: Display: Building textures: HQ_Lightmap1_133 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:960][724]LogTexture: Display: Building textures: LQ_Lightmap_1_133 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:960][724]LogTexture: Display: Building textures: HQ_Lightmap1_134 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:960][724]LogTexture: Display: Building textures: LQ_Lightmap_1_134 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:960][724]LogTexture: Display: Building textures: HQ_Lightmap1_135 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:960][724]LogTexture: Display: Building textures: LQ_Lightmap_1_135 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:960][724]LogTexture: Display: Building textures: HQ_Lightmap1_136 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:960][724]LogTexture: Display: Building textures: LQ_Lightmap_1_136 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:960][724]LogTexture: Display: Building textures: HQ_Lightmap1_137 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:960][724]LogTexture: Display: Building textures: LQ_Lightmap_1_137 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:960][724]LogTexture: Display: Building textures: HQ_Lightmap1_138 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:960][724]LogTexture: Display: Building textures: LQ_Lightmap_1_138 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:960][724]LogTexture: Display: Building textures: HQ_Lightmap1_139 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:964][724]LogTexture: Display: Building textures: LQ_Lightmap_1_139 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: HQ_Lightmap1_140 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: LQ_Lightmap_1_140 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: HQ_Lightmap1_141 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: LQ_Lightmap_1_141 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: HQ_Lightmap1_142 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: LQ_Lightmap_1_142 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: HQ_Lightmap1_143 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: LQ_Lightmap_1_143 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: HQ_Lightmap1_144 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: LQ_Lightmap_1_144 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: HQ_Lightmap1_145 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: LQ_Lightmap_1_145 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: HQ_Lightmap1_146 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: LQ_Lightmap_1_146 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: HQ_Lightmap1_147 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: LQ_Lightmap_1_147 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: HQ_Lightmap1_148 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: LQ_Lightmap_1_148 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: HQ_Lightmap1_149 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: LQ_Lightmap_1_149 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: HQ_Lightmap1_150 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: LQ_Lightmap_1_150 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: HQ_Lightmap1_151 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: LQ_Lightmap_1_151 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: HQ_Lightmap1_152 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: LQ_Lightmap_1_152 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: HQ_Lightmap1_153 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: LQ_Lightmap_1_153 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: HQ_Lightmap1_154 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: LQ_Lightmap_1_154 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: HQ_Lightmap1_155 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:966][724]LogTexture: Display: Building textures: LQ_Lightmap_1_155 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:967][724]LogTexture: Display: Building textures: HQ_Lightmap1_156 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:967][724]LogTexture: Display: Building textures: LQ_Lightmap_1_156 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:967][724]LogTexture: Display: Building textures: HQ_Lightmap1_157 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:967][724]LogTexture: Display: Building textures: LQ_Lightmap_1_157 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:967][724]LogTexture: Display: Building textures: HQ_Lightmap1_158 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:967][724]LogTexture: Display: Building textures: LQ_Lightmap_1_158 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:967][724]LogTexture: Display: Building textures: HQ_Lightmap1_159 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:967][724]LogTexture: Display: Building textures: LQ_Lightmap_1_159 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:967][724]LogTexture: Display: Building textures: HQ_Lightmap1_160 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:967][724]LogTexture: Display: Building textures: LQ_Lightmap_1_160 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:967][724]LogTexture: Display: Building textures: HQ_Lightmap1_161 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:967][724]LogTexture: Display: Building textures: LQ_Lightmap_1_161 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:967][724]LogTexture: Display: Building textures: HQ_Lightmap1_162 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:967][724]LogTexture: Display: Building textures: LQ_Lightmap_1_162 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:967][724]LogTexture: Display: Building textures: HQ_Lightmap1_163 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: LQ_Lightmap_1_163 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: HQ_Lightmap1_164 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: LQ_Lightmap_1_164 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: HQ_Lightmap1_165 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: LQ_Lightmap_1_165 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: HQ_Lightmap1_166 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: LQ_Lightmap_1_166 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: HQ_Lightmap1_167 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: LQ_Lightmap_1_167 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: HQ_Lightmap1_168 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: LQ_Lightmap_1_168 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: HQ_Lightmap1_169 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: LQ_Lightmap_1_169 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: HQ_Lightmap1_170 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: LQ_Lightmap_1_170 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: HQ_Lightmap1_171 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: LQ_Lightmap_1_171 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: HQ_Lightmap1_172 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: LQ_Lightmap_1_172 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: HQ_Lightmap1_173 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: LQ_Lightmap_1_173 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: HQ_Lightmap1_174 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: LQ_Lightmap_1_174 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: HQ_Lightmap1_175 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: LQ_Lightmap_1_175 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: HQ_Lightmap1_176 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: LQ_Lightmap_1_176 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: HQ_Lightmap1_177 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: LQ_Lightmap_1_177 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: HQ_Lightmap1_178 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: LQ_Lightmap_1_178 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: HQ_Lightmap1_179 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: LQ_Lightmap_1_179 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: HQ_Lightmap1_180 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: LQ_Lightmap_1_180 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: HQ_Lightmap1_181 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: LQ_Lightmap_1_181 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: HQ_Lightmap1_182 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: LQ_Lightmap_1_182 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: HQ_Lightmap1_183 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: LQ_Lightmap_1_183 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: HQ_Lightmap1_184 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: LQ_Lightmap_1_184 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: HQ_Lightmap1_185 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: LQ_Lightmap_1_185 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:968][724]LogTexture: Display: Building textures: HQ_Lightmap1_186 (AutoDXT, 1024X1024)
+[2020.04.21-17.32.03:969][724]LogTexture: Display: Building textures: LQ_Lightmap_1_186 (DXT1, 1024X1024)
+[2020.04.21-17.32.03:969][724]LogTexture: Display: Building textures: HQ_Lightmap1_187 (AutoDXT, 64X64)
+[2020.04.21-17.32.03:969][724]LogTexture: Display: Building textures: LQ_Lightmap_1_187 (DXT1, 64X64)
+[2020.04.21-17.32.05:004][724]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X1024)
+[2020.04.21-17.32.05:004][724]LogTexture: Display: Building textures: ShadowMapTexture2D_38 (G8, 1024X1024)
+[2020.04.21-17.32.05:004][724]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 1024X1024)
+[2020.04.21-17.32.05:448][724]LogTexture: Display: Building textures: ShadowMapTexture2D_41 (BGRA8, 1024X1024)
+[2020.04.21-17.32.05:449][724]LogTexture: Display: Building textures: ShadowMapTexture2D_40 (BGRA8, 1024X1024)
+[2020.04.21-17.32.05:883][724]LogTexture: Display: Building textures: ShadowMapTexture2D_39 (G8, 1024X1024)
+[2020.04.21-17.32.06:882][724]LogTexture: Display: Building textures: ShadowMapTexture2D_43 (BGRA8, 1024X1024)
+[2020.04.21-17.32.06:882][724]LogTexture: Display: Building textures: ShadowMapTexture2D_42 (BGRA8, 1024X1024)
+[2020.04.21-17.32.06:882][724]LogTexture: Display: Building textures: ShadowMapTexture2D_44 (BGRA8, 1024X1024)
+[2020.04.21-17.32.06:882][724]LogTexture: Display: Building textures: ShadowMapTexture2D_45 (G8, 1024X1024)
+[2020.04.21-17.32.06:882][724]LogTexture: Display: Building textures: ShadowMapTexture2D_46 (BGRA8, 1024X1024)
+[2020.04.21-17.32.06:882][724]LogTexture: Display: Building textures: ShadowMapTexture2D_47 (BGRA8, 1024X1024)
+[2020.04.21-17.32.07:651][724]LogTexture: Display: Building textures: ShadowMapTexture2D_48 (BGRA8, 1024X1024)
+[2020.04.21-17.32.07:652][724]LogTexture: Display: Building textures: ShadowMapTexture2D_49 (BGRA8, 1024X1024)
+[2020.04.21-17.32.07:652][724]LogTexture: Display: Building textures: ShadowMapTexture2D_50 (BGRA8, 1024X1024)
+[2020.04.21-17.32.07:831][724]LogTexture: Display: Building textures: ShadowMapTexture2D_51 (BGRA8, 1024X1024)
+[2020.04.21-17.32.08:086][724]LogTexture: Display: Building textures: ShadowMapTexture2D_52 (G8, 1024X1024)
+[2020.04.21-17.32.08:086][724]LogTexture: Display: Building textures: ShadowMapTexture2D_53 (G8, 1024X1024)
+[2020.04.21-17.32.08:304][724]LogTexture: Display: Building textures: ShadowMapTexture2D_54 (G8, 1024X1024)
+[2020.04.21-17.32.08:512][724]LogTexture: Display: Building textures: ShadowMapTexture2D_55 (G8, 1024X1024)
+[2020.04.21-17.32.08:512][724]LogTexture: Display: Building textures: ShadowMapTexture2D_56 (BGRA8, 1024X1024)
+[2020.04.21-17.32.08:763][724]LogTexture: Display: Building textures: ShadowMapTexture2D_57 (G8, 1024X1024)
+[2020.04.21-17.32.08:763][724]LogTexture: Display: Building textures: ShadowMapTexture2D_58 (BGRA8, 1024X1024)
+[2020.04.21-17.32.08:820][724]LogTexture: Display: Building textures: ShadowMapTexture2D_59 (BGRA8, 1024X1024)
+[2020.04.21-17.32.08:969][724]LogTexture: Display: Building textures: ShadowMapTexture2D_60 (BGRA8, 1024X1024)
+[2020.04.21-17.32.09:750][724]LogTexture: Display: Building textures: ShadowMapTexture2D_61 (G8, 1024X1024)
+[2020.04.21-17.32.09:750][724]LogTexture: Display: Building textures: ShadowMapTexture2D_62 (BGRA8, 1024X1024)
+[2020.04.21-17.32.09:750][724]LogTexture: Display: Building textures: ShadowMapTexture2D_63 (BGRA8, 1024X1024)
+[2020.04.21-17.32.09:750][724]LogTexture: Display: Building textures: ShadowMapTexture2D_64 (BGRA8, 1024X1024)
+[2020.04.21-17.32.09:750][724]LogTexture: Display: Building textures: ShadowMapTexture2D_65 (BGRA8, 1024X1024)
+[2020.04.21-17.32.10:445][724]LogTexture: Display: Building textures: ShadowMapTexture2D_66 (G8, 1024X1024)
+[2020.04.21-17.32.10:447][724]LogTexture: Display: Building textures: ShadowMapTexture2D_67 (BGRA8, 1024X1024)
+[2020.04.21-17.32.10:447][724]LogTexture: Display: Building textures: ShadowMapTexture2D_68 (BGRA8, 1024X1024)
+[2020.04.21-17.32.10:649][724]LogTexture: Display: Building textures: ShadowMapTexture2D_69 (BGRA8, 1024X1024)
+[2020.04.21-17.32.10:867][724]LogTexture: Display: Building textures: ShadowMapTexture2D_70 (G8, 1024X1024)
+[2020.04.21-17.32.11:281][724]LogTexture: Display: Building textures: ShadowMapTexture2D_71 (BGRA8, 1024X1024)
+[2020.04.21-17.32.11:282][724]LogTexture: Display: Building textures: ShadowMapTexture2D_72 (BGRA8, 1024X1024)
+[2020.04.21-17.32.11:481][724]LogTexture: Display: Building textures: ShadowMapTexture2D_73 (BGRA8, 1024X1024)
+[2020.04.21-17.32.11:880][724]LogTexture: Display: Building textures: ShadowMapTexture2D_76 (BGRA8, 1024X1024)
+[2020.04.21-17.32.12:081][724]LogTexture: Display: Building textures: ShadowMapTexture2D_77 (G8, 32X32)
+[2020.04.21-17.32.13:241][724]LogTexture: Display: Building textures: ShadowMapTexture2D_75 (BGRA8, 1024X1024)
+[2020.04.21-17.32.13:242][724]LogTexture: Display: Building textures: ShadowMapTexture2D_74 (BGRA8, 1024X1024)
+[2020.04.21-17.32.14:837][724]Lightmass on LAPTOP-7TARG8CR: 51:24 min total, 621 ms importing, 468 ms setup, 9:29 min photons, 41:53 min processing, 0 ms extra exporting [1489/1489 mappings]. Threads: 2:47:34 hours total, 1:39:20 hours processing.
+[2020.04.21-17.32.14:975][724]LogStaticLightingSystem: MainLobby_BuiltData storing lightmap data for 1489 meshes in 315 LightmapResourceClusters (4.7 Meshes per cluster).
+[2020.04.21-17.32.19:441][724]LogUObjectHash: Compacting FUObjectHashTables data took 1228.92ms
+[2020.04.21-17.32.24:168][724]LogStaticLightingSystem: Illumination: 51:46 min (3:29 min encoding lightmaps, 8.86 sec encoding shadowmaps)
+[2020.04.21-17.32.24:169][724]LogStaticLightingSystem: Lightmap texture memory:  372.0 MB (372.0 MB streaming, 0.0 MB non-streaming), 374 textures
+[2020.04.21-17.32.24:169][724]LogStaticLightingSystem: Shadowmap texture memory: 170.7 MB (170.7 MB streaming, 0.0 MB non-streaming), 42 textures
+[2020.04.21-17.32.30:272][724]DumpUnbuiltLightIteractions
+[2020.04.21-17.32.30:273][724]Lights with unbuilt interactions: 0
+[2020.04.21-17.32.30:273][724]
+[2020.04.21-17.32.30:273][724]Primitives with unbuilt interactions: 0
+[2020.04.21-17.32.33:086][725]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.04.21-17.32.33:105][725]MapCheck: New page: MainLobby - Apr 21, 2020, 3:32:33 AM
+[2020.04.21-17.32.33:175][725]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 81.98ms to complete.
+[2020.04.21-17.32.43:736][755]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2020.04.21-17.32.44:922][755]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/MainLobby_Auto213057A3D406695886EFBEFBF685152FC.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Autosaves/Game/MainLobby_Auto2.umap'
+[2020.04.21-17.32.45:112][755]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MainLobby' took 1.416
+[2020.04.21-17.32.45:112][755]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.416
+[2020.04.21-17.36.20:731][615]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Roof_23)
+[2020.04.21-17.36.30:117][886]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.21-17.36.30:149][886]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.21-17.36.30:149][886]PIE: New page: PIE session: MainLobby (Apr 21, 2020, 3:36:30 AM)
+[2020.04.21-17.36.30:156][886]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLobby
+[2020.04.21-17.36.30:430][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.268519s)
+[2020.04.21-17.36.30:492][886]LogAIModule: Creating AISystem for world MainLobby
+[2020.04.21-17.36.30:508][886]LogPlayLevel: PIE: World Init took: (0.077874s)
+[2020.04.21-17.36.30:509][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLobby.MainLobby to /Game/UEDPIE_0_MainLobby.MainLobby (0.353890s)
+[2020.04.21-17.36.30:556][886]LogUObjectHash: Compacting FUObjectHashTables data took   7.98ms
+[2020.04.21-17.36.30:580][886]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.21-17.36.30:580][886]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.21-17.36.30:580][886]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.21-17.36.30:580][886]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.21-17.36.30:580][886]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.21-17.36.30:580][886]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.21-17.36.30:580][886]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.21-17.36.30:580][886]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.21-17.36.30:587][886]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.21-17.36.30:587][886]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.21-17.36.30:662][886]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.21-17.36.30:662][886]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.21-17.36.30:662][886]LogAudioMixer: Display: Is Default: Yes
+[2020.04.21-17.36.30:662][886]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.21-17.36.30:662][886]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.21-17.36.30:662][886]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.21-17.36.30:662][886]LogAudioMixer: Display: Channel Order:
+[2020.04.21-17.36.30:662][886]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.21-17.36.30:662][886]LogAudioMixer: Display: 1: FrontRight
+[2020.04.21-17.36.30:879][886]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.21-17.36.30:899][886]LogInit: FAudioDevice initialized.
+[2020.04.21-17.36.30:965][886]LogLoad: Game class is 'GameModeBase'
+[2020.04.21-17.36.31:138][886]LogWorld: Bringing World /Game/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 60) at 2020.04.21-10.36.31
+[2020.04.21-17.36.31:140][886]LogWorld: Bringing up level for play took: 0.164273
+[2020.04.21-17.36.31:151][886]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.04.21-17.36.31:206][886]PIE: Play in editor start time for /Game/UEDPIE_0_MainLobby 1.793
+[2020.04.21-17.36.36:085][ 49]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-17.36.36:085][ 49]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-17.36.36:094][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.21-17.36.36:094][ 49]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLobby
+[2020.04.21-17.36.36:096][ 49]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-17.36.36:103][ 49]LogWorld: UWorld::CleanupWorld for MainLobby, bSessionEnded=true, bCleanupResources=true
+[2020.04.21-17.36.36:124][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.21-17.36.36:146][ 49]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.21-17.36.36:156][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.21-17.36.36:210][ 49]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-17.36.36:234][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.21-17.36.36:289][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   7.22ms
+[2020.04.21-17.36.36:362][ 50]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.04.21-17.36.37:581][ 77]Candidate modules for hot reload:
+[2020.04.21-17.36.37:581][ 77]  MoneyHeist
+[2020.04.21-17.36.37:585][ 77]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,4731 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.21-17.36.37:646][ 77]Warning: Starting HotReload took  0.2s.
+[2020.04.21-17.38.07:394][325]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 3:38:07 AM
+[2020.04.21-17.38.07:394][325]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.21-17.38.07:394][325]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.21-17.38.07:394][325]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.21-17.38.07:395][325]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 25.9037925 seconds
+[2020.04.21-17.38.07:395][325]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.21-17.38.07:395][325]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.21-17.38.07:395][325]CompilerResultsLog: [Upgrade]
+[2020.04.21-17.38.07:395][325]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.21-17.38.07:395][325]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.21-17.38.07:395][325]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.21-17.38.07:395][325]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.21-17.38.07:395][325]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.21-17.38.07:395][325]CompilerResultsLog: [Upgrade]
+[2020.04.21-17.38.07:395][325]CompilerResultsLog: Building 5 actions with 4 processes...
+[2020.04.21-17.38.07:395][325]CompilerResultsLog:   [1/5] OpenDoor.cpp
+[2020.04.21-17.38.07:395][325]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Private\OpenDoor.cpp(36): warning C4458: declaration of 'CurrentYaw' hides class member
+[2020.04.21-17.38.07:396][325]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Public\OpenDoor.h(29): note: see declaration of 'UOpenDoor::CurrentYaw'
+[2020.04.21-17.38.07:396][325]CompilerResultsLog:   [2/5] OpenDoor.gen.cpp
+[2020.04.21-17.38.07:396][325]CompilerResultsLog:   [3/5] UE4Editor-MoneyHeist-4731.lib
+[2020.04.21-17.38.07:396][325]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-4731.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-4731.exp
+[2020.04.21-17.38.07:396][325]CompilerResultsLog:   [4/5] UE4Editor-MoneyHeist-4731.dll
+[2020.04.21-17.38.07:396][325]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-4731.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-4731.suppressed.exp
+[2020.04.21-17.38.07:396][325]CompilerResultsLog:   [5/5] MoneyHeistEditor.target
+[2020.04.21-17.38.07:396][325]CompilerResultsLog: Total time in Parallel executor: 55.35 seconds
+[2020.04.21-17.38.07:396][325]CompilerResultsLog: Total execution time: 88.01 seconds
+[2020.04.21-17.38.07:396][325]LogMainFrame: MainFrame: Module compiling took 89.857 seconds
+[2020.04.21-17.38.07:441][325]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.04.21-17.38.08:541][325]LogClass: Could not find existing class OpenDoor in package /Script/MoneyHeist for HotReload, assuming new class
+[2020.04.21-17.38.08:565][325]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2020.04.21-17.38.09:290][325]LogContentBrowser: Native class hierarchy updated for 'MoneyHeist' in 0.0147 seconds. Added 2 classes and 3 folders.
+[2020.04.21-17.38.09:295][325]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.21-17.38.09:458][325]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.04.21-17.38.09:577][325]LogContentBrowser: Native class hierarchy populated in 0.0458 seconds. Added 3019 classes and 723 folders.
+[2020.04.21-17.38.09:578][325]Display: HotReload took 92.1s.
+[2020.04.21-17.39.53:785][649]Candidate modules for hot reload:
+[2020.04.21-17.39.53:785][649]  MoneyHeist
+[2020.04.21-17.39.53:786][649]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,4085 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.21-17.39.53:828][649]Warning: Starting HotReload took  0.2s.
+[2020.04.21-17.40.34:559][760]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 3:40:34 AM
+[2020.04.21-17.40.34:561][760]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.21-17.40.34:561][760]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.21-17.40.34:561][760]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.21-17.40.34:561][760]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 16.5619535 seconds
+[2020.04.21-17.40.34:561][760]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.21-17.40.34:561][760]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.21-17.40.34:561][760]CompilerResultsLog: [Upgrade]
+[2020.04.21-17.40.34:561][760]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.21-17.40.34:561][760]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.21-17.40.34:561][760]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.21-17.40.34:561][760]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.21-17.40.34:561][760]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.21-17.40.34:561][760]CompilerResultsLog: [Upgrade]
+[2020.04.21-17.40.34:562][760]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.04.21-17.40.34:562][760]CompilerResultsLog:   [1/6] MoneyHeist.init.gen.cpp
+[2020.04.21-17.40.34:562][760]CompilerResultsLog:   [2/6] OpenDoor.cpp
+[2020.04.21-17.40.34:562][760]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Private\OpenDoor.cpp(36): warning C4458: declaration of 'CurrentYaw' hides class member
+[2020.04.21-17.40.34:578][760]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Public\OpenDoor.h(28): note: see declaration of 'UOpenDoor::CurrentYaw'
+[2020.04.21-17.40.34:578][760]CompilerResultsLog:   [3/6] OpenDoor.gen.cpp
+[2020.04.21-17.40.34:578][760]CompilerResultsLog:   [4/6] UE4Editor-MoneyHeist-4085.lib
+[2020.04.21-17.40.34:578][760]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-4085.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-4085.exp
+[2020.04.21-17.40.34:578][760]CompilerResultsLog:   [5/6] UE4Editor-MoneyHeist-4085.dll
+[2020.04.21-17.40.34:578][760]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-4085.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-4085.suppressed.exp
+[2020.04.21-17.40.34:578][760]CompilerResultsLog:   [6/6] MoneyHeistEditor.target
+[2020.04.21-17.40.34:578][760]CompilerResultsLog: Total time in Parallel executor: 17.05 seconds
+[2020.04.21-17.40.34:578][760]CompilerResultsLog: Total execution time: 40.17 seconds
+[2020.04.21-17.40.34:578][760]LogMainFrame: MainFrame: Module compiling took 40.818 seconds
+[2020.04.21-17.40.34:649][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.04.21-17.40.36:679][760]LogClass: Could not find existing class OpenDoor in package /Script/MoneyHeist for HotReload, assuming new class
+[2020.04.21-17.40.36:696][760]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2020.04.21-17.40.37:115][760]LogContentBrowser: Native class hierarchy updated for 'MoneyHeist' in 0.0047 seconds. Added 2 classes and 3 folders.
+[2020.04.21-17.40.37:130][760]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.21-17.40.37:311][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2020.04.21-17.40.37:346][760]LogContentBrowser: Native class hierarchy populated in 0.0190 seconds. Added 3019 classes and 723 folders.
+[2020.04.21-17.40.37:346][760]Display: HotReload took 43.7s.
+[2020.04.21-17.42.52:135][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2020.04.21-17.42.52:138][194]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MainLobby' took 0.104
+[2020.04.21-17.46.10:399][822]Candidate modules for hot reload:
+[2020.04.21-17.46.10:399][822]  MoneyHeist
+[2020.04.21-17.46.10:400][822]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,1697 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.21-17.46.10:418][822]Warning: Starting HotReload took  0.1s.
+[2020.04.21-17.46.51:553][987]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 3:46:51 AM
+[2020.04.21-17.46.51:554][987]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.21-17.46.51:554][987]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.21-17.46.51:554][987]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.21-17.46.51:561][987]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 16.3296556 seconds
+[2020.04.21-17.46.51:561][987]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.21-17.46.51:561][987]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.21-17.46.51:561][987]CompilerResultsLog: [Upgrade]
+[2020.04.21-17.46.51:561][987]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.21-17.46.51:561][987]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.21-17.46.51:561][987]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.21-17.46.51:562][987]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.21-17.46.51:563][987]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.21-17.46.51:563][987]CompilerResultsLog: [Upgrade]
+[2020.04.21-17.46.51:563][987]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.04.21-17.46.51:563][987]CompilerResultsLog:   [1/4] OpenDoor.cpp
+[2020.04.21-17.46.51:563][987]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Private\OpenDoor.cpp(36): warning C4458: declaration of 'CurrentYaw' hides class member
+[2020.04.21-17.46.51:563][987]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Public\OpenDoor.h(28): note: see declaration of 'UOpenDoor::CurrentYaw'
+[2020.04.21-17.46.51:563][987]CompilerResultsLog:   [2/4] UE4Editor-MoneyHeist-1697.lib
+[2020.04.21-17.46.51:563][987]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-1697.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-1697.exp
+[2020.04.21-17.46.51:563][987]CompilerResultsLog:   [3/4] UE4Editor-MoneyHeist-1697.dll
+[2020.04.21-17.46.51:564][987]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-1697.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-1697.suppressed.exp
+[2020.04.21-17.46.51:564][987]CompilerResultsLog:   [4/4] MoneyHeistEditor.target
+[2020.04.21-17.46.51:564][987]CompilerResultsLog: Total time in Parallel executor: 20.97 seconds
+[2020.04.21-17.46.51:564][987]CompilerResultsLog: Total execution time: 40.46 seconds
+[2020.04.21-17.46.51:564][987]LogMainFrame: MainFrame: Module compiling took 41.182 seconds
+[2020.04.21-17.46.51:621][987]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2020.04.21-17.46.52:785][987]LogContentBrowser: Native class hierarchy updated for 'MoneyHeist' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2020.04.21-17.46.52:797][987]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.21-17.46.52:951][987]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.04.21-17.46.52:985][987]LogContentBrowser: Native class hierarchy populated in 0.0199 seconds. Added 3019 classes and 723 folders.
+[2020.04.21-17.46.52:985][987]Display: HotReload took 42.6s.
+[2020.04.21-17.52.52:699][155]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2020.04.21-17.52.53:611][155]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/MainLobby_Auto31DF77D4F400E82A3DF83419FB56052A1.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Autosaves/Game/MainLobby_Auto3.umap'
+[2020.04.21-17.52.53:624][155]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MainLobby' took 0.983
+[2020.04.21-17.52.53:624][155]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.983
+[2020.04.21-18.02.54:176][807]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.04.21-18.02.54:185][807]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MainLobby' took 0.079
+[2020.04.21-18.12.56:094][590]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.04.21-18.12.56:096][590]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MainLobby' took 0.043
+[2020.04.21-18.22.56:802][374]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2020.04.21-18.22.56:806][374]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MainLobby' took 0.057
+[2020.04.21-18.32.57:404][161]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2020.04.21-18.32.57:406][161]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MainLobby' took 0.100
+[2020.04.21-18.35.56:731][742]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.21-18.35.56:798][742]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.21-18.35.56:800][742]PIE: New page: PIE session: MainLobby (Apr 21, 2020, 4:35:56 AM)
+[2020.04.21-18.35.56:814][742]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLobby
+[2020.04.21-18.35.57:171][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.354427s)
+[2020.04.21-18.35.57:246][742]LogAIModule: Creating AISystem for world MainLobby
+[2020.04.21-18.35.57:266][742]LogPlayLevel: PIE: World Init took: (0.093575s)
+[2020.04.21-18.35.57:269][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLobby.MainLobby to /Game/UEDPIE_0_MainLobby.MainLobby (0.455614s)
+[2020.04.21-18.35.57:314][742]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2020.04.21-18.35.57:335][742]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.21-18.35.57:336][742]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.21-18.35.57:336][742]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.21-18.35.57:336][742]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.21-18.35.57:336][742]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.21-18.35.57:336][742]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.21-18.35.57:336][742]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.21-18.35.57:338][742]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.21-18.35.57:343][742]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.21-18.35.57:343][742]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.21-18.35.57:392][742]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.21-18.35.57:393][742]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.21-18.35.57:393][742]LogAudioMixer: Display: Is Default: Yes
+[2020.04.21-18.35.57:393][742]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.21-18.35.57:393][742]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.21-18.35.57:393][742]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.21-18.35.57:393][742]LogAudioMixer: Display: Channel Order:
+[2020.04.21-18.35.57:393][742]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.21-18.35.57:393][742]LogAudioMixer: Display: 1: FrontRight
+[2020.04.21-18.35.57:542][742]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.21-18.35.57:573][742]LogInit: FAudioDevice initialized.
+[2020.04.21-18.35.57:657][742]LogLoad: Game class is 'GameModeBase'
+[2020.04.21-18.35.57:866][742]LogWorld: Bringing World /Game/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 60) at 2020.04.21-11.35.57
+[2020.04.21-18.35.57:873][742]LogWorld: Bringing up level for play took: 0.205393
+[2020.04.21-18.35.57:887][742]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.04.21-18.35.57:951][742]PIE: Play in editor start time for /Game/UEDPIE_0_MainLobby 1.01
+[2020.04.21-18.36.14:433][478]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-18.36.14:434][478]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-18.36.14:441][478]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.21-18.36.14:442][478]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLobby
+[2020.04.21-18.36.14:447][478]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-18.36.14:454][478]LogWorld: UWorld::CleanupWorld for MainLobby, bSessionEnded=true, bCleanupResources=true
+[2020.04.21-18.36.14:473][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.21-18.36.14:495][478]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.21-18.36.14:508][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.21-18.36.14:557][478]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-18.36.14:568][478]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.21-18.36.14:620][478]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.04.21-18.36.14:675][479]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.04.21-18.41.52:651][658]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Door_6)
+[2020.04.21-18.41.55:308][740]LogSlate: Took 0.005551 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.21-18.42.10:489][912]Candidate modules for hot reload:
+[2020.04.21-18.42.10:489][912]  MoneyHeist
+[2020.04.21-18.42.10:490][912]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,9439 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.21-18.42.10:627][912]Warning: Starting HotReload took  0.2s.
+[2020.04.21-18.43.16:014][130]LogUObjectHash: Compacting FUObjectHashTables data took  12.93ms
+[2020.04.21-18.43.16:032][130]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MainLobby' took 0.132
+[2020.04.21-18.43.43:226][207]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 4:43:43 AM
+[2020.04.21-18.43.43:227][207]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.21-18.43.43:227][207]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.21-18.43.43:227][207]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.21-18.43.43:228][207]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 24.4085356 seconds
+[2020.04.21-18.43.43:228][207]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.21-18.43.43:228][207]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.21-18.43.43:228][207]CompilerResultsLog: [Upgrade]
+[2020.04.21-18.43.43:228][207]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.21-18.43.43:228][207]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.21-18.43.43:228][207]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.21-18.43.43:228][207]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.21-18.43.43:228][207]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.21-18.43.43:228][207]CompilerResultsLog: [Upgrade]
+[2020.04.21-18.43.43:228][207]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.04.21-18.43.43:228][207]CompilerResultsLog:   [1/6] MoneyHeist.init.gen.cpp
+[2020.04.21-18.43.43:228][207]CompilerResultsLog:   [2/6] OpenDoor.cpp
+[2020.04.21-18.43.43:228][207]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Private\OpenDoor.cpp(38): warning C4458: declaration of 'CurrentYaw' hides class member
+[2020.04.21-18.43.43:228][207]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Public\OpenDoor.h(28): note: see declaration of 'UOpenDoor::CurrentYaw'
+[2020.04.21-18.43.43:230][207]LogMainFrame: MainFrame: Module compiling took 92.755 seconds
+[2020.04.21-18.43.43:235][207]Warning: HotReload failed, recompile failed
+[2020.04.21-18.43.49:191][212]Candidate modules for hot reload:
+[2020.04.21-18.43.49:191][212]  MoneyHeist
+[2020.04.21-18.43.49:192][212]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,4308 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.21-18.43.49:349][212]Warning: Starting HotReload took  0.6s.
+[2020.04.21-18.45.42:963][794]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 4:45:42 AM
+[2020.04.21-18.45.42:965][794]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.21-18.45.42:965][794]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.21-18.45.42:965][794]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.21-18.45.42:966][794]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 21.2184825 seconds
+[2020.04.21-18.45.42:966][794]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.21-18.45.42:966][794]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.21-18.45.42:966][794]CompilerResultsLog: [Upgrade]
+[2020.04.21-18.45.42:966][794]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.21-18.45.42:966][794]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.21-18.45.42:966][794]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.21-18.45.42:966][794]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.21-18.45.42:966][794]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.21-18.45.42:966][794]CompilerResultsLog: [Upgrade]
+[2020.04.21-18.45.42:968][794]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.04.21-18.45.42:970][794]CompilerResultsLog:   [1/6] MoneyHeist.init.gen.cpp
+[2020.04.21-18.45.42:971][794]CompilerResultsLog:   [2/6] OpenDoor.cpp
+[2020.04.21-18.45.42:971][794]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Private\OpenDoor.cpp(38): warning C4458: declaration of 'CurrentYaw' hides class member
+[2020.04.21-18.45.42:971][794]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Public\OpenDoor.h(28): note: see declaration of 'UOpenDoor::CurrentYaw'
+[2020.04.21-18.45.42:972][794]CompilerResultsLog:   [3/6] OpenDoor.gen.cpp
+[2020.04.21-18.45.42:972][794]CompilerResultsLog:   [4/6] UE4Editor-MoneyHeist-4308.lib
+[2020.04.21-18.45.42:972][794]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-4308.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-4308.exp
+[2020.04.21-18.45.42:972][794]CompilerResultsLog:   [5/6] UE4Editor-MoneyHeist-4308.dll
+[2020.04.21-18.45.42:972][794]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-4308.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-4308.suppressed.exp
+[2020.04.21-18.45.42:972][794]CompilerResultsLog:   [6/6] MoneyHeistEditor.target
+[2020.04.21-18.45.42:972][794]CompilerResultsLog: Total time in Parallel executor: 81.87 seconds
+[2020.04.21-18.45.42:972][794]CompilerResultsLog: Total execution time: 110.29 seconds
+[2020.04.21-18.45.42:973][794]LogMainFrame: MainFrame: Module compiling took 113.837 seconds
+[2020.04.21-18.45.43:057][794]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2020.04.21-18.45.44:008][794]LogClass: Could not find existing class OpenDoor in package /Script/MoneyHeist for HotReload, assuming new class
+[2020.04.21-18.45.44:043][794]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2020.04.21-18.45.44:694][794]LogContentBrowser: Native class hierarchy updated for 'MoneyHeist' in 0.0052 seconds. Added 2 classes and 3 folders.
+[2020.04.21-18.45.44:700][794]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.21-18.45.44:864][794]LogUObjectHash: Compacting FUObjectHashTables data took   5.43ms
+[2020.04.21-18.45.44:977][794]LogContentBrowser: Native class hierarchy populated in 0.0654 seconds. Added 3019 classes and 723 folders.
+[2020.04.21-18.45.44:977][794]Display: HotReload took 116.3s.
+[2020.04.21-18.51.54:931][163]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2020.04.21-18.52.07:083][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Wall_Interior_Ground_142)
+[2020.04.21-18.52.07:888][515]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume3)
+[2020.04.21-18.52.16:184][768]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Door_6)
+[2020.04.21-18.52.23:128][954]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2020.04.21-18.52.24:681][954]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/MainLobby6DF4D24347D986F59A321EA0F7ACBBC0.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/MainLobby.umap'
+[2020.04.21-18.52.24:812][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLobby_BuiltData" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/MainLobby_BuiltData.uasset" SILENT=true
+[2020.04.21-18.53.32:045][954]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/MainLobby_BuiltData00F4A5704A6C5AE55075F6B63A47BFC9.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/MainLobby_BuiltData.uasset'
+[2020.04.21-18.53.33:225][954]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.21-18.53.33:230][954]LogContentValidation: Display: Validating World /Game/MainLobby.MainLobby
+[2020.04.21-18.53.33:231][954]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainLobby_BuiltData.MainLobby_BuiltData
+[2020.04.21-18.53.51:838][ 18]Candidate modules for hot reload:
+[2020.04.21-18.53.51:838][ 18]  MoneyHeist
+[2020.04.21-18.53.51:842][ 18]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,4354 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.21-18.53.51:890][ 18]Warning: Starting HotReload took  0.2s.
+[2020.04.21-18.54.55:460][211]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 4:54:55 AM
+[2020.04.21-18.54.55:474][211]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.21-18.54.55:475][211]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.21-18.54.55:475][211]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.21-18.54.55:475][211]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 23.4489681 seconds
+[2020.04.21-18.54.55:475][211]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.21-18.54.55:475][211]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.21-18.54.55:475][211]CompilerResultsLog: [Upgrade]
+[2020.04.21-18.54.55:475][211]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.21-18.54.55:475][211]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.21-18.54.55:475][211]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.21-18.54.55:476][211]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.21-18.54.55:476][211]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.21-18.54.55:476][211]CompilerResultsLog: [Upgrade]
+[2020.04.21-18.54.55:476][211]CompilerResultsLog: Building 5 actions with 4 processes...
+[2020.04.21-18.54.55:476][211]CompilerResultsLog:   [1/5] OpenDoor.cpp
+[2020.04.21-18.54.55:476][211]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Private\OpenDoor.cpp(46): warning C4458: declaration of 'CurrentYaw' hides class member
+[2020.04.21-18.54.55:476][211]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Public\OpenDoor.h(30): note: see declaration of 'UOpenDoor::CurrentYaw'
+[2020.04.21-18.54.55:476][211]CompilerResultsLog:   [2/5] OpenDoor.gen.cpp
+[2020.04.21-18.54.55:476][211]CompilerResultsLog:   [3/5] UE4Editor-MoneyHeist-4354.lib
+[2020.04.21-18.54.55:476][211]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-4354.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-4354.exp
+[2020.04.21-18.54.55:476][211]CompilerResultsLog:   [4/5] UE4Editor-MoneyHeist-4354.dll
+[2020.04.21-18.54.55:476][211]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-4354.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-4354.suppressed.exp
+[2020.04.21-18.54.55:476][211]CompilerResultsLog:   [5/5] MoneyHeistEditor.target
+[2020.04.21-18.54.55:476][211]CompilerResultsLog: Total time in Parallel executor: 30.13 seconds
+[2020.04.21-18.54.55:476][211]CompilerResultsLog: Total execution time: 62.18 seconds
+[2020.04.21-18.54.55:478][211]LogMainFrame: MainFrame: Module compiling took 63.692 seconds
+[2020.04.21-18.54.55:819][211]LogUObjectHash: Compacting FUObjectHashTables data took  69.26ms
+[2020.04.21-18.54.57:234][211]LogContentBrowser: Native class hierarchy updated for 'MoneyHeist' in 0.0208 seconds. Added 2 classes and 3 folders.
+[2020.04.21-18.54.57:245][211]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.21-18.54.57:663][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2020.04.21-18.54.58:272][211]LogContentBrowser: Native class hierarchy populated in 0.3454 seconds. Added 3019 classes and 723 folders.
+[2020.04.21-18.54.58:276][211]Display: HotReload took 66.5s.
+[2020.04.21-19.03.08:389][671]Candidate modules for hot reload:
+[2020.04.21-19.03.08:389][671]  MoneyHeist
+[2020.04.21-19.03.08:389][671]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,4128 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.21-19.03.08:401][671]Warning: Starting HotReload took  0.1s.
+[2020.04.21-19.03.48:326][792]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 5:03:48 AM
+[2020.04.21-19.03.48:328][792]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.21-19.03.48:328][792]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.21-19.03.48:328][792]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.21-19.03.48:328][792]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 21.1495654 seconds
+[2020.04.21-19.03.48:328][792]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.21-19.03.48:328][792]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.21-19.03.48:328][792]CompilerResultsLog: [Upgrade]
+[2020.04.21-19.03.48:328][792]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.21-19.03.48:328][792]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.21-19.03.48:328][792]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.21-19.03.48:328][792]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.21-19.03.48:328][792]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.21-19.03.48:328][792]CompilerResultsLog: [Upgrade]
+[2020.04.21-19.03.48:328][792]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.04.21-19.03.48:328][792]CompilerResultsLog:   [1/4] OpenDoor.cpp
+[2020.04.21-19.03.48:329][792]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Private\OpenDoor.cpp(50): warning C4458: declaration of 'CurrentYaw' hides class member
+[2020.04.21-19.03.48:329][792]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Public\OpenDoor.h(30): note: see declaration of 'UOpenDoor::CurrentYaw'
+[2020.04.21-19.03.48:329][792]CompilerResultsLog:   [2/4] UE4Editor-MoneyHeist-4128.lib
+[2020.04.21-19.03.48:329][792]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-4128.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-4128.exp
+[2020.04.21-19.03.48:330][792]CompilerResultsLog:   [3/4] UE4Editor-MoneyHeist-4128.dll
+[2020.04.21-19.03.48:330][792]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-4128.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-4128.suppressed.exp
+[2020.04.21-19.03.48:330][792]CompilerResultsLog:   [4/4] MoneyHeistEditor.target
+[2020.04.21-19.03.48:330][792]CompilerResultsLog: Total time in Parallel executor: 13.71 seconds
+[2020.04.21-19.03.48:330][792]CompilerResultsLog: Total execution time: 39.43 seconds
+[2020.04.21-19.03.48:330][792]LogMainFrame: MainFrame: Module compiling took 39.985 seconds
+[2020.04.21-19.03.48:401][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.04.21-19.03.49:300][792]LogContentBrowser: Native class hierarchy updated for 'MoneyHeist' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2020.04.21-19.03.49:306][792]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.21-19.03.49:454][792]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2020.04.21-19.03.49:485][792]LogContentBrowser: Native class hierarchy populated in 0.0154 seconds. Added 3019 classes and 723 folders.
+[2020.04.21-19.03.49:485][792]Display: HotReload took 41.2s.
+[2020.04.21-19.04.06:351][857]Candidate modules for hot reload:
+[2020.04.21-19.04.06:351][857]  MoneyHeist
+[2020.04.21-19.04.06:351][857]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,8465 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.21-19.04.06:392][857]Warning: Starting HotReload took  0.1s.
+[2020.04.21-19.04.30:411][ 79]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 5:04:30 AM
+[2020.04.21-19.04.30:411][ 79]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.21-19.04.30:411][ 79]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.21-19.04.30:411][ 79]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.21-19.04.30:411][ 79]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 12.9235842 seconds
+[2020.04.21-19.04.30:411][ 79]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.21-19.04.30:411][ 79]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.21-19.04.30:411][ 79]CompilerResultsLog: [Upgrade]
+[2020.04.21-19.04.30:411][ 79]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.21-19.04.30:415][ 79]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.21-19.04.30:415][ 79]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.21-19.04.30:415][ 79]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.21-19.04.30:415][ 79]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.21-19.04.30:415][ 79]CompilerResultsLog: [Upgrade]
+[2020.04.21-19.04.30:416][ 79]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.04.21-19.04.30:416][ 79]CompilerResultsLog:   [1/4] OpenDoor.cpp
+[2020.04.21-19.04.30:416][ 79]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Private\OpenDoor.cpp(51): warning C4458: declaration of 'CurrentYaw' hides class member
+[2020.04.21-19.04.30:416][ 79]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Public\OpenDoor.h(30): note: see declaration of 'UOpenDoor::CurrentYaw'
+[2020.04.21-19.04.30:416][ 79]CompilerResultsLog:   [2/4] UE4Editor-MoneyHeist-8465.lib
+[2020.04.21-19.04.30:416][ 79]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-8465.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-8465.exp
+[2020.04.21-19.04.30:416][ 79]CompilerResultsLog:   [3/4] UE4Editor-MoneyHeist-8465.dll
+[2020.04.21-19.04.30:416][ 79]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-8465.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-8465.suppressed.exp
+[2020.04.21-19.04.30:416][ 79]CompilerResultsLog:   [4/4] MoneyHeistEditor.target
+[2020.04.21-19.04.30:416][ 79]CompilerResultsLog: Total time in Parallel executor: 7.79 seconds
+[2020.04.21-19.04.30:416][ 79]CompilerResultsLog: Total execution time: 23.63 seconds
+[2020.04.21-19.04.30:416][ 79]LogMainFrame: MainFrame: Module compiling took 24.125 seconds
+[2020.04.21-19.04.30:456][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.04.21-19.04.30:978][ 79]LogContentBrowser: Native class hierarchy updated for 'MoneyHeist' in 0.0007 seconds. Added 2 classes and 3 folders.
+[2020.04.21-19.04.30:982][ 79]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.21-19.04.31:118][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2020.04.21-19.04.31:144][ 79]LogContentBrowser: Native class hierarchy populated in 0.0143 seconds. Added 3019 classes and 723 folders.
+[2020.04.21-19.04.31:144][ 79]Display: HotReload took 24.9s.
+[2020.04.21-19.04.45:568][355]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2020.04.21-19.04.52:280][496]LogSlate: Took 0.002406 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.04.21-19.04.54:889][553]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.21-19.04.54:957][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.21-19.04.54:959][553]PIE: New page: PIE session: MainLobby (Apr 21, 2020, 5:04:54 AM)
+[2020.04.21-19.04.54:972][553]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLobby
+[2020.04.21-19.04.55:376][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.400889s)
+[2020.04.21-19.04.55:453][553]LogAIModule: Creating AISystem for world MainLobby
+[2020.04.21-19.04.55:473][553]LogPlayLevel: PIE: World Init took: (0.096358s)
+[2020.04.21-19.04.55:476][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLobby.MainLobby to /Game/UEDPIE_0_MainLobby.MainLobby (0.503830s)
+[2020.04.21-19.04.55:525][553]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2020.04.21-19.04.55:538][553]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.21-19.04.55:538][553]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.21-19.04.55:538][553]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.21-19.04.55:538][553]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.21-19.04.55:538][553]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.21-19.04.55:538][553]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.21-19.04.55:538][553]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.21-19.04.55:539][553]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.21-19.04.55:542][553]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.21-19.04.55:542][553]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.21-19.04.55:584][553]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.21-19.04.55:584][553]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.21-19.04.55:584][553]LogAudioMixer: Display: Is Default: Yes
+[2020.04.21-19.04.55:584][553]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.21-19.04.55:584][553]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.21-19.04.55:584][553]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.21-19.04.55:584][553]LogAudioMixer: Display: Channel Order:
+[2020.04.21-19.04.55:584][553]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.21-19.04.55:584][553]LogAudioMixer: Display: 1: FrontRight
+[2020.04.21-19.04.55:724][553]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.21-19.04.55:772][553]LogInit: FAudioDevice initialized.
+[2020.04.21-19.04.55:848][553]LogLoad: Game class is 'GameModeBase'
+[2020.04.21-19.04.56:053][553]LogWorld: Bringing World /Game/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 60) at 2020.04.21-12.04.56
+[2020.04.21-19.04.56:059][553]LogWorld: Bringing up level for play took: 0.199233
+[2020.04.21-19.04.56:074][553]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.04.21-19.04.56:120][553]LogTemp: Error: SM_Env_Door_261 is missing a PressurePlate
+[2020.04.21-19.04.56:127][553]PIE: Play in editor start time for /Game/UEDPIE_0_MainLobby 1.187
+[2020.04.21-19.05.02:034][711]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-19.05.02:034][711]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-19.05.02:040][711]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.21-19.05.02:041][711]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLobby
+[2020.04.21-19.05.02:044][711]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-19.05.02:049][711]LogWorld: UWorld::CleanupWorld for MainLobby, bSessionEnded=true, bCleanupResources=true
+[2020.04.21-19.05.02:083][711]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.21-19.05.02:180][711]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.21-19.05.02:193][711]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.21-19.05.02:253][711]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-19.05.02:259][711]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.21-19.05.02:302][711]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2020.04.21-19.05.02:360][712]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.04.21-19.05.04:036][760]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Door_6)
+[2020.04.21-19.05.10:866][889]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2020.04.21-19.05.11:705][889]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/MainLobbyDFFAD3304F6CCFB40AEFB5882ABB0635.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/MainLobby.umap'
+[2020.04.21-19.05.11:749][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLobby_BuiltData" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/MainLobby_BuiltData.uasset" SILENT=true
+[2020.04.21-19.06.11:231][889]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/MainLobby_BuiltData523A26024A08CC6505D0D9A50E7E3EEA.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/MainLobby_BuiltData.uasset'
+[2020.04.21-19.06.11:535][889]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.21-19.06.11:535][889]LogContentValidation: Display: Validating World /Game/MainLobby.MainLobby
+[2020.04.21-19.06.11:536][889]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainLobby_BuiltData.MainLobby_BuiltData

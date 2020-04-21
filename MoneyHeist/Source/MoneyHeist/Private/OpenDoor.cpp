@@ -3,6 +3,7 @@
 
 #include "OpenDoor.h"
 #include "Engine/World.h"
+#include "Math/UnrealMathUtility.h"
 #include "GameFramework/PlayerController.h"
 
 
@@ -21,13 +22,15 @@ UOpenDoor::UOpenDoor()
 void UOpenDoor::BeginPlay()
 {
 	Super::BeginPlay();
+	// Door can open anywhere 
+	CurrentYaw = GetOwner()->GetActorRotation().Yaw;
+	InitialYaw = CurrentYaw;
+	OpenAngle += InitialYaw;
 
-	FRotator CurrentYaw = GetOwner()->GetActorRotation();
-	auto InitialYaw = OpenAngle + CurrentYaw.Yaw;
-	FRotator TargetYaw(0, InitialYaw, 0);
-	GetOwner()->SetActorRotation(TargetYaw);
-
-	
+	if (!PressurePlate)
+	{
+		UE_LOG(LogTemp, Error, TEXT("%s is missing a PressurePlate"), *GetOwner()->GetName());
+	}
 }
 
 
@@ -36,5 +39,18 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
+	if (PressurePlate && PressurePlate->IsOverlappingActor(ActorThatOpens))
+	{
+		OpenDoor(DeltaTime);
+	}
+}
+
+void UOpenDoor::OpenDoor(float DeltaTime)
+{
+	// Rotate Actor with code
+	float CurrentYaw = FMath::Lerp(CurrentYaw, OpenAngle, DeltaTime * 1.f);
+	FRotator DoorRotation = GetOwner()->GetActorRotation();
+	DoorRotation.Yaw = CurrentYaw;
+	GetOwner()->SetActorRotation(DoorRotation);
 }
 
