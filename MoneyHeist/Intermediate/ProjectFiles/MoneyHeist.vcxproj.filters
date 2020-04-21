@@ -54,4 +54,14 @@
       <Filter>Source\MoneyHeist\Public</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\MoneyHeist\Public\Grabber.h">
+      <Filter>Source\MoneyHeist\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\MoneyHeist\Private\Grabber.cpp">
+      <Filter>Source\MoneyHeist\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
