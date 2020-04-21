@@ -25,10 +25,10 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+	float OpenAngle = 90.f;
 	float CurrentYaw;
 	float InitialYaw;
-	float OpenAngle = 90;
+	float TargetYaw;
 
 	ATriggerVolume* PressurePlate;
-	AActor* Player;
 };
