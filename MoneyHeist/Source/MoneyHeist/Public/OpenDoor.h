@@ -36,8 +36,22 @@ public:
 	float OpenAngle = 90.f;
 
 	UPROPERTY(EditAnywhere)
+	float DoorCloseDelay = 0.5f;
+
+	UPROPERTY(EditAnywhere)
+	float DoorOpenSpeed = 0.8f;	
+
+	UPROPERTY(EditAnywhere)
+	float DoorCloseSpeed = 2.0f;
+
+
+	UPROPERTY(EditAnywhere)
 	ATriggerVolume* PressurePlate;
 
 	UPROPERTY(EditAnywhere)
 	AActor* ActorThatOpens;
+
+	float DoorLastOpened = 0.0f;
+
+
 };
