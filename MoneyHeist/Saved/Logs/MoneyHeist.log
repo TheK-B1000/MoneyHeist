@@ -6023,3 +6023,725 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.21-21.49.07:902][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2020.04.21-21.49.07:924][780]LogUObjectHash: Compacting FUObjectHashTables data took   5.17ms
 [2020.04.21-21.49.07:961][781]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2020.04.21-22.23.58:201][938]BlueprintLog: New page: Compile DefaultPawn_BP
+[2020.04.21-22.23.59:248][938]LogUObjectHash: Compacting FUObjectHashTables data took  21.36ms
+[2020.04.21-22.23.59:885][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultPawn_BP" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/DefaultPawn_BP.uasset" SILENT=true
+[2020.04.21-22.23.59:953][960]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/DefaultPawn_BPD07FDE9C499B3F44544E47B6E84FAF42.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/DefaultPawn_BP.uasset'
+[2020.04.21-22.23.59:984][960]AssetCheck: New page: Asset Save: DefaultPawn_BP
+[2020.04.21-22.23.59:985][960]LogContentValidation: Display: Validating Blueprint /Game/DefaultPawn_BP.DefaultPawn_BP
+[2020.04.21-22.28.16:168][808]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Door_6)
+[2020.04.21-22.36.20:084][386]Candidate modules for hot reload:
+[2020.04.21-22.36.20:084][386]  MoneyHeist
+[2020.04.21-22.36.20:086][386]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,2887 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.21-22.36.20:145][386]Warning: Starting HotReload took  0.1s.
+[2020.04.21-22.37.24:267][785]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 8:37:24 AM
+[2020.04.21-22.37.24:294][785]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.21-22.37.24:294][785]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.21-22.37.24:294][785]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.21-22.37.24:294][785]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 21.8129088 seconds
+[2020.04.21-22.37.24:294][785]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.21-22.37.24:294][785]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.21-22.37.24:294][785]CompilerResultsLog: [Upgrade]
+[2020.04.21-22.37.24:294][785]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.21-22.37.24:294][785]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.21-22.37.24:294][785]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.21-22.37.24:294][785]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.21-22.37.24:295][785]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.21-22.37.24:295][785]CompilerResultsLog: [Upgrade]
+[2020.04.21-22.37.24:295][785]CompilerResultsLog: Building 5 actions with 4 processes...
+[2020.04.21-22.37.24:295][785]CompilerResultsLog:   [1/5] Grabber.cpp
+[2020.04.21-22.37.24:295][785]CompilerResultsLog:   [2/5] Grabber.gen.cpp
+[2020.04.21-22.37.24:295][785]CompilerResultsLog:   [3/5] UE4Editor-MoneyHeist-2887.lib
+[2020.04.21-22.37.24:295][785]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-2887.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-2887.exp
+[2020.04.21-22.37.24:295][785]CompilerResultsLog:   [4/5] UE4Editor-MoneyHeist-2887.dll
+[2020.04.21-22.37.24:295][785]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-2887.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-2887.suppressed.exp
+[2020.04.21-22.37.24:295][785]CompilerResultsLog:   [5/5] MoneyHeistEditor.target
+[2020.04.21-22.37.24:295][785]CompilerResultsLog: Total time in Parallel executor: 35.45 seconds
+[2020.04.21-22.37.24:295][785]CompilerResultsLog: Total execution time: 63.41 seconds
+[2020.04.21-22.37.24:296][785]LogMainFrame: MainFrame: Module compiling took 64.232 seconds
+[2020.04.21-22.37.25:342][785]LogUObjectHash: Compacting FUObjectHashTables data took  51.15ms
+[2020.04.21-22.37.26:420][785]LogClass: Could not find existing class Grabber in package /Script/MoneyHeist for HotReload, assuming new class
+[2020.04.21-22.37.26:461][785]LogHotReload: Re-instancing Grabber after hot-reload.
+[2020.04.21-22.37.27:358][785]LogContentBrowser: Native class hierarchy updated for 'MoneyHeist' in 0.0113 seconds. Added 3 classes and 3 folders.
+[2020.04.21-22.37.27:371][785]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.21-22.37.27:656][785]LogUObjectHash: Compacting FUObjectHashTables data took   7.36ms
+[2020.04.21-22.37.27:905][785]LogContentBrowser: Native class hierarchy populated in 0.0860 seconds. Added 3020 classes and 723 folders.
+[2020.04.21-22.37.27:905][785]Display: HotReload took 67.9s.
+[2020.04.21-22.40.49:973][705]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.21-22.40.50:046][705]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.21-22.40.50:047][705]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.21-22.40.50:047][705]PIE: New page: PIE session: LaCasaDelPapel (Apr 21, 2020, 8:40:50 AM)
+[2020.04.21-22.40.50:052][705]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LaCasaDelPapel
+[2020.04.21-22.40.50:372][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.318563s)
+[2020.04.21-22.40.50:379][705]LogAIModule: Creating AISystem for world LaCasaDelPapel
+[2020.04.21-22.40.50:386][705]LogPlayLevel: PIE: World Init took: (0.014375s)
+[2020.04.21-22.40.50:388][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LaCasaDelPapel.LaCasaDelPapel to /Game/UEDPIE_0_LaCasaDelPapel.LaCasaDelPapel (0.336119s)
+[2020.04.21-22.40.51:293][705]LogUObjectHash: Compacting FUObjectHashTables data took  13.27ms
+[2020.04.21-22.40.51:307][705]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.21-22.40.51:307][705]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.21-22.40.51:308][705]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.21-22.40.51:308][705]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.21-22.40.51:308][705]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.21-22.40.51:308][705]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.21-22.40.51:308][705]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.21-22.40.51:308][705]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.21-22.40.51:309][705]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.21-22.40.51:310][705]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.21-22.40.51:357][705]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.21-22.40.51:357][705]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.21-22.40.51:358][705]LogAudioMixer: Display: Is Default: Yes
+[2020.04.21-22.40.51:358][705]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.21-22.40.51:358][705]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.21-22.40.51:358][705]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.21-22.40.51:358][705]LogAudioMixer: Display: Channel Order:
+[2020.04.21-22.40.51:358][705]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.21-22.40.51:358][705]LogAudioMixer: Display: 1: FrontRight
+[2020.04.21-22.40.51:497][705]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.21-22.40.51:564][705]LogInit: FAudioDevice initialized.
+[2020.04.21-22.40.51:700][705]LogLoad: Game class is 'MoneyHeistGameModeBase_BP_C'
+[2020.04.21-22.40.51:907][705]LogWorld: Bringing World /Game/UEDPIE_0_LaCasaDelPapel.LaCasaDelPapel up for play (max tick rate 60) at 2020.04.21-15.40.51
+[2020.04.21-22.40.51:909][705]LogWorld: Bringing up level for play took: 0.203150
+[2020.04.21-22.40.51:911][705]LogOnline: OSS: Creating online subsystem instance for: :Context_61
+[2020.04.21-22.40.51:923][705]LogTemp: Error: SM_Env_Door_261 is missing an ActorThatOpens
+[2020.04.21-22.40.51:925][705]PIE: Play in editor start time for /Game/UEDPIE_0_LaCasaDelPapel 0.985
+[2020.04.21-22.40.51:926][705]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.21-22.40.51:926][705]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.52:045][706]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.52:425][707]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.52:465][708]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.52:578][709]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.52:596][710]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.52:616][711]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.52:642][712]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.52:667][713]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.52:701][714]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.52:720][715]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.52:741][716]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.52:758][717]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.52:777][718]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.52:798][719]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.52:822][720]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.52:842][721]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.52:860][722]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.52:884][723]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.52:907][724]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.52:927][725]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.52:948][726]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.52:971][727]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.52:994][728]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.53:017][729]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.53:040][730]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.53:057][731]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.53:077][732]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.53:098][733]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.53:120][734]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.53:140][735]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.53:160][736]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.53:182][737]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.53:206][738]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.53:236][739]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.53:253][740]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.53:273][741]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.53:312][742]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.21-22.40.53:334][743]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=358.950104 Y=0.000000 R=0.000000
+[2020.04.21-22.40.53:350][744]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=357.358673 Y=0.000000 R=0.000000
+[2020.04.21-22.40.53:372][745]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=356.821198 Y=0.000000 R=0.000000
+[2020.04.21-22.40.53:392][746]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=356.292908 Y=359.300079 R=0.000000
+[2020.04.21-22.40.53:412][747]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=355.050232 Y=358.212738 R=0.000000
+[2020.04.21-22.40.53:434][748]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=353.146454 Y=356.748291 R=0.000000
+[2020.04.21-22.40.53:476][749]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=350.993164 Y=355.312744 R=0.000000
+[2020.04.21-22.40.53:496][750]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=346.854523 Y=353.834656 R=0.000000
+[2020.04.21-22.40.53:527][751]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=345.454651 Y=352.784760 R=0.000000
+[2020.04.21-22.40.53:562][752]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=343.026947 Y=350.518890 R=0.000000
+[2020.04.21-22.40.53:584][753]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=340.974121 Y=347.952850 R=0.000000
+[2020.04.21-22.40.53:612][754]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=340.274200 Y=346.727966 R=0.000000
+[2020.04.21-22.40.53:633][755]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=340.102661 Y=345.698669 R=0.000000
+[2020.04.21-22.40.53:649][756]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=339.115906 Y=342.409485 R=0.000000
+[2020.04.21-22.40.53:675][757]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=338.347076 Y=340.564301 R=0.000000
+[2020.04.21-22.40.53:690][758]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=337.593109 Y=338.867859 R=0.000000
+[2020.04.21-22.40.53:711][759]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=337.593109 Y=338.867859 R=0.000000
+[2020.04.21-22.40.53:732][760]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=337.593109 Y=338.167938 R=0.000000
+[2020.04.21-22.40.53:761][761]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=337.243134 Y=336.251282 R=0.000000
+[2020.04.21-22.40.53:780][762]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=337.243134 Y=333.203033 R=0.000000
+[2020.04.21-22.40.53:801][763]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=337.243134 Y=331.041687 R=0.000000
+[2020.04.21-22.40.53:824][764]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=337.593109 Y=329.233826 R=0.000000
+[2020.04.21-22.40.53:846][765]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=338.982178 Y=327.844757 R=0.000000
+[2020.04.21-22.40.53:864][766]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=340.290985 Y=326.699554 R=0.000000
+[2020.04.21-22.40.53:894][767]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=341.889618 Y=324.745697 R=0.000000
+[2020.04.21-22.40.53:912][768]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=343.398193 Y=322.002808 R=0.000000
+[2020.04.21-22.40.53:932][769]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=344.098114 Y=320.777924 R=0.000000
+[2020.04.21-22.40.53:960][770]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=344.957336 Y=319.918701 R=0.000000
+[2020.04.21-22.40.53:980][771]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=345.657257 Y=319.218781 R=0.000000
+[2020.04.21-22.40.54:008][772]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=346.760956 Y=317.931152 R=0.000000
+[2020.04.21-22.40.54:028][773]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=348.125183 Y=316.415344 R=0.000000
+[2020.04.21-22.40.54:048][774]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=349.350067 Y=315.365448 R=0.000000
+[2020.04.21-22.40.54:073][775]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=350.162415 Y=314.959290 R=0.000000
+[2020.04.21-22.40.54:093][776]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=351.426361 Y=314.959290 R=0.000000
+[2020.04.21-22.40.54:115][777]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=353.351166 Y=314.959290 R=0.000000
+[2020.04.21-22.40.54:144][778]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=354.954834 Y=314.959290 R=0.000000
+[2020.04.21-22.40.54:159][779]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=356.004730 Y=314.959290 R=0.000000
+[2020.04.21-22.40.54:179][780]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=356.354706 Y=314.959290 R=0.000000
+[2020.04.21-22.40.54:204][781]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=357.054626 Y=315.134277 R=0.000000
+[2020.04.21-22.40.54:227][782]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=358.058075 Y=316.137726 R=0.000000
+[2020.04.21-22.40.54:245][783]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=358.849213 Y=318.115540 R=0.000000
+[2020.04.21-22.40.54:269][784]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=359.596619 Y=320.357727 R=0.000000
+[2020.04.21-22.40.54:294][785]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=359.897217 Y=323.063080 R=0.000000
+[2020.04.21-22.40.54:313][786]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.282745 Y=325.761810 R=0.000000
+[2020.04.21-22.40.54:333][787]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.623347 Y=327.635132 R=0.000000
+[2020.04.21-22.40.54:360][788]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.894328 Y=330.073975 R=0.000000
+[2020.04.21-22.40.54:376][789]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=1.201859 Y=333.918121 R=0.000000
+[2020.04.21-22.40.54:396][790]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=1.201859 Y=337.960876 R=0.000000
+[2020.04.21-22.40.54:417][791]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=1.201859 Y=342.643158 R=0.000000
+[2020.04.21-22.40.54:446][792]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=1.201859 Y=345.343842 R=0.000000
+[2020.04.21-22.40.54:475][793]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=1.201859 Y=350.682037 R=0.000000
+[2020.04.21-22.40.54:494][794]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=1.201859 Y=353.293335 R=0.000000
+[2020.04.21-22.40.54:521][795]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=1.201859 Y=0.407806 R=0.000000
+[2020.04.21-22.40.54:544][796]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.851894 Y=4.960270 R=0.000000
+[2020.04.21-22.40.54:566][797]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.486678 Y=10.621126 R=0.000000
+[2020.04.21-22.40.54:589][798]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=0.191323 Y=14.903769 R=0.000000
+[2020.04.21-22.40.54:612][799]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=359.671509 Y=20.275053 R=0.000000
+[2020.04.21-22.40.54:640][800]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=359.478699 Y=25.866808 R=0.000000
+[2020.04.21-22.40.54:659][801]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=359.478699 Y=32.300121 R=0.000000
+[2020.04.21-22.40.54:679][802]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=358.953766 Y=38.025822 R=0.000000
+[2020.04.21-22.40.54:712][803]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=358.291016 Y=42.168087 R=0.000000
+[2020.04.21-22.40.54:735][804]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=357.326904 Y=47.310028 R=0.000000
+[2020.04.21-22.40.54:752][805]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=356.192749 Y=49.767376 R=0.000000
+[2020.04.21-22.40.54:777][806]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=355.667816 Y=51.167236 R=0.000000
+[2020.04.21-22.40.54:796][807]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=354.092987 Y=52.567097 R=0.000000
+[2020.04.21-22.40.54:816][808]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=353.119354 Y=53.346001 R=0.000000
+[2020.04.21-22.40.54:840][809]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=352.419434 Y=53.346001 R=0.000000
+[2020.04.21-22.40.54:862][810]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=350.155365 Y=54.045929 R=0.000000
+[2020.04.21-22.40.54:889][811]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=347.552399 Y=54.479755 R=0.000000
+[2020.04.21-22.40.54:911][812]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=344.379883 Y=55.008507 R=0.000000
+[2020.04.21-22.40.54:932][813]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=340.960205 Y=55.008507 R=0.000000
+[2020.04.21-22.40.54:960][814]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=339.066589 Y=55.008507 R=0.000000
+[2020.04.21-22.40.54:978][815]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=337.471039 Y=55.008507 R=0.000000
+[2020.04.21-22.40.54:998][816]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=337.471039 Y=55.008507 R=0.000000
+[2020.04.21-22.40.55:026][817]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=337.121063 Y=55.008507 R=0.000000
+[2020.04.21-22.40.55:042][818]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=336.946075 Y=55.008507 R=0.000000
+[2020.04.21-22.40.55:061][819]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=336.784607 Y=54.308578 R=0.000000
+[2020.04.21-22.40.55:080][820]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=336.784607 Y=53.958614 R=0.000000
+[2020.04.21-22.40.55:109][821]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=336.784607 Y=53.958614 R=0.000000
+[2020.04.21-22.40.55:127][822]LogTemp: Warning: Viewpoint Direction is: X=-4160.000 Y=-1078.000 Z=834.001 and the Viewpoint Rotation is: P=336.784607 Y=53.958614 R=0.000000
+[2020.04.21-22.40.55:144][823]LogTemp: Warning: Viewpoint Direction is: X=-4159.378 Y=-1077.145 Z=833.547 and the Viewpoint Rotation is: P=336.784607 Y=53.958614 R=0.000000
+[2020.04.21-22.40.55:163][824]LogTemp: Warning: Viewpoint Direction is: X=-4158.024 Y=-1075.285 Z=832.561 and the Viewpoint Rotation is: P=336.784607 Y=53.958614 R=0.000000
+[2020.04.21-22.40.55:186][825]LogTemp: Warning: Viewpoint Direction is: X=-4155.903 Y=-1072.370 Z=831.014 and the Viewpoint Rotation is: P=336.784607 Y=53.958614 R=0.000000
+[2020.04.21-22.40.55:205][826]LogTemp: Warning: Viewpoint Direction is: X=-4152.512 Y=-1067.710 Z=828.543 and the Viewpoint Rotation is: P=336.784607 Y=53.958614 R=0.000000
+[2020.04.21-22.40.55:224][827]LogTemp: Warning: Viewpoint Direction is: X=-4148.184 Y=-1061.762 Z=825.387 and the Viewpoint Rotation is: P=336.784607 Y=53.958614 R=0.000000
+[2020.04.21-22.40.55:243][828]LogTemp: Warning: Viewpoint Direction is: X=-4144.021 Y=-1056.041 Z=822.353 and the Viewpoint Rotation is: P=336.784607 Y=53.958614 R=0.000000
+[2020.04.21-22.40.55:267][829]LogTemp: Warning: Viewpoint Direction is: X=-4137.686 Y=-1047.335 Z=817.734 and the Viewpoint Rotation is: P=336.784607 Y=53.958614 R=0.000000
+[2020.04.21-22.40.55:292][830]LogTemp: Warning: Viewpoint Direction is: X=-4130.678 Y=-1037.704 Z=812.626 and the Viewpoint Rotation is: P=338.359436 Y=54.483562 R=0.000000
+[2020.04.21-22.40.55:309][831]LogTemp: Warning: Viewpoint Direction is: X=-4121.006 Y=-1024.333 Z=805.713 and the Viewpoint Rotation is: P=340.931976 Y=56.198589 R=0.000000
+[2020.04.21-22.40.55:331][832]LogTemp: Warning: Viewpoint Direction is: X=-4112.716 Y=-1012.658 Z=799.967 and the Viewpoint Rotation is: P=343.661072 Y=57.322338 R=0.000000
+[2020.04.21-22.40.55:363][833]LogTemp: Warning: Viewpoint Direction is: X=-4104.067 Y=-1000.197 Z=794.253 and the Viewpoint Rotation is: P=346.135559 Y=57.631653 R=0.000000
+[2020.04.21-22.40.55:378][834]LogTemp: Warning: Viewpoint Direction is: X=-4087.859 Y=-976.101 Z=784.625 and the Viewpoint Rotation is: P=349.817627 Y=57.631653 R=0.000000
+[2020.04.21-22.40.55:401][835]LogTemp: Warning: Viewpoint Direction is: X=-4077.670 Y=-960.768 Z=779.105 and the Viewpoint Rotation is: P=350.944397 Y=57.281689 R=0.000000
+[2020.04.21-22.40.55:427][836]LogTemp: Warning: Viewpoint Direction is: X=-4064.850 Y=-941.321 Z=772.889 and the Viewpoint Rotation is: P=351.993713 Y=56.232380 R=0.000000
+[2020.04.21-22.40.55:445][837]LogTemp: Warning: Viewpoint Direction is: X=-4047.425 Y=-914.998 Z=765.615 and the Viewpoint Rotation is: P=353.300415 Y=54.739017 R=0.000000
+[2020.04.21-22.40.55:474][838]LogTemp: Warning: Viewpoint Direction is: X=-4034.628 Y=-895.934 Z=760.870 and the Viewpoint Rotation is: P=354.111877 Y=53.602978 R=0.000000
+[2020.04.21-22.40.55:493][839]LogTemp: Warning: Viewpoint Direction is: X=-4019.957 Y=-874.561 Z=756.143 and the Viewpoint Rotation is: P=355.787659 Y=52.841259 R=0.000000
+[2020.04.21-22.40.55:511][840]LogTemp: Warning: Viewpoint Direction is: X=-4002.182 Y=-849.366 Z=751.437 and the Viewpoint Rotation is: P=357.712463 Y=52.141331 R=0.000000
+[2020.04.21-22.40.55:542][841]LogTemp: Warning: Viewpoint Direction is: X=-3989.695 Y=-832.000 Z=748.639 and the Viewpoint Rotation is: P=359.204041 Y=52.141331 R=0.000000
+[2020.04.21-22.40.55:563][842]LogTemp: Warning: Viewpoint Direction is: X=-3974.840 Y=-811.703 Z=746.009 and the Viewpoint Rotation is: P=359.728973 Y=51.791367 R=0.000000
+[2020.04.21-22.40.55:579][843]LogTemp: Warning: Viewpoint Direction is: X=-3953.522 Y=-783.224 Z=743.382 and the Viewpoint Rotation is: P=0.428894 Y=50.391506 R=0.000000
+[2020.04.21-22.40.55:601][844]LogTemp: Warning: Viewpoint Direction is: X=-3941.416 Y=-767.342 Z=742.198 and the Viewpoint Rotation is: P=0.428894 Y=48.149803 R=0.000000
+[2020.04.21-22.40.55:635][845]LogTemp: Warning: Viewpoint Direction is: X=-3926.031 Y=-747.871 Z=741.091 and the Viewpoint Rotation is: P=0.428894 Y=45.236870 R=0.000000
+[2020.04.21-22.40.55:648][846]LogTemp: Warning: Viewpoint Direction is: X=-3903.166 Y=-720.887 Z=740.073 and the Viewpoint Rotation is: P=0.428894 Y=37.436203 R=0.000000
+[2020.04.21-22.40.55:673][847]LogTemp: Warning: Viewpoint Direction is: X=-3889.017 Y=-705.480 Z=739.610 and the Viewpoint Rotation is: P=0.428894 Y=35.446980 R=0.000000
+[2020.04.21-22.40.55:698][848]LogTemp: Warning: Viewpoint Direction is: X=-3866.887 Y=-697.124 Z=738.478 and the Viewpoint Rotation is: P=0.428894 Y=34.747051 R=0.000000
+[2020.04.21-22.40.55:717][849]LogTemp: Warning: Viewpoint Direction is: X=-3866.908 Y=-697.078 Z=737.722 and the Viewpoint Rotation is: P=0.428894 Y=34.747051 R=0.000000
+[2020.04.21-22.40.55:741][850]LogTemp: Warning: Viewpoint Direction is: X=-3866.348 Y=-696.346 Z=737.116 and the Viewpoint Rotation is: P=0.428894 Y=34.747051 R=0.000000
+[2020.04.21-22.40.55:760][851]LogTemp: Warning: Viewpoint Direction is: X=-3866.655 Y=-695.628 Z=736.642 and the Viewpoint Rotation is: P=0.428894 Y=34.397087 R=0.000000
+[2020.04.21-22.40.55:782][852]LogTemp: Warning: Viewpoint Direction is: X=-3867.078 Y=-694.567 Z=736.255 and the Viewpoint Rotation is: P=2.178719 Y=32.393322 R=0.000000
+[2020.04.21-22.40.55:811][853]LogTemp: Warning: Viewpoint Direction is: X=-3867.447 Y=-693.381 Z=736.033 and the Viewpoint Rotation is: P=4.819332 Y=23.481253 R=0.000000
+[2020.04.21-22.40.55:828][854]LogTemp: Warning: Viewpoint Direction is: X=-3867.986 Y=-691.721 Z=736.106 and the Viewpoint Rotation is: P=8.066938 Y=359.551514 R=0.000000
+[2020.04.21-22.40.55:851][855]LogTemp: Warning: Viewpoint Direction is: X=-3867.973 Y=-691.409 Z=736.293 and the Viewpoint Rotation is: P=9.251296 Y=349.780579 R=0.000000
+[2020.04.21-22.40.55:877][856]LogTemp: Warning: Viewpoint Direction is: X=-3867.840 Y=-691.911 Z=736.793 and the Viewpoint Rotation is: P=9.966356 Y=345.311462 R=0.000000
+[2020.04.21-22.40.55:894][857]LogTemp: Warning: Viewpoint Direction is: X=-3867.306 Y=-693.796 Z=737.777 and the Viewpoint Rotation is: P=9.966356 Y=345.311462 R=0.000000
+[2020.04.21-22.40.55:918][858]LogTemp: Warning: Viewpoint Direction is: X=-3866.590 Y=-695.623 Z=738.609 and the Viewpoint Rotation is: P=9.966356 Y=345.661438 R=0.000000
+[2020.04.21-22.40.55:939][859]LogTemp: Warning: Viewpoint Direction is: X=-3866.590 Y=-695.623 Z=738.609 and the Viewpoint Rotation is: P=10.141338 Y=345.836426 R=0.000000
+[2020.04.21-22.40.55:959][860]LogTemp: Warning: Viewpoint Direction is: X=-3866.590 Y=-695.623 Z=738.609 and the Viewpoint Rotation is: P=10.141338 Y=345.836426 R=0.000000
+[2020.04.21-22.40.55:978][861]LogTemp: Warning: Viewpoint Direction is: X=-3866.590 Y=-695.623 Z=738.609 and the Viewpoint Rotation is: P=10.141338 Y=345.836426 R=0.000000
+[2020.04.21-22.40.55:999][862]LogTemp: Warning: Viewpoint Direction is: X=-3866.590 Y=-695.623 Z=738.609 and the Viewpoint Rotation is: P=10.141338 Y=345.836426 R=0.000000
+[2020.04.21-22.40.56:026][863]LogTemp: Warning: Viewpoint Direction is: X=-3866.590 Y=-695.623 Z=738.609 and the Viewpoint Rotation is: P=10.141338 Y=345.836426 R=0.000000
+[2020.04.21-22.40.56:044][864]LogTemp: Warning: Viewpoint Direction is: X=-3866.590 Y=-695.623 Z=738.609 and the Viewpoint Rotation is: P=10.141338 Y=341.461853 R=0.000000
+[2020.04.21-22.40.56:062][865]LogTemp: Warning: Viewpoint Direction is: X=-3866.590 Y=-695.623 Z=738.609 and the Viewpoint Rotation is: P=9.091443 Y=334.369202 R=0.000000
+[2020.04.21-22.40.56:092][866]LogTemp: Warning: Viewpoint Direction is: X=-3866.590 Y=-695.623 Z=738.609 and the Viewpoint Rotation is: P=8.316216 Y=328.748810 R=0.000000
+[2020.04.21-22.40.56:109][867]LogTemp: Warning: Viewpoint Direction is: X=-3866.590 Y=-695.623 Z=738.609 and the Viewpoint Rotation is: P=7.791268 Y=325.774109 R=0.000000
+[2020.04.21-22.40.56:126][868]LogTemp: Warning: Viewpoint Direction is: X=-3866.590 Y=-695.623 Z=738.609 and the Viewpoint Rotation is: P=7.791268 Y=325.774109 R=0.000000
+[2020.04.21-22.40.56:148][869]LogTemp: Warning: Viewpoint Direction is: X=-3866.590 Y=-695.623 Z=738.609 and the Viewpoint Rotation is: P=7.791268 Y=325.774109 R=0.000000
+[2020.04.21-22.40.56:169][870]LogTemp: Warning: Viewpoint Direction is: X=-3866.081 Y=-696.658 Z=738.798 and the Viewpoint Rotation is: P=7.791268 Y=325.774109 R=0.000000
+[2020.04.21-22.40.56:189][871]LogTemp: Warning: Viewpoint Direction is: X=-3864.854 Y=-699.378 Z=739.280 and the Viewpoint Rotation is: P=7.791268 Y=325.774109 R=0.000000
+[2020.04.21-22.40.56:207][872]LogTemp: Warning: Viewpoint Direction is: X=-3862.490 Y=-703.169 Z=739.983 and the Viewpoint Rotation is: P=7.791268 Y=325.774109 R=0.000000
+[2020.04.21-22.40.56:228][873]LogTemp: Warning: Viewpoint Direction is: X=-3859.583 Y=-706.627 Z=740.675 and the Viewpoint Rotation is: P=7.791268 Y=325.774109 R=0.000000
+[2020.04.21-22.40.56:250][874]LogTemp: Warning: Viewpoint Direction is: X=-3854.085 Y=-711.952 Z=741.811 and the Viewpoint Rotation is: P=7.791268 Y=325.774109 R=0.000000
+[2020.04.21-22.40.56:277][875]LogTemp: Warning: Viewpoint Direction is: X=-3847.110 Y=-717.982 Z=743.149 and the Viewpoint Rotation is: P=7.791268 Y=325.774109 R=0.000000
+[2020.04.21-22.40.56:293][876]LogTemp: Warning: Viewpoint Direction is: X=-3835.918 Y=-726.862 Z=745.181 and the Viewpoint Rotation is: P=7.791268 Y=327.873901 R=0.000000
+[2020.04.21-22.40.56:320][877]LogTemp: Warning: Viewpoint Direction is: X=-3827.647 Y=-733.087 Z=746.643 and the Viewpoint Rotation is: P=7.791268 Y=330.098236 R=0.000000
+[2020.04.21-22.40.56:343][878]LogTemp: Warning: Viewpoint Direction is: X=-3816.521 Y=-740.923 Z=748.551 and the Viewpoint Rotation is: P=7.616285 Y=332.941650 R=0.000000
+[2020.04.21-22.40.56:360][879]LogTemp: Warning: Viewpoint Direction is: X=-3796.539 Y=-753.575 Z=751.822 and the Viewpoint Rotation is: P=7.415349 Y=342.385651 R=0.000000
+[2020.04.21-22.40.56:379][880]LogTemp: Warning: Viewpoint Direction is: X=-3782.888 Y=-761.203 Z=753.970 and the Viewpoint Rotation is: P=7.415349 Y=346.954956 R=0.000000
+[2020.04.21-22.40.56:404][881]LogTemp: Warning: Viewpoint Direction is: X=-3767.071 Y=-768.816 Z=756.369 and the Viewpoint Rotation is: P=7.415349 Y=351.869720 R=0.000000
+[2020.04.21-22.40.56:425][882]LogTemp: Warning: Viewpoint Direction is: X=-3743.587 Y=-777.802 Z=759.792 and the Viewpoint Rotation is: P=6.890402 Y=357.066986 R=0.000000
+[2020.04.21-22.40.56:450][883]LogTemp: Warning: Viewpoint Direction is: X=-3723.724 Y=-783.937 Z=762.579 and the Viewpoint Rotation is: P=6.421532 Y=0.036499 R=0.000000
+[2020.04.21-22.40.56:476][884]LogTemp: Warning: Viewpoint Direction is: X=-3694.842 Y=-790.382 Z=766.408 and the Viewpoint Rotation is: P=6.421532 Y=2.092582 R=0.000000
+[2020.04.21-22.40.56:495][885]LogTemp: Warning: Viewpoint Direction is: X=-3661.672 Y=-795.221 Z=770.609 and the Viewpoint Rotation is: P=6.421532 Y=4.407385 R=0.000000
+[2020.04.21-22.40.56:518][886]LogTemp: Warning: Viewpoint Direction is: X=-3639.236 Y=-797.477 Z=773.388 and the Viewpoint Rotation is: P=6.421532 Y=6.433451 R=0.000000
+[2020.04.21-22.40.56:540][887]LogTemp: Warning: Viewpoint Direction is: X=-3613.291 Y=-798.811 Z=776.538 and the Viewpoint Rotation is: P=6.421532 Y=8.766473 R=0.000000
+[2020.04.21-22.40.56:560][888]LogTemp: Warning: Viewpoint Direction is: X=-3585.487 Y=-798.848 Z=779.863 and the Viewpoint Rotation is: P=6.421532 Y=10.684960 R=0.000000
+[2020.04.21-22.40.56:580][889]LogTemp: Warning: Viewpoint Direction is: X=-3565.636 Y=-798.208 Z=782.219 and the Viewpoint Rotation is: P=6.421532 Y=10.684960 R=0.000000
+[2020.04.21-22.40.56:598][890]LogTemp: Warning: Viewpoint Direction is: X=-3538.306 Y=-796.305 Z=785.436 and the Viewpoint Rotation is: P=6.421532 Y=10.684960 R=0.000000
+[2020.04.21-22.40.56:623][891]LogTemp: Warning: Viewpoint Direction is: X=-3516.768 Y=-794.314 Z=787.958 and the Viewpoint Rotation is: P=6.421532 Y=10.684960 R=0.000000
+[2020.04.21-22.40.56:641][892]LogTemp: Warning: Viewpoint Direction is: X=-3487.960 Y=-790.951 Z=791.312 and the Viewpoint Rotation is: P=6.421532 Y=10.684960 R=0.000000
+[2020.04.21-22.40.56:662][893]LogTemp: Warning: Viewpoint Direction is: X=-3467.600 Y=-788.306 Z=793.676 and the Viewpoint Rotation is: P=6.421532 Y=10.859942 R=0.000000
+[2020.04.21-22.40.56:692][894]LogTemp: Warning: Viewpoint Direction is: X=-3439.794 Y=-784.270 Z=796.894 and the Viewpoint Rotation is: P=6.421532 Y=10.859942 R=0.000000
+[2020.04.21-22.40.56:712][895]LogTemp: Warning: Viewpoint Direction is: X=-3407.538 Y=-779.162 Z=800.616 and the Viewpoint Rotation is: P=7.121462 Y=11.034925 R=0.000000
+[2020.04.21-22.40.56:733][896]LogTemp: Warning: Viewpoint Direction is: X=-3383.319 Y=-775.134 Z=803.474 and the Viewpoint Rotation is: P=8.476627 Y=11.373715 R=0.000000
+[2020.04.21-22.40.56:759][897]LogTemp: Warning: Viewpoint Direction is: X=-3359.569 Y=-771.007 Z=806.449 and the Viewpoint Rotation is: P=9.723193 Y=11.789237 R=0.000000
+[2020.04.21-22.40.56:778][898]LogTemp: Warning: Viewpoint Direction is: X=-3326.988 Y=-765.020 Z=810.994 and the Viewpoint Rotation is: P=9.723193 Y=11.789237 R=0.000000
+[2020.04.21-22.40.56:800][899]LogTemp: Warning: Viewpoint Direction is: X=-3305.875 Y=-761.040 Z=814.083 and the Viewpoint Rotation is: P=9.898175 Y=10.914325 R=0.000000
+[2020.04.21-22.40.56:826][900]LogTemp: Warning: Viewpoint Direction is: X=-3282.115 Y=-756.538 Z=817.720 and the Viewpoint Rotation is: P=9.228524 Y=5.557119 R=0.000000
+[2020.04.21-22.40.56:844][901]LogTemp: Warning: Viewpoint Direction is: X=-3253.018 Y=-751.729 Z=822.251 and the Viewpoint Rotation is: P=7.766150 Y=355.759216 R=0.000000
+[2020.04.21-22.40.56:872][902]LogTemp: Warning: Viewpoint Direction is: X=-3227.912 Y=-748.948 Z=826.053 and the Viewpoint Rotation is: P=6.364028 Y=347.697021 R=0.000000
+[2020.04.21-22.40.56:890][903]LogTemp: Warning: Viewpoint Direction is: X=-3199.746 Y=-748.114 Z=830.059 and the Viewpoint Rotation is: P=5.664707 Y=342.661926 R=0.000000
+[2020.04.21-22.40.56:911][904]LogTemp: Warning: Viewpoint Direction is: X=-3171.804 Y=-749.575 Z=833.776 and the Viewpoint Rotation is: P=5.489725 Y=341.787018 R=0.000000
+[2020.04.21-22.40.56:940][905]LogTemp: Warning: Viewpoint Direction is: X=-3151.501 Y=-751.632 Z=836.363 and the Viewpoint Rotation is: P=5.489725 Y=341.787018 R=0.000000
+[2020.04.21-22.40.56:962][906]LogTemp: Warning: Viewpoint Direction is: X=-3119.247 Y=-756.927 Z=840.238 and the Viewpoint Rotation is: P=4.964777 Y=341.262085 R=0.000000
+[2020.04.21-22.40.56:986][907]LogTemp: Warning: Viewpoint Direction is: X=-3093.687 Y=-761.124 Z=843.310 and the Viewpoint Rotation is: P=4.603743 Y=339.637421 R=0.000000
+[2020.04.21-22.40.57:010][908]LogTemp: Warning: Viewpoint Direction is: X=-3076.117 Y=-764.008 Z=845.421 and the Viewpoint Rotation is: P=4.214030 Y=336.909424 R=0.000000
+[2020.04.21-22.40.57:036][909]LogTemp: Warning: Viewpoint Direction is: X=-3061.123 Y=-766.470 Z=847.223 and the Viewpoint Rotation is: P=3.356225 Y=333.306641 R=0.000000
+[2020.04.21-22.40.57:060][910]LogTemp: Warning: Viewpoint Direction is: X=-3052.181 Y=-767.938 Z=848.297 and the Viewpoint Rotation is: P=2.798680 Y=330.379517 R=0.000000
+[2020.04.21-22.40.57:077][911]LogTemp: Warning: Viewpoint Direction is: X=-3046.009 Y=-768.951 Z=849.039 and the Viewpoint Rotation is: P=1.715025 Y=326.044891 R=0.000000
+[2020.04.21-22.40.57:097][912]LogTemp: Warning: Viewpoint Direction is: X=-3044.832 Y=-769.145 Z=849.180 and the Viewpoint Rotation is: P=1.715025 Y=325.519958 R=0.000000
+[2020.04.21-22.40.57:120][913]LogTemp: Warning: Viewpoint Direction is: X=-3044.832 Y=-769.145 Z=849.180 and the Viewpoint Rotation is: P=1.715025 Y=325.519958 R=0.000000
+[2020.04.21-22.40.57:137][914]LogTemp: Warning: Viewpoint Direction is: X=-3044.832 Y=-769.145 Z=849.180 and the Viewpoint Rotation is: P=1.715025 Y=325.519958 R=0.000000
+[2020.04.21-22.40.57:157][915]LogTemp: Warning: Viewpoint Direction is: X=-3044.832 Y=-769.145 Z=849.180 and the Viewpoint Rotation is: P=1.715025 Y=325.519958 R=0.000000
+[2020.04.21-22.40.57:179][916]LogTemp: Warning: Viewpoint Direction is: X=-3044.832 Y=-769.145 Z=849.180 and the Viewpoint Rotation is: P=1.715025 Y=325.519958 R=0.000000
+[2020.04.21-22.40.57:205][917]LogTemp: Warning: Viewpoint Direction is: X=-3044.832 Y=-769.145 Z=849.180 and the Viewpoint Rotation is: P=1.715025 Y=325.519958 R=0.000000
+[2020.04.21-22.40.57:222][918]LogTemp: Warning: Viewpoint Direction is: X=-3044.832 Y=-769.145 Z=849.180 and the Viewpoint Rotation is: P=1.715025 Y=325.519958 R=0.000000
+[2020.04.21-22.40.57:241][919]LogTemp: Warning: Viewpoint Direction is: X=-3044.832 Y=-769.145 Z=849.180 and the Viewpoint Rotation is: P=1.715025 Y=325.519958 R=0.000000
+[2020.04.21-22.40.57:259][920]LogTemp: Warning: Viewpoint Direction is: X=-3044.832 Y=-769.145 Z=849.180 and the Viewpoint Rotation is: P=1.715025 Y=325.519958 R=0.000000
+[2020.04.21-22.40.57:277][921]LogTemp: Warning: Viewpoint Direction is: X=-3044.832 Y=-769.145 Z=849.180 and the Viewpoint Rotation is: P=1.715025 Y=325.519958 R=0.000000
+[2020.04.21-22.40.57:321][922]LogTemp: Warning: Viewpoint Direction is: X=-3044.832 Y=-769.145 Z=849.180 and the Viewpoint Rotation is: P=1.715025 Y=325.519958 R=0.000000
+[2020.04.21-22.40.57:339][923]LogTemp: Warning: Viewpoint Direction is: X=-3044.832 Y=-769.145 Z=849.180 and the Viewpoint Rotation is: P=0.315165 Y=323.070190 R=0.000000
+[2020.04.21-22.40.57:359][924]LogTemp: Warning: Viewpoint Direction is: X=-3044.832 Y=-769.145 Z=849.180 and the Viewpoint Rotation is: P=359.549438 Y=320.466705 R=0.000000
+[2020.04.21-22.40.57:380][925]LogTemp: Warning: Viewpoint Direction is: X=-3044.832 Y=-769.145 Z=849.180 and the Viewpoint Rotation is: P=359.078644 Y=317.641998 R=0.000000
+[2020.04.21-22.40.57:410][926]LogTemp: Warning: Viewpoint Direction is: X=-3044.832 Y=-769.145 Z=849.180 and the Viewpoint Rotation is: P=358.733856 Y=314.711334 R=0.000000
+[2020.04.21-22.40.57:427][927]LogTemp: Warning: Viewpoint Direction is: X=-3042.363 Y=-771.638 Z=849.103 and the Viewpoint Rotation is: P=358.383881 Y=313.136505 R=0.000000
+[2020.04.21-22.40.57:445][928]LogTemp: Warning: Viewpoint Direction is: X=-3039.938 Y=-774.153 Z=849.015 and the Viewpoint Rotation is: P=358.383881 Y=313.136505 R=0.000000
+[2020.04.21-22.40.57:470][929]LogTemp: Warning: Viewpoint Direction is: X=-3036.351 Y=-777.914 Z=848.879 and the Viewpoint Rotation is: P=358.383881 Y=313.136505 R=0.000000
+[2020.04.21-22.40.57:489][930]LogTemp: Warning: Viewpoint Direction is: X=-3030.622 Y=-783.964 Z=848.654 and the Viewpoint Rotation is: P=358.383881 Y=313.136505 R=0.000000
+[2020.04.21-22.40.57:522][931]LogTemp: Warning: Viewpoint Direction is: X=-3024.356 Y=-790.603 Z=848.403 and the Viewpoint Rotation is: P=358.383881 Y=313.136505 R=0.000000
+[2020.04.21-22.40.57:541][932]LogTemp: Warning: Viewpoint Direction is: X=-3014.832 Y=-800.720 Z=848.018 and the Viewpoint Rotation is: P=358.383881 Y=313.136505 R=0.000000
+[2020.04.21-22.40.57:567][933]LogTemp: Warning: Viewpoint Direction is: X=-3002.883 Y=-813.433 Z=847.532 and the Viewpoint Rotation is: P=358.383881 Y=313.136505 R=0.000000
+[2020.04.21-22.40.57:595][934]LogTemp: Warning: Viewpoint Direction is: X=-2989.759 Y=-827.409 Z=846.995 and the Viewpoint Rotation is: P=358.383881 Y=313.136505 R=0.000000
+[2020.04.21-22.40.57:617][935]LogTemp: Warning: Viewpoint Direction is: X=-2974.443 Y=-843.731 Z=846.367 and the Viewpoint Rotation is: P=358.383881 Y=314.711334 R=0.000000
+[2020.04.21-22.40.57:639][936]LogTemp: Warning: Viewpoint Direction is: X=-2959.800 Y=-859.123 Z=845.771 and the Viewpoint Rotation is: P=358.033905 Y=318.228943 R=0.000000
+[2020.04.21-22.40.57:659][937]LogTemp: Warning: Viewpoint Direction is: X=-2943.065 Y=-875.999 Z=845.065 and the Viewpoint Rotation is: P=357.564972 Y=320.886261 R=0.000000
+[2020.04.21-22.40.57:679][938]LogTemp: Warning: Viewpoint Direction is: X=-2927.719 Y=-890.792 Z=844.373 and the Viewpoint Rotation is: P=357.094055 Y=322.456024 R=0.000000
+[2020.04.21-22.40.57:701][939]LogTemp: Warning: Viewpoint Direction is: X=-2909.078 Y=-907.869 Z=843.447 and the Viewpoint Rotation is: P=357.094055 Y=322.631012 R=0.000000
+[2020.04.21-22.40.57:720][940]LogTemp: Warning: Viewpoint Direction is: X=-2895.583 Y=-924.365 Z=843.877 and the Viewpoint Rotation is: P=357.094055 Y=322.980988 R=0.000000
+[2020.04.21-22.40.57:740][941]LogTemp: Warning: Viewpoint Direction is: X=-2891.498 Y=-942.148 Z=847.318 and the Viewpoint Rotation is: P=357.094055 Y=322.980988 R=0.000000
+[2020.04.21-22.40.57:758][942]LogTemp: Warning: Viewpoint Direction is: X=-2885.989 Y=-956.964 Z=849.650 and the Viewpoint Rotation is: P=356.919067 Y=323.155975 R=0.000000
+[2020.04.21-22.40.57:776][943]LogTemp: Warning: Viewpoint Direction is: X=-2875.507 Y=-976.412 Z=851.878 and the Viewpoint Rotation is: P=356.394135 Y=324.730804 R=0.000000
+[2020.04.21-22.40.57:794][944]LogTemp: Warning: Viewpoint Direction is: X=-2868.445 Y=-989.513 Z=853.378 and the Viewpoint Rotation is: P=356.115875 Y=326.817657 R=0.000000
+[2020.04.21-22.40.57:814][945]LogTemp: Warning: Viewpoint Direction is: X=-2862.130 Y=-1001.231 Z=854.720 and the Viewpoint Rotation is: P=356.115875 Y=329.063904 R=0.000000
+[2020.04.21-22.40.57:841][946]LogTemp: Warning: Viewpoint Direction is: X=-2857.022 Y=-1010.707 Z=855.806 and the Viewpoint Rotation is: P=355.765900 Y=330.442261 R=0.000000
+[2020.04.21-22.40.57:857][947]LogTemp: Warning: Viewpoint Direction is: X=-2852.482 Y=-1019.130 Z=856.770 and the Viewpoint Rotation is: P=355.590912 Y=330.617249 R=0.000000
+[2020.04.21-22.40.57:879][948]LogTemp: Warning: Viewpoint Direction is: X=-2850.647 Y=-1022.536 Z=857.160 and the Viewpoint Rotation is: P=355.590912 Y=330.617249 R=0.000000
+[2020.04.21-22.40.57:894][949]LogTemp: Warning: Viewpoint Direction is: X=-2850.023 Y=-1023.694 Z=857.293 and the Viewpoint Rotation is: P=355.590912 Y=330.617249 R=0.000000
+[2020.04.21-22.40.57:915][950]LogTemp: Warning: Viewpoint Direction is: X=-2850.023 Y=-1023.694 Z=857.293 and the Viewpoint Rotation is: P=355.590912 Y=330.617249 R=0.000000
+[2020.04.21-22.40.57:939][951]LogTemp: Warning: Viewpoint Direction is: X=-2850.023 Y=-1023.694 Z=857.293 and the Viewpoint Rotation is: P=355.590912 Y=330.617249 R=0.000000
+[2020.04.21-22.40.57:955][952]LogTemp: Warning: Viewpoint Direction is: X=-2850.023 Y=-1023.694 Z=857.293 and the Viewpoint Rotation is: P=355.590912 Y=330.617249 R=0.000000
+[2020.04.21-22.40.57:974][953]LogTemp: Warning: Viewpoint Direction is: X=-2850.023 Y=-1023.694 Z=857.293 and the Viewpoint Rotation is: P=355.590912 Y=330.617249 R=0.000000
+[2020.04.21-22.40.57:995][954]LogTemp: Warning: Viewpoint Direction is: X=-2850.023 Y=-1023.694 Z=857.293 and the Viewpoint Rotation is: P=355.590912 Y=330.617249 R=0.000000
+[2020.04.21-22.40.58:016][955]LogTemp: Warning: Viewpoint Direction is: X=-2850.023 Y=-1023.694 Z=857.293 and the Viewpoint Rotation is: P=355.415924 Y=330.792236 R=0.000000
+[2020.04.21-22.40.58:035][956]LogTemp: Warning: Viewpoint Direction is: X=-2850.023 Y=-1023.694 Z=857.293 and the Viewpoint Rotation is: P=355.415924 Y=330.792236 R=0.000000
+[2020.04.21-22.40.58:051][957]LogTemp: Warning: Viewpoint Direction is: X=-2850.023 Y=-1023.694 Z=857.293 and the Viewpoint Rotation is: P=355.415924 Y=330.792236 R=0.000000
+[2020.04.21-22.40.58:072][958]LogTemp: Warning: Viewpoint Direction is: X=-2850.023 Y=-1023.694 Z=857.293 and the Viewpoint Rotation is: P=355.415924 Y=330.792236 R=0.000000
+[2020.04.21-22.40.58:088][959]LogTemp: Warning: Viewpoint Direction is: X=-2850.023 Y=-1023.694 Z=857.293 and the Viewpoint Rotation is: P=355.415924 Y=330.792236 R=0.000000
+[2020.04.21-22.40.58:107][960]LogTemp: Warning: Viewpoint Direction is: X=-2850.023 Y=-1023.694 Z=857.293 and the Viewpoint Rotation is: P=355.415924 Y=330.792236 R=0.000000
+[2020.04.21-22.40.58:128][961]LogTemp: Warning: Viewpoint Direction is: X=-2850.023 Y=-1023.694 Z=857.293 and the Viewpoint Rotation is: P=355.415924 Y=330.792236 R=0.000000
+[2020.04.21-22.40.58:150][962]LogTemp: Warning: Viewpoint Direction is: X=-2850.023 Y=-1023.694 Z=857.293 and the Viewpoint Rotation is: P=355.415924 Y=331.142212 R=0.000000
+[2020.04.21-22.40.58:171][963]LogTemp: Warning: Viewpoint Direction is: X=-2850.023 Y=-1023.694 Z=857.293 and the Viewpoint Rotation is: P=355.415924 Y=331.492188 R=0.000000
+[2020.04.21-22.40.58:190][964]LogTemp: Warning: Viewpoint Direction is: X=-2850.023 Y=-1023.694 Z=857.293 and the Viewpoint Rotation is: P=355.415924 Y=331.492188 R=0.000000
+[2020.04.21-22.40.58:207][965]LogTemp: Warning: Viewpoint Direction is: X=-2850.023 Y=-1023.694 Z=857.293 and the Viewpoint Rotation is: P=355.415924 Y=331.492188 R=0.000000
+[2020.04.21-22.40.58:224][966]LogTemp: Warning: Viewpoint Direction is: X=-2850.023 Y=-1023.694 Z=857.293 and the Viewpoint Rotation is: P=355.415924 Y=331.492188 R=0.000000
+[2020.04.21-22.40.58:241][967]LogTemp: Warning: Viewpoint Direction is: X=-2850.023 Y=-1023.694 Z=857.293 and the Viewpoint Rotation is: P=355.415924 Y=331.492188 R=0.000000
+[2020.04.21-22.40.58:260][968]LogTemp: Warning: Viewpoint Direction is: X=-2850.023 Y=-1023.694 Z=857.293 and the Viewpoint Rotation is: P=355.415924 Y=331.492188 R=0.000000
+[2020.04.21-22.40.58:283][969]LogTemp: Warning: Viewpoint Direction is: X=-2850.023 Y=-1023.694 Z=857.293 and the Viewpoint Rotation is: P=355.415924 Y=331.492188 R=0.000000
+[2020.04.21-22.40.58:307][970]LogTemp: Warning: Viewpoint Direction is: X=-2851.531 Y=-1022.874 Z=857.431 and the Viewpoint Rotation is: P=355.415924 Y=331.842163 R=0.000000
+[2020.04.21-22.40.58:323][971]LogTemp: Warning: Viewpoint Direction is: X=-2855.063 Y=-1020.973 Z=857.752 and the Viewpoint Rotation is: P=355.415924 Y=332.367096 R=0.000000
+[2020.04.21-22.40.58:341][972]LogTemp: Warning: Viewpoint Direction is: X=-2859.359 Y=-1018.687 Z=858.142 and the Viewpoint Rotation is: P=355.415924 Y=332.542084 R=0.000000
+[2020.04.21-22.40.58:361][973]LogTemp: Warning: Viewpoint Direction is: X=-2864.045 Y=-1016.212 Z=858.567 and the Viewpoint Rotation is: P=355.415924 Y=332.542084 R=0.000000
+[2020.04.21-22.40.58:385][974]LogTemp: Warning: Viewpoint Direction is: X=-2871.632 Y=-1012.227 Z=859.254 and the Viewpoint Rotation is: P=355.415924 Y=332.542084 R=0.000000
+[2020.04.21-22.40.58:408][975]LogTemp: Warning: Viewpoint Direction is: X=-2881.432 Y=-1007.097 Z=860.141 and the Viewpoint Rotation is: P=355.415924 Y=332.542084 R=0.000000
+[2020.04.21-22.40.58:425][976]LogTemp: Warning: Viewpoint Direction is: X=-2894.193 Y=-1000.434 Z=861.295 and the Viewpoint Rotation is: P=355.415924 Y=332.542084 R=0.000000
+[2020.04.21-22.40.58:444][977]LogTemp: Warning: Viewpoint Direction is: X=-2903.972 Y=-995.333 Z=862.180 and the Viewpoint Rotation is: P=355.415924 Y=332.542084 R=0.000000
+[2020.04.21-22.40.58:465][978]LogTemp: Warning: Viewpoint Direction is: X=-2914.709 Y=-989.737 Z=863.150 and the Viewpoint Rotation is: P=355.415924 Y=332.542084 R=0.000000
+[2020.04.21-22.40.58:488][979]LogTemp: Warning: Viewpoint Direction is: X=-2930.053 Y=-981.746 Z=864.537 and the Viewpoint Rotation is: P=355.415924 Y=332.542084 R=0.000000
+[2020.04.21-22.40.58:508][980]LogTemp: Warning: Viewpoint Direction is: X=-2947.458 Y=-972.687 Z=866.111 and the Viewpoint Rotation is: P=355.415924 Y=332.542084 R=0.000000
+[2020.04.21-22.40.58:525][981]LogTemp: Warning: Viewpoint Direction is: X=-2966.743 Y=-962.654 Z=867.854 and the Viewpoint Rotation is: P=355.415924 Y=332.542084 R=0.000000
+[2020.04.21-22.40.58:543][982]LogTemp: Warning: Viewpoint Direction is: X=-2982.279 Y=-954.573 Z=869.258 and the Viewpoint Rotation is: P=355.415924 Y=332.542084 R=0.000000
+[2020.04.21-22.40.58:562][983]LogTemp: Warning: Viewpoint Direction is: X=-3001.510 Y=-944.572 Z=870.996 and the Viewpoint Rotation is: P=355.415924 Y=332.542084 R=0.000000
+[2020.04.21-22.40.58:581][984]LogTemp: Warning: Viewpoint Direction is: X=-3021.314 Y=-934.274 Z=872.785 and the Viewpoint Rotation is: P=355.415924 Y=332.542084 R=0.000000
+[2020.04.21-22.40.58:605][985]LogTemp: Warning: Viewpoint Direction is: X=-3041.604 Y=-923.726 Z=874.619 and the Viewpoint Rotation is: P=355.415924 Y=332.542084 R=0.000000
+[2020.04.21-22.40.58:624][986]LogTemp: Warning: Viewpoint Direction is: X=-3067.978 Y=-910.016 Z=877.002 and the Viewpoint Rotation is: P=355.415924 Y=332.542084 R=0.000000
+[2020.04.21-22.40.58:641][987]LogTemp: Warning: Viewpoint Direction is: X=-3086.774 Y=-900.245 Z=878.701 and the Viewpoint Rotation is: P=355.415924 Y=332.542084 R=0.000000
+[2020.04.21-22.40.58:658][988]LogTemp: Warning: Viewpoint Direction is: X=-3103.112 Y=-891.753 Z=880.177 and the Viewpoint Rotation is: P=355.415924 Y=332.892059 R=0.000000
+[2020.04.21-22.40.58:680][989]LogTemp: Warning: Viewpoint Direction is: X=-3117.142 Y=-884.460 Z=881.445 and the Viewpoint Rotation is: P=355.065948 Y=330.681580 R=0.000000
+[2020.04.21-22.40.58:704][990]LogTemp: Warning: Viewpoint Direction is: X=-3126.597 Y=-879.685 Z=882.270 and the Viewpoint Rotation is: P=354.483856 Y=327.625610 R=0.000000
+[2020.04.21-22.40.58:741][991]LogTemp: Warning: Viewpoint Direction is: X=-3132.281 Y=-877.458 Z=882.632 and the Viewpoint Rotation is: P=354.483856 Y=325.700806 R=0.000000
+[2020.04.21-22.40.58:763][992]LogTemp: Warning: Viewpoint Direction is: X=-3131.229 Y=-879.823 Z=882.206 and the Viewpoint Rotation is: P=354.483856 Y=325.175873 R=0.000000
+[2020.04.21-22.40.58:788][993]LogTemp: Warning: Viewpoint Direction is: X=-3128.759 Y=-882.357 Z=881.765 and the Viewpoint Rotation is: P=354.483856 Y=325.175873 R=0.000000
+[2020.04.21-22.40.58:808][994]LogTemp: Warning: Viewpoint Direction is: X=-3123.815 Y=-886.519 Z=881.049 and the Viewpoint Rotation is: P=354.483856 Y=325.175873 R=0.000000
+[2020.04.21-22.40.58:828][995]LogTemp: Warning: Viewpoint Direction is: X=-3119.253 Y=-890.128 Z=880.432 and the Viewpoint Rotation is: P=354.483856 Y=325.175873 R=0.000000
+[2020.04.21-22.40.58:853][996]LogTemp: Warning: Viewpoint Direction is: X=-3111.927 Y=-895.670 Z=879.488 and the Viewpoint Rotation is: P=354.483856 Y=325.175873 R=0.000000
+[2020.04.21-22.40.58:872][997]LogTemp: Warning: Viewpoint Direction is: X=-3102.001 Y=-902.966 Z=878.248 and the Viewpoint Rotation is: P=354.483856 Y=325.175873 R=0.000000
+[2020.04.21-22.40.58:891][998]LogTemp: Warning: Viewpoint Direction is: X=-3092.518 Y=-909.834 Z=877.082 and the Viewpoint Rotation is: P=354.483856 Y=325.175873 R=0.000000
+[2020.04.21-22.40.58:912][999]LogTemp: Warning: Viewpoint Direction is: X=-3083.189 Y=-916.528 Z=875.947 and the Viewpoint Rotation is: P=354.483856 Y=325.175873 R=0.000000
+[2020.04.21-22.40.58:934][  0]LogTemp: Warning: Viewpoint Direction is: X=-3069.371 Y=-926.358 Z=874.281 and the Viewpoint Rotation is: P=354.483856 Y=325.175873 R=0.000000
+[2020.04.21-22.40.58:955][  1]LogTemp: Warning: Viewpoint Direction is: X=-3055.217 Y=-936.371 Z=872.585 and the Viewpoint Rotation is: P=354.483856 Y=325.175873 R=0.000000
+[2020.04.21-22.40.58:976][  2]LogTemp: Warning: Viewpoint Direction is: X=-3038.514 Y=-948.136 Z=870.593 and the Viewpoint Rotation is: P=354.483856 Y=325.175873 R=0.000000
+[2020.04.21-22.40.58:998][  3]LogTemp: Warning: Viewpoint Direction is: X=-3024.695 Y=-957.846 Z=868.950 and the Viewpoint Rotation is: P=354.133881 Y=323.601044 R=0.000000
+[2020.04.21-22.40.59:025][  4]LogTemp: Warning: Viewpoint Direction is: X=-3003.485 Y=-972.940 Z=866.379 and the Viewpoint Rotation is: P=354.133881 Y=320.595215 R=0.000000
+[2020.04.21-22.40.59:041][  5]LogTemp: Warning: Viewpoint Direction is: X=-2979.501 Y=-990.691 Z=863.399 and the Viewpoint Rotation is: P=354.133881 Y=317.066589 R=0.000000
+[2020.04.21-22.40.59:064][  6]LogTemp: Warning: Viewpoint Direction is: X=-2962.070 Y=-1004.199 Z=861.182 and the Viewpoint Rotation is: P=353.783905 Y=311.703979 R=0.000000
+[2020.04.21-22.40.59:087][  7]LogTemp: Warning: Viewpoint Direction is: X=-2941.644 Y=-1021.495 Z=858.429 and the Viewpoint Rotation is: P=353.783905 Y=303.962646 R=0.000000
+[2020.04.21-22.40.59:108][  8]LogTemp: Warning: Viewpoint Direction is: X=-2923.842 Y=-1038.498 Z=855.849 and the Viewpoint Rotation is: P=353.433929 Y=295.583130 R=0.000000
+[2020.04.21-22.40.59:142][  9]LogTemp: Warning: Viewpoint Direction is: X=-2905.014 Y=-1060.048 Z=852.736 and the Viewpoint Rotation is: P=352.868408 Y=285.780701 R=0.000000
+[2020.04.21-22.40.59:158][ 10]LogTemp: Warning: Viewpoint Direction is: X=-2883.549 Y=-1093.665 Z=848.074 and the Viewpoint Rotation is: P=351.111450 Y=275.092468 R=0.000000
+[2020.04.21-22.40.59:180][ 11]LogTemp: Warning: Viewpoint Direction is: X=-2874.198 Y=-1111.471 Z=845.537 and the Viewpoint Rotation is: P=350.113342 Y=270.434692 R=0.000000
+[2020.04.21-22.40.59:207][ 12]LogTemp: Warning: Viewpoint Direction is: X=-2865.531 Y=-1132.667 Z=842.366 and the Viewpoint Rotation is: P=349.225952 Y=263.969330 R=0.000000
+[2020.04.21-22.40.59:224][ 13]LogTemp: Warning: Viewpoint Direction is: X=-2857.759 Y=-1162.013 Z=837.633 and the Viewpoint Rotation is: P=347.923889 Y=254.420822 R=0.000000
+[2020.04.21-22.40.59:244][ 14]LogTemp: Warning: Viewpoint Direction is: X=-2854.202 Y=-1186.255 Z=833.402 and the Viewpoint Rotation is: P=347.309845 Y=248.689789 R=0.000000
+[2020.04.21-22.40.59:266][ 15]LogTemp: Warning: Viewpoint Direction is: X=-2863.009 Y=-1196.832 Z=829.591 and the Viewpoint Rotation is: P=347.722137 Y=246.353424 R=0.000000
+[2020.04.21-22.40.59:291][ 16]LogTemp: Warning: Viewpoint Direction is: X=-2872.111 Y=-1206.926 Z=825.817 and the Viewpoint Rotation is: P=348.587128 Y=245.776779 R=0.000000
+[2020.04.21-22.40.59:308][ 17]LogTemp: Warning: Viewpoint Direction is: X=-2879.323 Y=-1214.924 Z=822.827 and the Viewpoint Rotation is: P=349.987000 Y=245.776779 R=0.000000
+[2020.04.21-22.40.59:326][ 18]LogTemp: Warning: Viewpoint Direction is: X=-2882.939 Y=-1218.935 Z=821.328 and the Viewpoint Rotation is: P=350.161987 Y=245.776779 R=0.000000
+[2020.04.21-22.40.59:348][ 19]LogTemp: Warning: Viewpoint Direction is: X=-2884.654 Y=-1220.837 Z=820.617 and the Viewpoint Rotation is: P=350.161987 Y=245.776779 R=0.000000
+[2020.04.21-22.40.59:370][ 20]LogTemp: Warning: Viewpoint Direction is: X=-2884.654 Y=-1220.837 Z=820.617 and the Viewpoint Rotation is: P=350.161987 Y=245.776779 R=0.000000
+[2020.04.21-22.40.59:387][ 21]LogTemp: Warning: Viewpoint Direction is: X=-2884.654 Y=-1220.837 Z=820.617 and the Viewpoint Rotation is: P=350.161987 Y=245.776779 R=0.000000
+[2020.04.21-22.40.59:408][ 22]LogTemp: Warning: Viewpoint Direction is: X=-2884.654 Y=-1220.837 Z=820.617 and the Viewpoint Rotation is: P=350.161987 Y=245.776779 R=0.000000
+[2020.04.21-22.40.59:427][ 23]LogTemp: Warning: Viewpoint Direction is: X=-2884.654 Y=-1220.837 Z=820.617 and the Viewpoint Rotation is: P=350.161987 Y=245.776779 R=0.000000
+[2020.04.21-22.40.59:452][ 24]LogTemp: Warning: Viewpoint Direction is: X=-2884.654 Y=-1220.837 Z=820.617 and the Viewpoint Rotation is: P=350.161987 Y=245.776779 R=0.000000
+[2020.04.21-22.40.59:472][ 25]LogTemp: Warning: Viewpoint Direction is: X=-2884.654 Y=-1220.837 Z=820.617 and the Viewpoint Rotation is: P=350.161987 Y=245.776779 R=0.000000
+[2020.04.21-22.40.59:491][ 26]LogTemp: Warning: Viewpoint Direction is: X=-2884.654 Y=-1220.837 Z=820.617 and the Viewpoint Rotation is: P=350.161987 Y=245.776779 R=0.000000
+[2020.04.21-22.40.59:511][ 27]LogTemp: Warning: Viewpoint Direction is: X=-2884.654 Y=-1220.837 Z=820.617 and the Viewpoint Rotation is: P=350.161987 Y=245.776779 R=0.000000
+[2020.04.21-22.40.59:530][ 28]LogTemp: Warning: Viewpoint Direction is: X=-2884.654 Y=-1220.837 Z=820.617 and the Viewpoint Rotation is: P=350.161987 Y=245.776779 R=0.000000
+[2020.04.21-22.40.59:553][ 29]LogTemp: Warning: Viewpoint Direction is: X=-2884.654 Y=-1220.837 Z=820.617 and the Viewpoint Rotation is: P=350.161987 Y=245.776779 R=0.000000
+[2020.04.21-22.40.59:570][ 30]LogTemp: Warning: Viewpoint Direction is: X=-2884.654 Y=-1220.837 Z=820.617 and the Viewpoint Rotation is: P=350.161987 Y=245.776779 R=0.000000
+[2020.04.21-22.40.59:588][ 31]LogTemp: Warning: Viewpoint Direction is: X=-2884.654 Y=-1220.837 Z=820.617 and the Viewpoint Rotation is: P=350.161987 Y=245.776779 R=0.000000
+[2020.04.21-22.40.59:608][ 32]LogTemp: Warning: Viewpoint Direction is: X=-2884.654 Y=-1220.837 Z=820.617 and the Viewpoint Rotation is: P=350.161987 Y=245.776779 R=0.000000
+[2020.04.21-22.40.59:627][ 33]LogTemp: Warning: Viewpoint Direction is: X=-2884.654 Y=-1220.837 Z=820.617 and the Viewpoint Rotation is: P=350.511963 Y=245.776779 R=0.000000
+[2020.04.21-22.40.59:649][ 34]LogTemp: Warning: Viewpoint Direction is: X=-2884.654 Y=-1220.837 Z=820.617 and the Viewpoint Rotation is: P=352.678406 Y=245.951767 R=0.000000
+[2020.04.21-22.40.59:672][ 35]LogTemp: Warning: Viewpoint Direction is: X=-2884.654 Y=-1220.837 Z=820.617 and the Viewpoint Rotation is: P=353.125824 Y=244.460373 R=0.000000
+[2020.04.21-22.40.59:691][ 36]LogTemp: Warning: Viewpoint Direction is: X=-2884.654 Y=-1220.837 Z=820.617 and the Viewpoint Rotation is: P=353.624481 Y=241.634567 R=0.000000
+[2020.04.21-22.40.59:710][ 37]LogTemp: Warning: Viewpoint Direction is: X=-2884.654 Y=-1220.837 Z=820.617 and the Viewpoint Rotation is: P=353.944122 Y=234.282837 R=0.000000
+[2020.04.21-22.40.59:730][ 38]LogTemp: Warning: Viewpoint Direction is: X=-2884.654 Y=-1220.837 Z=820.617 and the Viewpoint Rotation is: P=354.222778 Y=228.430893 R=0.000000
+[2020.04.21-22.40.59:754][ 39]LogTemp: Warning: Viewpoint Direction is: X=-2884.654 Y=-1220.837 Z=820.617 and the Viewpoint Rotation is: P=354.222778 Y=223.170029 R=0.000000
+[2020.04.21-22.40.59:771][ 40]LogTemp: Warning: Viewpoint Direction is: X=-2886.251 Y=-1222.335 Z=820.396 and the Viewpoint Rotation is: P=354.222778 Y=221.070236 R=0.000000
+[2020.04.21-22.40.59:790][ 41]LogTemp: Warning: Viewpoint Direction is: X=-2888.706 Y=-1224.549 Z=820.061 and the Viewpoint Rotation is: P=354.222778 Y=221.070236 R=0.000000
+[2020.04.21-22.40.59:808][ 42]LogTemp: Warning: Viewpoint Direction is: X=-2891.655 Y=-1227.173 Z=819.662 and the Viewpoint Rotation is: P=354.222778 Y=221.070236 R=0.000000
+[2020.04.21-22.40.59:827][ 43]LogTemp: Warning: Viewpoint Direction is: X=-2896.008 Y=-1231.020 Z=819.074 and the Viewpoint Rotation is: P=354.222778 Y=221.070236 R=0.000000
+[2020.04.21-22.40.59:851][ 44]LogTemp: Warning: Viewpoint Direction is: X=-2901.792 Y=-1236.108 Z=818.294 and the Viewpoint Rotation is: P=354.397766 Y=220.895248 R=0.000000
+[2020.04.21-22.40.59:871][ 45]LogTemp: Warning: Viewpoint Direction is: X=-2909.756 Y=-1243.076 Z=817.234 and the Viewpoint Rotation is: P=355.804657 Y=220.895248 R=0.000000
+[2020.04.21-22.40.59:889][ 46]LogTemp: Warning: Viewpoint Direction is: X=-2918.489 Y=-1250.696 Z=816.163 and the Viewpoint Rotation is: P=357.611053 Y=220.370300 R=0.000000
+[2020.04.21-22.40.59:907][ 47]LogTemp: Warning: Viewpoint Direction is: X=-2926.389 Y=-1257.549 Z=815.316 and the Viewpoint Rotation is: P=359.202393 Y=219.442017 R=0.000000
+[2020.04.21-22.40.59:931][ 48]LogTemp: Warning: Viewpoint Direction is: X=-2935.174 Y=-1265.083 Z=814.547 and the Viewpoint Rotation is: P=0.031372 Y=218.447250 R=0.000000
+[2020.04.21-22.40.59:958][ 49]LogTemp: Warning: Viewpoint Direction is: X=-2950.273 Y=-1277.738 Z=813.633 and the Viewpoint Rotation is: P=0.690060 Y=215.318481 R=0.000000
+[2020.04.21-22.40.59:975][ 50]LogTemp: Warning: Viewpoint Direction is: X=-2968.812 Y=-1292.513 Z=812.953 and the Viewpoint Rotation is: P=0.690060 Y=212.464890 R=0.000000
+[2020.04.21-22.40.59:993][ 51]LogTemp: Warning: Viewpoint Direction is: X=-2983.680 Y=-1303.806 Z=812.584 and the Viewpoint Rotation is: P=0.690060 Y=211.764954 R=0.000000
+[2020.04.21-22.41.00:022][ 52]LogTemp: Warning: Viewpoint Direction is: X=-3000.710 Y=-1316.179 Z=812.318 and the Viewpoint Rotation is: P=0.690060 Y=211.764954 R=0.000000
+[2020.04.21-22.41.00:040][ 53]LogTemp: Warning: Viewpoint Direction is: X=-3024.761 Y=-1332.922 Z=812.145 and the Viewpoint Rotation is: P=0.690060 Y=210.890045 R=0.000000
+[2020.04.21-22.41.00:059][ 54]LogTemp: Warning: Viewpoint Direction is: X=-3045.437 Y=-1346.850 Z=812.097 and the Viewpoint Rotation is: P=0.690060 Y=208.082031 R=0.000000
+[2020.04.21-22.41.00:077][ 55]LogTemp: Warning: Viewpoint Direction is: X=-3065.024 Y=-1359.449 Z=812.119 and the Viewpoint Rotation is: P=359.990143 Y=202.059708 R=0.000000
+[2020.04.21-22.41.00:097][ 56]LogTemp: Warning: Viewpoint Direction is: X=-3082.989 Y=-1370.142 Z=812.135 and the Viewpoint Rotation is: P=359.643555 Y=195.301422 R=0.000000
+[2020.04.21-22.41.00:115][ 57]LogTemp: Warning: Viewpoint Direction is: X=-3102.096 Y=-1380.218 Z=812.122 and the Viewpoint Rotation is: P=359.643555 Y=188.848404 R=0.000000
+[2020.04.21-22.41.00:132][ 58]LogTemp: Warning: Viewpoint Direction is: X=-3122.792 Y=-1389.442 Z=812.083 and the Viewpoint Rotation is: P=359.643555 Y=182.525101 R=0.000000
+[2020.04.21-22.41.00:152][ 59]LogTemp: Warning: Viewpoint Direction is: X=-3142.421 Y=-1396.610 Z=812.028 and the Viewpoint Rotation is: P=359.643555 Y=178.186066 R=0.000000
+[2020.04.21-22.41.00:171][ 60]LogTemp: Warning: Viewpoint Direction is: X=-3151.313 Y=-1387.717 Z=811.941 and the Viewpoint Rotation is: P=359.293579 Y=174.956070 R=0.000000
+[2020.04.21-22.41.00:193][ 61]LogTemp: Warning: Viewpoint Direction is: X=-3160.381 Y=-1381.111 Z=811.845 and the Viewpoint Rotation is: P=358.942535 Y=173.727448 R=0.000000
+[2020.04.21-22.41.00:214][ 62]LogTemp: Warning: Viewpoint Direction is: X=-3175.206 Y=-1373.398 Z=811.648 and the Viewpoint Rotation is: P=358.942535 Y=173.727448 R=0.000000
+[2020.04.21-22.41.00:239][ 63]LogTemp: Warning: Viewpoint Direction is: X=-3190.206 Y=-1367.282 Z=811.427 and the Viewpoint Rotation is: P=358.942535 Y=173.727448 R=0.000000
+[2020.04.21-22.41.00:261][ 64]LogTemp: Warning: Viewpoint Direction is: X=-3209.093 Y=-1361.168 Z=811.128 and the Viewpoint Rotation is: P=358.942535 Y=173.727448 R=0.000000
+[2020.04.21-22.41.00:281][ 65]LogTemp: Warning: Viewpoint Direction is: X=-3232.547 Y=-1355.043 Z=810.738 and the Viewpoint Rotation is: P=358.942535 Y=173.727448 R=0.000000
+[2020.04.21-22.41.00:302][ 66]LogTemp: Warning: Viewpoint Direction is: X=-3250.075 Y=-1351.000 Z=810.440 and the Viewpoint Rotation is: P=358.942535 Y=173.727448 R=0.000000
+[2020.04.21-22.41.00:319][ 67]LogTemp: Warning: Viewpoint Direction is: X=-3275.601 Y=-1345.902 Z=809.996 and the Viewpoint Rotation is: P=358.942535 Y=173.727448 R=0.000000
+[2020.04.21-22.41.00:343][ 68]LogTemp: Warning: Viewpoint Direction is: X=-3295.192 Y=-1342.313 Z=809.650 and the Viewpoint Rotation is: P=358.942535 Y=173.727448 R=0.000000
+[2020.04.21-22.41.00:363][ 69]LogTemp: Warning: Viewpoint Direction is: X=-3322.479 Y=-1337.805 Z=809.163 and the Viewpoint Rotation is: P=358.942535 Y=173.727448 R=0.000000
+[2020.04.21-22.41.00:386][ 70]LogTemp: Warning: Viewpoint Direction is: X=-3346.422 Y=-1334.135 Z=808.732 and the Viewpoint Rotation is: P=358.942535 Y=173.727448 R=0.000000
+[2020.04.21-22.41.00:406][ 71]LogTemp: Warning: Viewpoint Direction is: X=-3372.528 Y=-1330.397 Z=808.258 and the Viewpoint Rotation is: P=358.942535 Y=173.727448 R=0.000000
+[2020.04.21-22.41.00:425][ 72]LogTemp: Warning: Viewpoint Direction is: X=-3398.948 Y=-1326.820 Z=807.776 and the Viewpoint Rotation is: P=358.942535 Y=173.727448 R=0.000000
+[2020.04.21-22.41.00:448][ 73]LogTemp: Warning: Viewpoint Direction is: X=-3419.074 Y=-1324.189 Z=807.408 and the Viewpoint Rotation is: P=358.942535 Y=173.727448 R=0.000000
+[2020.04.21-22.41.00:470][ 74]LogTemp: Warning: Viewpoint Direction is: X=-3436.626 Y=-1310.735 Z=806.902 and the Viewpoint Rotation is: P=358.942535 Y=173.727448 R=0.000000
+[2020.04.21-22.41.00:489][ 75]LogTemp: Warning: Viewpoint Direction is: X=-3457.764 Y=-1298.825 Z=806.360 and the Viewpoint Rotation is: P=358.942535 Y=173.727448 R=0.000000
+[2020.04.21-22.41.00:508][ 76]LogTemp: Warning: Viewpoint Direction is: X=-3473.971 Y=-1291.217 Z=805.968 and the Viewpoint Rotation is: P=358.942535 Y=173.727448 R=0.000000
+[2020.04.21-22.41.00:529][ 77]LogTemp: Warning: Viewpoint Direction is: X=-3496.997 Y=-1282.476 Z=805.443 and the Viewpoint Rotation is: P=358.942535 Y=173.727448 R=0.000000
+[2020.04.21-22.41.00:555][ 78]LogTemp: Warning: Viewpoint Direction is: X=-3519.180 Y=-1275.367 Z=804.958 and the Viewpoint Rotation is: P=358.942535 Y=173.727448 R=0.000000
+[2020.04.21-22.41.00:575][ 79]LogTemp: Warning: Viewpoint Direction is: X=-3547.666 Y=-1267.830 Z=804.361 and the Viewpoint Rotation is: P=358.942535 Y=173.727448 R=0.000000
+[2020.04.21-22.41.00:594][ 80]LogTemp: Warning: Viewpoint Direction is: X=-3573.658 Y=-1261.916 Z=803.830 and the Viewpoint Rotation is: P=358.942535 Y=173.727448 R=0.000000
+[2020.04.21-22.41.00:614][ 81]LogTemp: Warning: Viewpoint Direction is: X=-3596.235 Y=-1257.330 Z=803.378 and the Viewpoint Rotation is: P=358.942535 Y=173.727448 R=0.000000
+[2020.04.21-22.41.00:639][ 82]LogTemp: Warning: Viewpoint Direction is: X=-3618.237 Y=-1253.274 Z=802.944 and the Viewpoint Rotation is: P=358.767548 Y=172.327591 R=0.000000
+[2020.04.21-22.41.00:655][ 83]LogTemp: Warning: Viewpoint Direction is: X=-3646.621 Y=-1248.398 Z=802.370 and the Viewpoint Rotation is: P=357.807312 Y=165.743103 R=0.000000
+[2020.04.21-22.41.00:676][ 84]LogTemp: Warning: Viewpoint Direction is: X=-3667.474 Y=-1246.158 Z=801.873 and the Viewpoint Rotation is: P=357.099976 Y=159.553772 R=0.000000
+[2020.04.21-22.41.00:697][ 85]LogTemp: Warning: Viewpoint Direction is: X=-3690.968 Y=-1246.133 Z=801.170 and the Viewpoint Rotation is: P=356.464783 Y=152.884323 R=0.000000
+[2020.04.21-22.41.00:725][ 86]LogTemp: Warning: Viewpoint Direction is: X=-3714.781 Y=-1243.751 Z=800.275 and the Viewpoint Rotation is: P=355.825470 Y=147.769714 R=0.000000
+[2020.04.21-22.41.00:739][ 87]LogTemp: Warning: Viewpoint Direction is: X=-3747.567 Y=-1235.975 Z=798.630 and the Viewpoint Rotation is: P=355.475494 Y=145.844910 R=0.000000
+[2020.04.21-22.41.00:759][ 88]LogTemp: Warning: Viewpoint Direction is: X=-3767.204 Y=-1229.926 Z=797.502 and the Viewpoint Rotation is: P=355.125519 Y=145.494949 R=0.000000
+[2020.04.21-22.41.00:780][ 89]LogTemp: Warning: Viewpoint Direction is: X=-3786.711 Y=-1222.702 Z=796.233 and the Viewpoint Rotation is: P=355.125519 Y=145.494949 R=0.000000
+[2020.04.21-22.41.00:804][ 90]LogTemp: Warning: Viewpoint Direction is: X=-3811.667 Y=-1211.744 Z=794.403 and the Viewpoint Rotation is: P=355.125519 Y=145.494949 R=0.000000
+[2020.04.21-22.41.00:826][ 91]LogTemp: Warning: Viewpoint Direction is: X=-3836.002 Y=-1199.729 Z=792.456 and the Viewpoint Rotation is: P=355.125519 Y=145.494949 R=0.000000
+[2020.04.21-22.41.00:851][ 92]LogTemp: Warning: Viewpoint Direction is: X=-3861.052 Y=-1186.225 Z=790.314 and the Viewpoint Rotation is: P=355.125519 Y=145.494949 R=0.000000
+[2020.04.21-22.41.00:874][ 93]LogTemp: Warning: Viewpoint Direction is: X=-3886.760 Y=-1171.425 Z=788.002 and the Viewpoint Rotation is: P=355.125519 Y=145.494949 R=0.000000
+[2020.04.21-22.41.00:895][ 94]LogTemp: Warning: Viewpoint Direction is: X=-3910.174 Y=-1157.341 Z=785.823 and the Viewpoint Rotation is: P=355.125519 Y=145.494949 R=0.000000
+[2020.04.21-22.41.00:919][ 95]LogTemp: Warning: Viewpoint Direction is: X=-3931.583 Y=-1144.064 Z=783.782 and the Viewpoint Rotation is: P=355.125519 Y=145.494949 R=0.000000
+[2020.04.21-22.41.00:938][ 96]LogTemp: Warning: Viewpoint Direction is: X=-3956.141 Y=-1128.423 Z=781.392 and the Viewpoint Rotation is: P=355.125519 Y=145.494949 R=0.000000
+[2020.04.21-22.41.00:955][ 97]LogTemp: Warning: Viewpoint Direction is: X=-3972.900 Y=-1117.601 Z=779.742 and the Viewpoint Rotation is: P=355.125519 Y=145.494949 R=0.000000
+[2020.04.21-22.41.00:976][ 98]LogTemp: Warning: Viewpoint Direction is: X=-3989.676 Y=-1106.644 Z=778.075 and the Viewpoint Rotation is: P=355.125519 Y=145.494949 R=0.000000
+[2020.04.21-22.41.00:997][ 99]LogTemp: Warning: Viewpoint Direction is: X=-4013.166 Y=-1091.105 Z=775.718 and the Viewpoint Rotation is: P=355.125519 Y=145.494949 R=0.000000
+[2020.04.21-22.41.01:019][100]LogTemp: Warning: Viewpoint Direction is: X=-4032.770 Y=-1078.031 Z=773.738 and the Viewpoint Rotation is: P=355.125519 Y=145.494949 R=0.000000
+[2020.04.21-22.41.01:037][101]LogTemp: Warning: Viewpoint Direction is: X=-4054.301 Y=-1063.572 Z=771.552 and the Viewpoint Rotation is: P=355.125519 Y=145.494949 R=0.000000
+[2020.04.21-22.41.01:059][102]LogTemp: Warning: Viewpoint Direction is: X=-4073.582 Y=-1050.560 Z=769.586 and the Viewpoint Rotation is: P=356.000427 Y=144.270065 R=0.000000
+[2020.04.21-22.41.01:077][103]LogTemp: Warning: Viewpoint Direction is: X=-4090.054 Y=-1039.315 Z=767.952 and the Viewpoint Rotation is: P=356.532623 Y=142.806519 R=0.000000
+[2020.04.21-22.41.01:099][104]LogTemp: Warning: Viewpoint Direction is: X=-4112.896 Y=-1023.306 Z=765.813 and the Viewpoint Rotation is: P=356.532623 Y=131.278625 R=0.000000
+[2020.04.21-22.41.01:122][105]LogTemp: Warning: Viewpoint Direction is: X=-4132.318 Y=-1008.128 Z=764.000 and the Viewpoint Rotation is: P=356.532623 Y=123.062447 R=0.000000
+[2020.04.21-22.41.01:140][106]LogTemp: Warning: Viewpoint Direction is: X=-4153.692 Y=-988.330 Z=761.933 and the Viewpoint Rotation is: P=356.532623 Y=111.113358 R=0.000000
+[2020.04.21-22.41.01:162][107]LogTemp: Warning: Viewpoint Direction is: X=-4168.609 Y=-971.824 Z=760.374 and the Viewpoint Rotation is: P=356.532623 Y=100.719162 R=0.000000
+[2020.04.21-22.41.01:185][108]LogTemp: Warning: Viewpoint Direction is: X=-4182.421 Y=-952.566 Z=758.721 and the Viewpoint Rotation is: P=356.532623 Y=89.640984 R=0.000000
+[2020.04.21-22.41.01:208][109]LogTemp: Warning: Viewpoint Direction is: X=-4194.685 Y=-928.933 Z=756.855 and the Viewpoint Rotation is: P=357.407532 Y=77.329590 R=0.000000
+[2020.04.21-22.41.01:226][110]LogTemp: Warning: Viewpoint Direction is: X=-4203.661 Y=-899.524 Z=754.809 and the Viewpoint Rotation is: P=358.289429 Y=65.865067 R=0.000000
+[2020.04.21-22.41.01:247][111]LogTemp: Warning: Viewpoint Direction is: X=-4207.146 Y=-879.085 Z=753.521 and the Viewpoint Rotation is: P=358.983032 Y=61.530113 R=0.000000
+[2020.04.21-22.41.01:276][112]LogTemp: Warning: Viewpoint Direction is: X=-4207.921 Y=-855.195 Z=752.214 and the Viewpoint Rotation is: P=359.622742 Y=57.531879 R=0.000000
+[2020.04.21-22.41.01:295][113]LogTemp: Warning: Viewpoint Direction is: X=-4202.491 Y=-819.456 Z=750.721 and the Viewpoint Rotation is: P=0.530273 Y=50.876656 R=0.000000
+[2020.04.21-22.41.01:321][114]LogTemp: Warning: Viewpoint Direction is: X=-4199.671 Y=-800.893 Z=749.945 and the Viewpoint Rotation is: P=1.386685 Y=46.023659 R=0.000000
+[2020.04.21-22.41.01:339][115]LogTemp: Warning: Viewpoint Direction is: X=-4196.537 Y=-780.265 Z=749.084 and the Viewpoint Rotation is: P=2.195634 Y=41.655331 R=0.000000
+[2020.04.21-22.41.01:359][116]LogTemp: Warning: Viewpoint Direction is: X=-4190.233 Y=-768.933 Z=748.468 and the Viewpoint Rotation is: P=2.195634 Y=39.575371 R=0.000000
+[2020.04.21-22.41.01:382][117]LogTemp: Warning: Viewpoint Direction is: X=-4185.372 Y=-762.562 Z=748.081 and the Viewpoint Rotation is: P=2.545599 Y=38.433525 R=0.000000
+[2020.04.21-22.41.01:407][118]LogTemp: Warning: Viewpoint Direction is: X=-4181.527 Y=-757.782 Z=747.784 and the Viewpoint Rotation is: P=2.910758 Y=36.059998 R=0.000000
+[2020.04.21-22.41.01:423][119]LogTemp: Warning: Viewpoint Direction is: X=-4180.575 Y=-756.607 Z=747.711 and the Viewpoint Rotation is: P=2.910758 Y=32.418907 R=0.000000
+[2020.04.21-22.41.01:441][120]LogTemp: Warning: Viewpoint Direction is: X=-4180.575 Y=-756.607 Z=747.711 and the Viewpoint Rotation is: P=2.910758 Y=31.300222 R=0.000000
+[2020.04.21-22.41.01:460][121]LogTemp: Warning: Viewpoint Direction is: X=-4180.575 Y=-756.607 Z=747.711 and the Viewpoint Rotation is: P=2.910758 Y=30.950258 R=0.000000
+[2020.04.21-22.41.01:487][122]LogTemp: Warning: Viewpoint Direction is: X=-4180.575 Y=-756.607 Z=747.711 and the Viewpoint Rotation is: P=2.910758 Y=30.950258 R=0.000000
+[2020.04.21-22.41.01:503][123]LogTemp: Warning: Viewpoint Direction is: X=-4180.575 Y=-756.607 Z=747.711 and the Viewpoint Rotation is: P=2.910758 Y=30.950258 R=0.000000
+[2020.04.21-22.41.01:526][124]LogTemp: Warning: Viewpoint Direction is: X=-4180.575 Y=-756.607 Z=747.711 and the Viewpoint Rotation is: P=2.910758 Y=30.950258 R=0.000000
+[2020.04.21-22.41.01:544][125]LogTemp: Warning: Viewpoint Direction is: X=-4179.624 Y=-756.037 Z=747.767 and the Viewpoint Rotation is: P=2.910758 Y=30.950258 R=0.000000
+[2020.04.21-22.41.01:568][126]LogTemp: Warning: Viewpoint Direction is: X=-4176.348 Y=-754.073 Z=747.962 and the Viewpoint Rotation is: P=2.910758 Y=30.950258 R=0.000000
+[2020.04.21-22.41.01:587][127]LogTemp: Warning: Viewpoint Direction is: X=-4171.329 Y=-751.063 Z=748.259 and the Viewpoint Rotation is: P=2.910758 Y=30.950258 R=0.000000
+[2020.04.21-22.41.01:606][128]LogTemp: Warning: Viewpoint Direction is: X=-4170.280 Y=-748.764 Z=747.988 and the Viewpoint Rotation is: P=2.910758 Y=30.950258 R=0.000000
+[2020.04.21-22.41.01:625][129]LogTemp: Warning: Viewpoint Direction is: X=-4170.170 Y=-746.700 Z=747.608 and the Viewpoint Rotation is: P=2.910758 Y=30.950258 R=0.000000
+[2020.04.21-22.41.01:643][130]LogTemp: Warning: Viewpoint Direction is: X=-4170.468 Y=-743.561 Z=746.970 and the Viewpoint Rotation is: P=2.910758 Y=30.950258 R=0.000000
+[2020.04.21-22.41.01:667][131]LogTemp: Warning: Viewpoint Direction is: X=-4170.069 Y=-742.609 Z=745.677 and the Viewpoint Rotation is: P=2.910758 Y=30.950258 R=0.000000
+[2020.04.21-22.41.01:689][132]LogTemp: Warning: Viewpoint Direction is: X=-4169.769 Y=-741.730 Z=743.644 and the Viewpoint Rotation is: P=2.910758 Y=30.950258 R=0.000000
+[2020.04.21-22.41.01:708][133]LogTemp: Warning: Viewpoint Direction is: X=-4169.415 Y=-740.089 Z=741.572 and the Viewpoint Rotation is: P=2.910758 Y=29.725380 R=0.000000
+[2020.04.21-22.41.01:730][134]LogTemp: Warning: Viewpoint Direction is: X=-4168.930 Y=-738.588 Z=740.354 and the Viewpoint Rotation is: P=4.135635 Y=28.117645 R=0.000000
+[2020.04.21-22.41.01:755][135]LogTemp: Warning: Viewpoint Direction is: X=-4168.930 Y=-738.588 Z=739.191 and the Viewpoint Rotation is: P=5.752147 Y=25.962296 R=0.000000
+[2020.04.21-22.41.01:772][136]LogTemp: Warning: Viewpoint Direction is: X=-4168.930 Y=-738.588 Z=738.444 and the Viewpoint Rotation is: P=7.631246 Y=17.193167 R=0.000000
+[2020.04.21-22.41.01:794][137]LogTemp: Warning: Viewpoint Direction is: X=-4168.930 Y=-738.588 Z=738.133 and the Viewpoint Rotation is: P=8.942190 Y=9.655233 R=0.000000
+[2020.04.21-22.41.01:817][138]LogTemp: Warning: Viewpoint Direction is: X=-4168.930 Y=-738.588 Z=738.139 and the Viewpoint Rotation is: P=9.761160 Y=4.058937 R=0.000000
+[2020.04.21-22.41.01:836][139]LogTemp: Warning: Viewpoint Direction is: X=-4168.930 Y=-738.588 Z=738.448 and the Viewpoint Rotation is: P=9.761160 Y=2.834059 R=0.000000
+[2020.04.21-22.41.01:856][140]LogTemp: Warning: Viewpoint Direction is: X=-4168.930 Y=-738.582 Z=739.148 and the Viewpoint Rotation is: P=9.761160 Y=2.834059 R=0.000000
+[2020.04.21-22.41.01:875][141]LogTemp: Warning: Viewpoint Direction is: X=-4168.927 Y=-738.564 Z=739.763 and the Viewpoint Rotation is: P=9.761160 Y=2.834059 R=0.000000
+[2020.04.21-22.41.01:892][142]LogTemp: Warning: Viewpoint Direction is: X=-4168.927 Y=-738.564 Z=740.783 and the Viewpoint Rotation is: P=9.761160 Y=2.834059 R=0.000000
+[2020.04.21-22.41.01:910][143]LogTemp: Warning: Viewpoint Direction is: X=-4168.926 Y=-738.554 Z=740.846 and the Viewpoint Rotation is: P=9.761160 Y=2.834059 R=0.000000
+[2020.04.21-22.41.01:929][144]LogTemp: Warning: Viewpoint Direction is: X=-4168.926 Y=-738.554 Z=740.846 and the Viewpoint Rotation is: P=9.761160 Y=2.834059 R=0.000000
+[2020.04.21-22.41.01:955][145]LogTemp: Warning: Viewpoint Direction is: X=-4168.926 Y=-738.554 Z=740.846 and the Viewpoint Rotation is: P=9.761160 Y=2.834059 R=0.000000
+[2020.04.21-22.41.01:970][146]LogTemp: Warning: Viewpoint Direction is: X=-4168.926 Y=-738.554 Z=740.846 and the Viewpoint Rotation is: P=9.761160 Y=2.484094 R=0.000000
+[2020.04.21-22.41.01:989][147]LogTemp: Warning: Viewpoint Direction is: X=-4168.926 Y=-738.554 Z=740.846 and the Viewpoint Rotation is: P=9.761160 Y=2.484094 R=0.000000
+[2020.04.21-22.41.02:009][148]LogTemp: Warning: Viewpoint Direction is: X=-4168.926 Y=-738.554 Z=740.846 and the Viewpoint Rotation is: P=9.761160 Y=1.784164 R=0.000000
+[2020.04.21-22.41.02:031][149]LogTemp: Warning: Viewpoint Direction is: X=-4168.926 Y=-738.554 Z=740.846 and the Viewpoint Rotation is: P=9.761160 Y=1.434199 R=0.000000
+[2020.04.21-22.41.02:055][150]LogTemp: Warning: Viewpoint Direction is: X=-4168.926 Y=-738.554 Z=740.846 and the Viewpoint Rotation is: P=9.761160 Y=0.734269 R=0.000000
+[2020.04.21-22.41.02:072][151]LogTemp: Warning: Viewpoint Direction is: X=-4168.926 Y=-738.554 Z=740.846 and the Viewpoint Rotation is: P=9.761160 Y=359.684387 R=0.000000
+[2020.04.21-22.41.02:096][152]LogTemp: Warning: Viewpoint Direction is: X=-4168.926 Y=-738.554 Z=740.846 and the Viewpoint Rotation is: P=9.761160 Y=358.510162 R=0.000000
+[2020.04.21-22.41.02:122][153]LogTemp: Warning: Viewpoint Direction is: X=-4168.926 Y=-738.554 Z=740.846 and the Viewpoint Rotation is: P=9.761160 Y=357.045807 R=0.000000
+[2020.04.21-22.41.02:139][154]LogTemp: Warning: Viewpoint Direction is: X=-4168.926 Y=-738.554 Z=740.846 and the Viewpoint Rotation is: P=9.761160 Y=354.984711 R=0.000000
+[2020.04.21-22.41.02:161][155]LogTemp: Warning: Viewpoint Direction is: X=-4168.926 Y=-738.554 Z=740.847 and the Viewpoint Rotation is: P=8.361300 Y=350.478424 R=0.000000
+[2020.04.21-22.41.02:184][156]LogTemp: Warning: Viewpoint Direction is: X=-4168.926 Y=-738.556 Z=740.852 and the Viewpoint Rotation is: P=5.482529 Y=344.145142 R=0.000000
+[2020.04.21-22.41.02:205][157]LogTemp: Warning: Viewpoint Direction is: X=-4169.013 Y=-738.954 Z=741.098 and the Viewpoint Rotation is: P=2.085342 Y=333.274139 R=0.000000
+[2020.04.21-22.41.02:225][158]LogTemp: Warning: Viewpoint Direction is: X=-4169.083 Y=-739.966 Z=740.956 and the Viewpoint Rotation is: P=0.175220 Y=326.662170 R=0.000000
+[2020.04.21-22.41.02:245][159]LogTemp: Warning: Viewpoint Direction is: X=-4169.197 Y=-741.392 Z=740.859 and the Viewpoint Rotation is: P=359.074677 Y=324.094208 R=0.000000
+[2020.04.21-22.41.02:269][160]LogTemp: Warning: Viewpoint Direction is: X=-4169.293 Y=-743.975 Z=740.731 and the Viewpoint Rotation is: P=358.899689 Y=323.744232 R=0.000000
+[2020.04.21-22.41.02:290][161]LogTemp: Warning: Viewpoint Direction is: X=-4169.122 Y=-748.018 Z=740.563 and the Viewpoint Rotation is: P=358.899689 Y=323.744232 R=0.000000
+[2020.04.21-22.41.02:310][162]LogTemp: Warning: Viewpoint Direction is: X=-4168.060 Y=-752.682 Z=740.390 and the Viewpoint Rotation is: P=358.899689 Y=323.744232 R=0.000000
+[2020.04.21-22.41.02:340][163]LogTemp: Warning: Viewpoint Direction is: X=-4166.021 Y=-758.116 Z=740.205 and the Viewpoint Rotation is: P=358.899689 Y=323.744232 R=0.000000
+[2020.04.21-22.41.02:358][164]LogTemp: Warning: Viewpoint Direction is: X=-4160.839 Y=-766.523 Z=739.932 and the Viewpoint Rotation is: P=358.899689 Y=323.744232 R=0.000000
+[2020.04.21-22.41.02:381][165]LogTemp: Warning: Viewpoint Direction is: X=-4155.208 Y=-773.603 Z=739.702 and the Viewpoint Rotation is: P=358.724701 Y=322.869324 R=0.000000
+[2020.04.21-22.41.02:407][166]LogTemp: Warning: Viewpoint Direction is: X=-4147.902 Y=-781.519 Z=739.436 and the Viewpoint Rotation is: P=358.561462 Y=320.910339 R=0.000000
+[2020.04.21-22.41.02:427][167]LogTemp: Warning: Viewpoint Direction is: X=-4134.542 Y=-794.531 Z=738.972 and the Viewpoint Rotation is: P=358.561462 Y=317.137665 R=0.000000
+[2020.04.21-22.41.02:450][168]LogTemp: Warning: Viewpoint Direction is: X=-4124.560 Y=-804.138 Z=738.627 and the Viewpoint Rotation is: P=358.561462 Y=314.445496 R=0.000000
+[2020.04.21-22.41.02:482][169]LogTemp: Warning: Viewpoint Direction is: X=-4112.517 Y=-815.900 Z=738.206 and the Viewpoint Rotation is: P=358.736450 Y=312.630432 R=0.000000
+[2020.04.21-22.41.02:497][170]LogTemp: Warning: Viewpoint Direction is: X=-4092.479 Y=-836.207 Z=737.522 and the Viewpoint Rotation is: P=359.611359 Y=311.580536 R=0.000000
+[2020.04.21-22.41.02:523][171]LogTemp: Warning: Viewpoint Direction is: X=-4080.183 Y=-848.939 Z=737.160 and the Viewpoint Rotation is: P=0.672852 Y=310.165222 R=0.000000
+[2020.04.21-22.41.02:539][172]LogTemp: Warning: Viewpoint Direction is: X=-4064.489 Y=-865.713 Z=736.863 and the Viewpoint Rotation is: P=2.490280 Y=308.105469 R=0.000000
+[2020.04.21-22.41.02:562][173]LogTemp: Warning: Viewpoint Direction is: X=-4047.504 Y=-884.630 Z=736.874 and the Viewpoint Rotation is: P=6.663250 Y=300.455017 R=0.000000
+[2020.04.21-22.41.02:590][174]LogTemp: Warning: Viewpoint Direction is: X=-4033.843 Y=-901.062 Z=737.359 and the Viewpoint Rotation is: P=8.511538 Y=297.753662 R=0.000000
+[2020.04.21-22.41.02:607][175]LogTemp: Warning: Viewpoint Direction is: X=-4014.071 Y=-927.970 Z=739.341 and the Viewpoint Rotation is: P=9.561433 Y=296.528778 R=0.000000
+[2020.04.21-22.41.02:629][176]LogTemp: Warning: Viewpoint Direction is: X=-3999.205 Y=-949.974 Z=741.596 and the Viewpoint Rotation is: P=10.623649 Y=296.351746 R=0.000000
+[2020.04.21-22.41.02:654][177]LogTemp: Warning: Viewpoint Direction is: X=-3988.426 Y=-966.777 Z=743.658 and the Viewpoint Rotation is: P=12.090226 Y=296.351746 R=0.000000
+[2020.04.21-22.41.02:676][178]LogTemp: Warning: Viewpoint Direction is: X=-3972.504 Y=-993.289 Z=747.776 and the Viewpoint Rotation is: P=14.162735 Y=297.926575 R=0.000000
+[2020.04.21-22.41.02:697][179]LogTemp: Warning: Viewpoint Direction is: X=-3956.711 Y=-1020.476 Z=752.983 and the Viewpoint Rotation is: P=15.676273 Y=300.953644 R=0.000000
+[2020.04.21-22.41.02:724][180]LogTemp: Warning: Viewpoint Direction is: X=-3944.771 Y=-1040.892 Z=757.469 and the Viewpoint Rotation is: P=16.476879 Y=303.675690 R=0.000000
+[2020.04.21-22.41.02:738][181]LogTemp: Warning: Viewpoint Direction is: X=-3930.699 Y=-1064.196 Z=763.327 and the Viewpoint Rotation is: P=16.609385 Y=311.625977 R=0.000000
+[2020.04.21-22.41.02:759][182]LogTemp: Warning: Viewpoint Direction is: X=-3918.268 Y=-1083.155 Z=768.602 and the Viewpoint Rotation is: P=16.609385 Y=314.775665 R=0.000000
+[2020.04.21-22.41.02:788][183]LogTemp: Warning: Viewpoint Direction is: X=-3906.915 Y=-1099.187 Z=773.417 and the Viewpoint Rotation is: P=16.434402 Y=318.595978 R=0.000000
+[2020.04.21-22.41.02:809][184]LogTemp: Warning: Viewpoint Direction is: X=-3886.523 Y=-1124.282 Z=781.852 and the Viewpoint Rotation is: P=15.319886 Y=324.009338 R=0.000000
+[2020.04.21-22.41.02:829][185]LogTemp: Warning: Viewpoint Direction is: X=-3866.188 Y=-1146.035 Z=789.775 and the Viewpoint Rotation is: P=13.264373 Y=331.032349 R=0.000000
+[2020.04.21-22.41.02:856][186]LogTemp: Warning: Viewpoint Direction is: X=-3849.793 Y=-1161.448 Z=795.668 and the Viewpoint Rotation is: P=11.556620 Y=338.173859 R=0.000000
+[2020.04.21-22.41.02:874][187]LogTemp: Warning: Viewpoint Direction is: X=-3827.928 Y=-1178.456 Z=802.613 and the Viewpoint Rotation is: P=9.967429 Y=346.914398 R=0.000000
+[2020.04.21-22.41.02:896][188]LogTemp: Warning: Viewpoint Direction is: X=-3806.057 Y=-1192.175 Z=808.731 and the Viewpoint Rotation is: P=8.550138 Y=353.469360 R=0.000000
+[2020.04.21-22.41.02:923][189]LogTemp: Warning: Viewpoint Direction is: X=-3785.412 Y=-1202.579 Z=813.869 and the Viewpoint Rotation is: P=7.230659 Y=357.295837 R=0.000000
+[2020.04.21-22.41.02:940][190]LogTemp: Warning: Viewpoint Direction is: X=-3755.193 Y=-1213.524 Z=820.246 and the Viewpoint Rotation is: P=5.508228 Y=0.427521 R=0.000000
+[2020.04.21-22.41.02:963][191]LogTemp: Warning: Viewpoint Direction is: X=-3733.561 Y=-1219.636 Z=824.277 and the Viewpoint Rotation is: P=3.980857 Y=2.527656 R=0.000000
+[2020.04.21-22.41.02:992][192]LogTemp: Warning: Viewpoint Direction is: X=-3709.449 Y=-1224.645 Z=828.126 and the Viewpoint Rotation is: P=2.033873 Y=5.169992 R=0.000000
+[2020.04.21-22.41.03:008][193]LogTemp: Warning: Viewpoint Direction is: X=-3690.764 Y=-1237.139 Z=843.002 and the Viewpoint Rotation is: P=359.377289 Y=9.302446 R=0.000000
+[2020.04.21-22.41.03:030][194]LogTemp: Warning: Viewpoint Direction is: X=-3678.167 Y=-1242.864 Z=850.415 and the Viewpoint Rotation is: P=358.179596 Y=11.697822 R=0.000000
+[2020.04.21-22.41.03:056][195]LogTemp: Warning: Viewpoint Direction is: X=-3660.478 Y=-1247.704 Z=857.822 and the Viewpoint Rotation is: P=357.479675 Y=12.922699 R=0.000000
+[2020.04.21-22.41.03:072][196]LogTemp: Warning: Viewpoint Direction is: X=-3634.197 Y=-1250.732 Z=864.987 and the Viewpoint Rotation is: P=357.129700 Y=13.272664 R=0.000000
+[2020.04.21-22.41.03:093][197]LogTemp: Warning: Viewpoint Direction is: X=-3616.172 Y=-1251.568 Z=868.757 and the Viewpoint Rotation is: P=356.954712 Y=13.447646 R=0.000000
+[2020.04.21-22.41.03:117][198]LogTemp: Warning: Viewpoint Direction is: X=-3597.488 Y=-1251.443 Z=871.747 and the Viewpoint Rotation is: P=356.779724 Y=13.622628 R=0.000000
+[2020.04.21-22.41.03:137][199]LogTemp: Warning: Viewpoint Direction is: X=-3565.059 Y=-1249.059 Z=874.933 and the Viewpoint Rotation is: P=356.779724 Y=13.622628 R=0.000000
+[2020.04.21-22.41.03:159][200]LogTemp: Warning: Viewpoint Direction is: X=-3540.302 Y=-1246.333 Z=876.528 and the Viewpoint Rotation is: P=356.779724 Y=13.622628 R=0.000000
+[2020.04.21-22.41.03:180][201]LogTemp: Warning: Viewpoint Direction is: X=-3517.598 Y=-1243.233 Z=877.435 and the Viewpoint Rotation is: P=356.779724 Y=13.622628 R=0.000000
+[2020.04.21-22.41.03:204][202]LogTemp: Warning: Viewpoint Direction is: X=-3491.332 Y=-1239.006 Z=877.892 and the Viewpoint Rotation is: P=356.779724 Y=13.622628 R=0.000000
+[2020.04.21-22.41.03:219][203]LogTemp: Warning: Viewpoint Direction is: X=-3463.265 Y=-1233.926 Z=877.860 and the Viewpoint Rotation is: P=356.779724 Y=13.622628 R=0.000000
+[2020.04.21-22.41.03:241][204]LogTemp: Warning: Viewpoint Direction is: X=-3442.744 Y=-1229.980 Z=877.621 and the Viewpoint Rotation is: P=356.779724 Y=13.622628 R=0.000000
+[2020.04.21-22.41.03:264][205]LogTemp: Warning: Viewpoint Direction is: X=-3420.866 Y=-1225.557 Z=877.168 and the Viewpoint Rotation is: P=356.779724 Y=13.622628 R=0.000000
+[2020.04.21-22.41.03:289][206]LogTemp: Warning: Viewpoint Direction is: X=-3394.071 Y=-1219.883 Z=876.375 and the Viewpoint Rotation is: P=356.604736 Y=13.097681 R=0.000000
+[2020.04.21-22.41.03:308][207]LogTemp: Warning: Viewpoint Direction is: X=-3363.943 Y=-1213.335 Z=875.232 and the Viewpoint Rotation is: P=356.604736 Y=11.194780 R=0.000000
+[2020.04.21-22.41.03:328][208]LogTemp: Warning: Viewpoint Direction is: X=-3340.375 Y=-1208.311 Z=874.223 and the Viewpoint Rotation is: P=356.604736 Y=11.019798 R=0.000000
+[2020.04.21-22.41.03:351][209]LogTemp: Warning: Viewpoint Direction is: X=-3316.512 Y=-1203.319 Z=873.111 and the Viewpoint Rotation is: P=356.604736 Y=11.019798 R=0.000000
+[2020.04.21-22.41.03:371][210]LogTemp: Warning: Viewpoint Direction is: X=-3291.147 Y=-1198.097 Z=871.849 and the Viewpoint Rotation is: P=356.604736 Y=11.019798 R=0.000000
+[2020.04.21-22.41.03:390][211]LogTemp: Warning: Viewpoint Direction is: X=-3265.961 Y=-1192.976 Z=870.535 and the Viewpoint Rotation is: P=356.604736 Y=11.019798 R=0.000000
+[2020.04.21-22.41.03:412][212]LogTemp: Warning: Viewpoint Direction is: X=-3246.383 Y=-1189.025 Z=869.484 and the Viewpoint Rotation is: P=356.604736 Y=11.019798 R=0.000000
+[2020.04.21-22.41.03:438][213]LogTemp: Warning: Viewpoint Direction is: X=-3217.850 Y=-1183.318 Z=867.903 and the Viewpoint Rotation is: P=356.604736 Y=11.019798 R=0.000000
+[2020.04.21-22.41.03:456][214]LogTemp: Warning: Viewpoint Direction is: X=-3188.692 Y=-1177.526 Z=866.250 and the Viewpoint Rotation is: P=356.604736 Y=11.019798 R=0.000000
+[2020.04.21-22.41.03:476][215]LogTemp: Warning: Viewpoint Direction is: X=-3169.151 Y=-1173.644 Z=865.142 and the Viewpoint Rotation is: P=355.904816 Y=10.669833 R=0.000000
+[2020.04.21-22.41.03:501][216]LogTemp: Warning: Viewpoint Direction is: X=-3151.254 Y=-1170.089 Z=864.127 and the Viewpoint Rotation is: P=354.916504 Y=11.163990 R=0.000000
+[2020.04.21-22.41.03:520][217]LogTemp: Warning: Viewpoint Direction is: X=-3135.588 Y=-1166.977 Z=863.239 and the Viewpoint Rotation is: P=353.691620 Y=11.688937 R=0.000000
+[2020.04.21-22.41.03:537][218]LogTemp: Warning: Viewpoint Direction is: X=-3124.683 Y=-1164.811 Z=862.620 and the Viewpoint Rotation is: P=353.341644 Y=12.038902 R=0.000000
+[2020.04.21-22.41.03:559][219]LogTemp: Warning: Viewpoint Direction is: X=-3118.195 Y=-1163.522 Z=862.252 and the Viewpoint Rotation is: P=353.341644 Y=12.038902 R=0.000000
+[2020.04.21-22.41.03:580][220]LogTemp: Warning: Viewpoint Direction is: X=-3113.462 Y=-1162.582 Z=861.984 and the Viewpoint Rotation is: P=352.991669 Y=12.038902 R=0.000000
+[2020.04.21-22.41.03:602][221]LogTemp: Warning: Viewpoint Direction is: X=-3112.165 Y=-1162.324 Z=861.911 and the Viewpoint Rotation is: P=352.466736 Y=12.563849 R=0.000000
+[2020.04.21-22.41.03:622][222]LogTemp: Warning: Viewpoint Direction is: X=-3112.165 Y=-1162.324 Z=861.911 and the Viewpoint Rotation is: P=351.941803 Y=13.438762 R=0.000000
+[2020.04.21-22.41.03:639][223]LogTemp: Warning: Viewpoint Direction is: X=-3112.165 Y=-1162.324 Z=861.911 and the Viewpoint Rotation is: P=351.677734 Y=14.494987 R=0.000000
+[2020.04.21-22.41.03:681][224]LogTemp: Warning: Viewpoint Direction is: X=-3112.165 Y=-1162.324 Z=861.911 and the Viewpoint Rotation is: P=351.265045 Y=15.733026 R=0.000000
+[2020.04.21-22.41.03:701][225]LogTemp: Warning: Viewpoint Direction is: X=-3112.165 Y=-1162.324 Z=861.911 and the Viewpoint Rotation is: P=350.735260 Y=19.044262 R=0.000000
+[2020.04.21-22.41.03:726][226]LogTemp: Warning: Viewpoint Direction is: X=-3114.329 Y=-1163.071 Z=862.284 and the Viewpoint Rotation is: P=350.735260 Y=21.336124 R=0.000000
+[2020.04.21-22.41.03:743][227]LogTemp: Warning: Viewpoint Direction is: X=-3118.815 Y=-1164.743 Z=863.065 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.03:778][228]LogTemp: Warning: Viewpoint Direction is: X=-3123.391 Y=-1166.503 Z=863.877 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.03:792][229]LogTemp: Warning: Viewpoint Direction is: X=-3135.792 Y=-1171.401 Z=866.110 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.03:815][230]LogTemp: Warning: Viewpoint Direction is: X=-3142.971 Y=-1174.254 Z=867.408 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.03:836][231]LogTemp: Warning: Viewpoint Direction is: X=-3154.037 Y=-1178.676 Z=869.415 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.03:853][232]LogTemp: Warning: Viewpoint Direction is: X=-3166.754 Y=-1183.777 Z=871.727 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.03:874][233]LogTemp: Warning: Viewpoint Direction is: X=-3177.580 Y=-1188.127 Z=873.697 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.03:894][234]LogTemp: Warning: Viewpoint Direction is: X=-3193.467 Y=-1194.524 Z=876.591 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.03:915][235]LogTemp: Warning: Viewpoint Direction is: X=-3208.354 Y=-1200.525 Z=879.306 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.03:935][236]LogTemp: Warning: Viewpoint Direction is: X=-3221.608 Y=-1205.868 Z=881.722 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.03:954][237]LogTemp: Warning: Viewpoint Direction is: X=-3232.214 Y=-1210.144 Z=883.656 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.03:976][238]LogTemp: Warning: Viewpoint Direction is: X=-3238.334 Y=-1212.611 Z=884.771 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.04:000][239]LogTemp: Warning: Viewpoint Direction is: X=-3242.906 Y=-1214.454 Z=885.605 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.04:020][240]LogTemp: Warning: Viewpoint Direction is: X=-3243.444 Y=-1214.671 Z=885.703 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.04:039][241]LogTemp: Warning: Viewpoint Direction is: X=-3243.444 Y=-1214.671 Z=885.703 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.04:057][242]LogTemp: Warning: Viewpoint Direction is: X=-3242.428 Y=-1214.260 Z=885.517 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.04:075][243]LogTemp: Warning: Viewpoint Direction is: X=-3239.739 Y=-1213.171 Z=885.026 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.04:095][244]LogTemp: Warning: Viewpoint Direction is: X=-3236.132 Y=-1211.711 Z=884.367 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.04:119][245]LogTemp: Warning: Viewpoint Direction is: X=-3231.152 Y=-1209.695 Z=883.457 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.04:135][246]LogTemp: Warning: Viewpoint Direction is: X=-3222.964 Y=-1206.381 Z=881.960 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.04:153][247]LogTemp: Warning: Viewpoint Direction is: X=-3215.019 Y=-1203.165 Z=880.508 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.04:174][248]LogTemp: Warning: Viewpoint Direction is: X=-3206.975 Y=-1199.909 Z=879.038 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.04:473][249]LogTemp: Warning: Viewpoint Direction is: X=-3194.774 Y=-1194.971 Z=876.809 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.04:507][250]LogTemp: Warning: Viewpoint Direction is: X=-3182.038 Y=-1189.816 Z=874.481 and the Viewpoint Rotation is: P=350.385284 Y=22.036055 R=0.000000
+[2020.04.21-22.41.04:525][251]LogTemp: Warning: Viewpoint Direction is: X=-2861.877 Y=-1060.228 Z=815.971 and the Viewpoint Rotation is: P=1.934143 Y=137.174545 R=0.000000
+[2020.04.21-22.41.04:549][252]LogTemp: Warning: Viewpoint Direction is: X=-2846.971 Y=-1035.976 Z=811.377 and the Viewpoint Rotation is: P=2.634073 Y=139.974258 R=0.000000
+[2020.04.21-22.41.04:608][253]LogTemp: Warning: Viewpoint Direction is: X=-2843.809 Y=-1018.799 Z=809.191 and the Viewpoint Rotation is: P=3.093722 Y=142.578934 R=0.000000
+[2020.04.21-22.41.04:665][254]LogTemp: Warning: Viewpoint Direction is: X=-2865.641 Y=-977.692 Z=808.224 and the Viewpoint Rotation is: P=3.909487 Y=151.062897 R=0.000000
+[2020.04.21-22.41.04:699][255]LogTemp: Warning: Viewpoint Direction is: X=-2908.129 Y=-938.647 Z=810.111 and the Viewpoint Rotation is: P=3.909487 Y=152.287781 R=0.000000
+[2020.04.21-22.41.04:721][256]LogTemp: Warning: Viewpoint Direction is: X=-2925.899 Y=-922.318 Z=810.900 and the Viewpoint Rotation is: P=3.909487 Y=152.287781 R=0.000000
+[2020.04.21-22.41.04:753][257]LogTemp: Warning: Viewpoint Direction is: X=-2934.004 Y=-914.870 Z=811.260 and the Viewpoint Rotation is: P=3.909487 Y=152.287781 R=0.000000
+[2020.04.21-22.41.04:769][258]LogTemp: Warning: Viewpoint Direction is: X=-2941.495 Y=-907.986 Z=811.592 and the Viewpoint Rotation is: P=3.909487 Y=152.287781 R=0.000000
+[2020.04.21-22.41.04:788][259]LogTemp: Warning: Viewpoint Direction is: X=-2943.643 Y=-906.012 Z=811.688 and the Viewpoint Rotation is: P=3.909487 Y=152.287781 R=0.000000
+[2020.04.21-22.41.04:808][260]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=3.909487 Y=152.287781 R=0.000000
+[2020.04.21-22.41.04:828][261]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=3.909487 Y=152.287781 R=0.000000
+[2020.04.21-22.41.04:847][262]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=3.909487 Y=152.287781 R=0.000000
+[2020.04.21-22.41.04:868][263]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=3.909487 Y=152.287781 R=0.000000
+[2020.04.21-22.41.04:887][264]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=3.909487 Y=152.287781 R=0.000000
+[2020.04.21-22.41.04:905][265]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=3.909487 Y=152.287781 R=0.000000
+[2020.04.21-22.41.04:922][266]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=3.909487 Y=152.287781 R=0.000000
+[2020.04.21-22.41.04:939][267]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=3.909487 Y=152.287781 R=0.000000
+[2020.04.21-22.41.04:957][268]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=3.909487 Y=152.287781 R=0.000000
+[2020.04.21-22.41.04:976][269]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=3.909487 Y=152.287781 R=0.000000
+[2020.04.21-22.41.05:000][270]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=3.909487 Y=152.287781 R=0.000000
+[2020.04.21-22.41.05:023][271]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=3.909487 Y=154.562561 R=0.000000
+[2020.04.21-22.41.05:039][272]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=4.259452 Y=156.118744 R=0.000000
+[2020.04.21-22.41.05:061][273]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=4.259452 Y=157.563034 R=0.000000
+[2020.04.21-22.41.05:082][274]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=4.259452 Y=159.728180 R=0.000000
+[2020.04.21-22.41.05:106][275]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=4.259452 Y=161.460175 R=0.000000
+[2020.04.21-22.41.05:132][276]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=3.384540 Y=162.838821 R=0.000000
+[2020.04.21-22.41.05:153][277]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=2.245042 Y=163.327179 R=0.000000
+[2020.04.21-22.41.05:174][278]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=0.366259 Y=164.049789 R=0.000000
+[2020.04.21-22.41.05:194][279]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=359.002838 Y=164.561081 R=0.000000
+[2020.04.21-22.41.05:220][280]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=358.652863 Y=164.736069 R=0.000000
+[2020.04.21-22.41.05:234][281]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=358.127930 Y=164.911057 R=0.000000
+[2020.04.21-22.41.05:250][282]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=358.127930 Y=164.911057 R=0.000000
+[2020.04.21-22.41.05:273][283]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=358.127930 Y=164.911057 R=0.000000
+[2020.04.21-22.41.05:291][284]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=357.602997 Y=165.436005 R=0.000000
+[2020.04.21-22.41.05:311][285]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=357.407867 Y=166.411636 R=0.000000
+[2020.04.21-22.41.05:338][286]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=356.732361 Y=168.573257 R=0.000000
+[2020.04.21-22.41.05:353][287]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=355.916901 Y=174.863876 R=0.000000
+[2020.04.21-22.41.05:372][288]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=355.275696 Y=179.833099 R=0.000000
+[2020.04.21-22.41.05:392][289]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=354.195526 Y=185.774017 R=0.000000
+[2020.04.21-22.41.05:414][290]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=352.884399 Y=193.771988 R=0.000000
+[2020.04.21-22.41.05:439][291]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=351.437592 Y=203.899734 R=0.000000
+[2020.04.21-22.41.05:456][292]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=351.052002 Y=216.495483 R=0.000000
+[2020.04.21-22.41.05:474][293]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=351.052002 Y=226.300018 R=0.000000
+[2020.04.21-22.41.05:500][294]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=351.052002 Y=235.892349 R=0.000000
+[2020.04.21-22.41.05:528][295]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=351.052002 Y=244.040970 R=0.000000
+[2020.04.21-22.41.05:542][296]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=351.052002 Y=253.447708 R=0.000000
+[2020.04.21-22.41.05:568][297]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=351.052002 Y=258.431702 R=0.000000
+[2020.04.21-22.41.05:592][298]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=351.052002 Y=263.728699 R=0.000000
+[2020.04.21-22.41.05:613][299]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=351.052002 Y=265.478271 R=0.000000
+[2020.04.21-22.41.05:638][300]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=351.052002 Y=265.828247 R=0.000000
+[2020.04.21-22.41.05:657][301]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=351.052002 Y=265.828247 R=0.000000
+[2020.04.21-22.41.05:690][302]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=351.052002 Y=265.828247 R=0.000000
+[2020.04.21-22.41.05:706][303]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=351.052002 Y=265.828247 R=0.000000
+[2020.04.21-22.41.05:725][304]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=351.052002 Y=265.828247 R=0.000000
+[2020.04.21-22.41.05:749][305]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=351.052002 Y=265.828247 R=0.000000
+[2020.04.21-22.41.05:770][306]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=351.052002 Y=265.828247 R=0.000000
+[2020.04.21-22.41.05:790][307]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=351.052002 Y=265.828247 R=0.000000
+[2020.04.21-22.41.05:814][308]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=351.052002 Y=266.003235 R=0.000000
+[2020.04.21-22.41.05:840][309]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=351.576935 Y=266.703156 R=0.000000
+[2020.04.21-22.41.05:857][310]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=352.407990 Y=267.949738 R=0.000000
+[2020.04.21-22.41.05:878][311]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=353.344849 Y=269.421967 R=0.000000
+[2020.04.21-22.41.05:908][312]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=354.685150 Y=271.953644 R=0.000000
+[2020.04.21-22.41.05:924][313]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=356.134888 Y=276.012909 R=0.000000
+[2020.04.21-22.41.05:941][314]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=356.613739 Y=280.801392 R=0.000000
+[2020.04.21-22.41.05:969][315]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=356.613739 Y=283.957184 R=0.000000
+[2020.04.21-22.41.05:993][316]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=357.138672 Y=286.989838 R=0.000000
+[2020.04.21-22.41.06:016][317]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=357.945435 Y=288.926056 R=0.000000
+[2020.04.21-22.41.06:038][318]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=358.295410 Y=289.276031 R=0.000000
+[2020.04.21-22.41.06:057][319]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=358.470398 Y=289.451019 R=0.000000
+[2020.04.21-22.41.06:078][320]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=358.470398 Y=289.451019 R=0.000000
+[2020.04.21-22.41.06:102][321]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=358.470398 Y=289.451019 R=0.000000
+[2020.04.21-22.41.06:120][322]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=358.470398 Y=289.451019 R=0.000000
+[2020.04.21-22.41.06:140][323]LogTemp: Warning: Viewpoint Direction is: X=-2943.877 Y=-905.797 Z=811.698 and the Viewpoint Rotation is: P=358.470398 Y=289.451019 R=0.000000
+[2020.04.21-22.41.06:141][323]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-22.41.06:141][323]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-22.41.06:142][323]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.21-22.41.06:146][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.21-22.41.06:146][323]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LaCasaDelPapel
+[2020.04.21-22.41.06:146][323]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-22.41.06:149][323]LogWorld: UWorld::CleanupWorld for LaCasaDelPapel, bSessionEnded=true, bCleanupResources=true
+[2020.04.21-22.41.06:167][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.21-22.41.06:179][323]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.21-22.41.06:180][323]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.21-22.41.06:190][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.21-22.41.06:256][323]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-22.41.06:264][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.21-22.41.06:309][323]LogUObjectHash: Compacting FUObjectHashTables data took   8.29ms
+[2020.04.21-22.41.06:370][324]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2020.04.21-22.41.07:242][351]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2020.04.21-22.41.08:614][351]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/LaCasaDelPapel3F7E5A0143997079B0AD0C99B5CD91A4.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/LaCasaDelPapel.umap'
+[2020.04.21-22.42.50:786][351]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/LaCasaDelPapel_BuiltData9DF0B80243FA34C2D61FC4946B3D99BE.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/LaCasaDelPapel_BuiltData.uasset'
+[2020.04.21-22.42.52:488][351]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.21-22.42.52:500][351]LogContentValidation: Display: Validating World /Game/LaCasaDelPapel.LaCasaDelPapel
+[2020.04.21-22.42.52:505][351]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/LaCasaDelPapel_BuiltData.LaCasaDelPapel_BuiltData
