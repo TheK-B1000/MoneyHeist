@@ -7362,3 +7362,248 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.22-01.07.46:723][ 66]  MoneyHeist
 [2020.04.22-01.07.46:723][ 66]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,3704 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
 [2020.04.22-01.07.46:827][ 66]Warning: Starting HotReload took  0.2s.
+[2020.04.22-01.09.00:681][234]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 11:09:00 AM
+[2020.04.22-01.09.00:733][234]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.22-01.09.00:733][234]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.22-01.09.00:733][234]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.22-01.09.00:733][234]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 22.3253946 seconds
+[2020.04.22-01.09.00:733][234]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.22-01.09.00:733][234]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.22-01.09.00:733][234]CompilerResultsLog: [Upgrade]
+[2020.04.22-01.09.00:733][234]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.22-01.09.00:733][234]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.22-01.09.00:734][234]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.22-01.09.00:734][234]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.22-01.09.00:734][234]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.22-01.09.00:734][234]CompilerResultsLog: [Upgrade]
+[2020.04.22-01.09.00:734][234]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.04.22-01.09.00:734][234]CompilerResultsLog:   [1/4] Grabber.cpp
+[2020.04.22-01.09.00:734][234]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Private\Grabber.cpp(81): warning C4458: declaration of 'IsHit' hides class member
+[2020.04.22-01.09.00:734][234]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Public\Grabber.h(30): note: see declaration of 'UGrabber::IsHit'
+[2020.04.22-01.09.00:734][234]CompilerResultsLog:   [2/4] UE4Editor-MoneyHeist-3704.lib
+[2020.04.22-01.09.00:734][234]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-3704.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-3704.exp
+[2020.04.22-01.09.00:734][234]CompilerResultsLog:   [3/4] UE4Editor-MoneyHeist-3704.dll
+[2020.04.22-01.09.00:734][234]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-3704.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-3704.suppressed.exp
+[2020.04.22-01.09.00:734][234]CompilerResultsLog:   [4/4] MoneyHeistEditor.target
+[2020.04.22-01.09.00:734][234]CompilerResultsLog: Total time in Parallel executor: 41.43 seconds
+[2020.04.22-01.09.00:734][234]CompilerResultsLog: Total execution time: 71.74 seconds
+[2020.04.22-01.09.00:734][234]LogMainFrame: MainFrame: Module compiling took 74.043 seconds
+[2020.04.22-01.09.07:477][234]LogUObjectHash: Compacting FUObjectHashTables data took 273.97ms
+[2020.04.22-01.09.08:920][234]LogContentBrowser: Native class hierarchy updated for 'MoneyHeist' in 0.0221 seconds. Added 3 classes and 3 folders.
+[2020.04.22-01.09.08:949][234]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.22-01.09.10:418][234]LogUObjectHash: Compacting FUObjectHashTables data took  47.55ms
+[2020.04.22-01.09.11:016][234]LogContentBrowser: Native class hierarchy populated in 0.2025 seconds. Added 3020 classes and 723 folders.
+[2020.04.22-01.09.11:019][234]Display: HotReload took 84.4s.
+[2020.04.22-01.16.42:924][617]Candidate modules for hot reload:
+[2020.04.22-01.16.42:924][617]  MoneyHeist
+[2020.04.22-01.16.42:925][617]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,3976 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.22-01.16.42:962][617]Warning: Starting HotReload took  0.2s.
+[2020.04.22-01.17.51:025][807]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 11:17:51 AM
+[2020.04.22-01.17.51:030][807]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.22-01.17.51:030][807]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.22-01.17.51:030][807]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.22-01.17.51:030][807]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 25.0703944 seconds
+[2020.04.22-01.17.51:030][807]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.22-01.17.51:030][807]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.22-01.17.51:030][807]CompilerResultsLog: [Upgrade]
+[2020.04.22-01.17.51:030][807]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.22-01.17.51:030][807]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.22-01.17.51:030][807]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.22-01.17.51:030][807]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.22-01.17.51:030][807]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.22-01.17.51:030][807]CompilerResultsLog: [Upgrade]
+[2020.04.22-01.17.51:030][807]CompilerResultsLog: Building 5 actions with 4 processes...
+[2020.04.22-01.17.51:031][807]CompilerResultsLog:   [1/5] Grabber.gen.cpp
+[2020.04.22-01.17.51:031][807]CompilerResultsLog:   [2/5] Grabber.cpp
+[2020.04.22-01.17.51:031][807]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Private\Grabber.cpp(93): warning C4458: declaration of 'IsHit' hides class member
+[2020.04.22-01.17.51:031][807]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Public\Grabber.h(38): note: see declaration of 'UGrabber::IsHit'
+[2020.04.22-01.17.51:032][807]CompilerResultsLog:   [3/5] UE4Editor-MoneyHeist-3976.lib
+[2020.04.22-01.17.51:032][807]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-3976.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-3976.exp
+[2020.04.22-01.17.51:032][807]CompilerResultsLog:   [4/5] UE4Editor-MoneyHeist-3976.dll
+[2020.04.22-01.17.51:032][807]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-3976.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-3976.suppressed.exp
+[2020.04.22-01.17.51:032][807]CompilerResultsLog:   [5/5] MoneyHeistEditor.target
+[2020.04.22-01.17.51:032][807]CompilerResultsLog: Total time in Parallel executor: 34.02 seconds
+[2020.04.22-01.17.51:032][807]CompilerResultsLog: Total execution time: 66.02 seconds
+[2020.04.22-01.17.51:032][807]LogMainFrame: MainFrame: Module compiling took 68.137 seconds
+[2020.04.22-01.17.51:651][807]LogUObjectHash: Compacting FUObjectHashTables data took   8.17ms
+[2020.04.22-01.17.52:859][807]LogContentBrowser: Native class hierarchy updated for 'MoneyHeist' in 0.0007 seconds. Added 3 classes and 3 folders.
+[2020.04.22-01.17.52:871][807]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.22-01.17.53:253][807]LogUObjectHash: Compacting FUObjectHashTables data took   6.77ms
+[2020.04.22-01.17.53:279][807]LogContentBrowser: Native class hierarchy populated in 0.0136 seconds. Added 3020 classes and 723 folders.
+[2020.04.22-01.17.53:279][807]Display: HotReload took 70.5s.
+[2020.04.22-01.25.08:475][122]Candidate modules for hot reload:
+[2020.04.22-01.25.08:475][122]  MoneyHeist
+[2020.04.22-01.25.08:475][122]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,7265 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.22-01.25.08:496][122]Warning: Starting HotReload took  0.1s.
+[2020.04.22-01.25.59:316][285]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 11:25:59 AM
+[2020.04.22-01.25.59:326][285]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.22-01.25.59:326][285]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.22-01.25.59:326][285]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.22-01.25.59:326][285]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 21.3309863 seconds
+[2020.04.22-01.25.59:326][285]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.22-01.25.59:326][285]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.22-01.25.59:328][285]CompilerResultsLog: [Upgrade]
+[2020.04.22-01.25.59:328][285]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.22-01.25.59:328][285]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.22-01.25.59:328][285]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.22-01.25.59:328][285]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.22-01.25.59:328][285]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.22-01.25.59:328][285]CompilerResultsLog: [Upgrade]
+[2020.04.22-01.25.59:328][285]CompilerResultsLog: Building 5 actions with 4 processes...
+[2020.04.22-01.25.59:328][285]CompilerResultsLog:   [1/5] Grabber.gen.cpp
+[2020.04.22-01.25.59:328][285]CompilerResultsLog:   [2/5] Grabber.cpp
+[2020.04.22-01.25.59:328][285]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Private\Grabber.cpp(94): warning C4458: declaration of 'IsHit' hides class member
+[2020.04.22-01.25.59:328][285]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Public\Grabber.h(41): note: see declaration of 'UGrabber::IsHit'
+[2020.04.22-01.25.59:328][285]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Private\Grabber.cpp(110)  : error C4716: 'UGrabber::GetFirstPhysicsBodyInReach': must return a value
+[2020.04.22-01.25.59:328][285]LogMainFrame: MainFrame: Module compiling took 50.872 seconds
+[2020.04.22-01.25.59:329][285]Warning: HotReload failed, recompile failed
+[2020.04.22-01.27.13:448][182]Candidate modules for hot reload:
+[2020.04.22-01.27.13:448][182]  MoneyHeist
+[2020.04.22-01.27.13:448][182]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,2604 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.22-01.27.13:459][182]Warning: Starting HotReload took  0.0s.
+[2020.04.22-01.27.41:821][335]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 11:27:41 AM
+[2020.04.22-01.27.41:830][335]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.22-01.27.41:830][335]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.22-01.27.41:830][335]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.22-01.27.41:830][335]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 16.3378502 seconds
+[2020.04.22-01.27.41:830][335]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.22-01.27.41:830][335]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.22-01.27.41:830][335]CompilerResultsLog: [Upgrade]
+[2020.04.22-01.27.41:830][335]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.22-01.27.41:830][335]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.22-01.27.41:830][335]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.22-01.27.41:831][335]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.22-01.27.41:831][335]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.22-01.27.41:831][335]CompilerResultsLog: [Upgrade]
+[2020.04.22-01.27.41:831][335]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.04.22-01.27.41:832][335]LogMainFrame: MainFrame: Module compiling took 28.397 seconds
+[2020.04.22-01.27.41:833][335]Warning: HotReload failed, recompile failed
+[2020.04.22-01.27.45:891][360]Candidate modules for hot reload:
+[2020.04.22-01.27.45:892][360]  MoneyHeist
+[2020.04.22-01.27.45:892][360]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,435 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.22-01.27.45:971][360]Warning: Starting HotReload took  3.4s.
+[2020.04.22-01.27.49:330][377]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 11:27:49 AM
+[2020.04.22-01.27.49:343][377]LogMainFrame: MainFrame: Module compiling took 3.514 seconds
+[2020.04.22-01.27.49:343][377]Warning: HotReload failed, recompile failed
+[2020.04.22-01.27.50:614][408]Candidate modules for hot reload:
+[2020.04.22-01.27.50:614][408]  MoneyHeist
+[2020.04.22-01.27.50:614][408]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,6414 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.22-01.27.50:680][408]Warning: Starting HotReload took  0.2s.
+[2020.04.22-01.28.36:501][537]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 11:28:36 AM
+[2020.04.22-01.28.36:501][537]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.22-01.28.36:501][537]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.22-01.28.36:501][537]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.22-01.28.36:503][537]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 17.8414604 seconds
+[2020.04.22-01.28.36:503][537]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.22-01.28.36:503][537]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.22-01.28.36:503][537]CompilerResultsLog: [Upgrade]
+[2020.04.22-01.28.36:503][537]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.22-01.28.36:503][537]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.22-01.28.36:503][537]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.22-01.28.36:503][537]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.22-01.28.36:503][537]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.22-01.28.36:503][537]CompilerResultsLog: [Upgrade]
+[2020.04.22-01.28.36:503][537]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.04.22-01.28.36:504][537]CompilerResultsLog:   [1/4] Grabber.cpp
+[2020.04.22-01.28.36:504][537]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Private\Grabber.cpp(92): warning C4458: declaration of 'IsHit' hides class member
+[2020.04.22-01.28.36:504][537]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Public\Grabber.h(41): note: see declaration of 'UGrabber::IsHit'
+[2020.04.22-01.28.36:504][537]CompilerResultsLog:   [2/4] UE4Editor-MoneyHeist-6414.lib
+[2020.04.22-01.28.36:504][537]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-6414.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-6414.exp
+[2020.04.22-01.28.36:504][537]CompilerResultsLog:   [3/4] UE4Editor-MoneyHeist-6414.dll
+[2020.04.22-01.28.36:504][537]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-6414.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-6414.suppressed.exp
+[2020.04.22-01.28.36:504][537]CompilerResultsLog:   [4/4] MoneyHeistEditor.target
+[2020.04.22-01.28.36:504][537]CompilerResultsLog: Total time in Parallel executor: 21.23 seconds
+[2020.04.22-01.28.36:504][537]CompilerResultsLog: Total execution time: 44.82 seconds
+[2020.04.22-01.28.36:504][537]LogMainFrame: MainFrame: Module compiling took 45.918 seconds
+[2020.04.22-01.28.37:175][537]LogUObjectHash: Compacting FUObjectHashTables data took  18.52ms
+[2020.04.22-01.28.38:436][537]LogContentBrowser: Native class hierarchy updated for 'MoneyHeist' in 0.0005 seconds. Added 3 classes and 3 folders.
+[2020.04.22-01.28.38:466][537]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.22-01.28.38:931][537]LogUObjectHash: Compacting FUObjectHashTables data took  26.53ms
+[2020.04.22-01.28.39:006][537]LogContentBrowser: Native class hierarchy populated in 0.0503 seconds. Added 3020 classes and 723 folders.
+[2020.04.22-01.28.39:006][537]Display: HotReload took 48.5s.
+[2020.04.22-01.36.55:886][ 40]Candidate modules for hot reload:
+[2020.04.22-01.36.55:886][ 40]  MoneyHeist
+[2020.04.22-01.36.55:886][ 40]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,1952 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.22-01.36.55:912][ 40]Warning: Starting HotReload took  0.1s.
+[2020.04.22-01.37.37:456][168]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 11:37:37 AM
+[2020.04.22-01.37.37:490][168]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.22-01.37.37:491][168]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.22-01.37.37:491][168]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.22-01.37.37:491][168]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 17.6182884 seconds
+[2020.04.22-01.37.37:491][168]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.22-01.37.37:491][168]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.22-01.37.37:491][168]CompilerResultsLog: [Upgrade]
+[2020.04.22-01.37.37:491][168]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.22-01.37.37:491][168]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.22-01.37.37:491][168]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.22-01.37.37:491][168]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.22-01.37.37:491][168]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.22-01.37.37:491][168]CompilerResultsLog: [Upgrade]
+[2020.04.22-01.37.37:491][168]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.04.22-01.37.37:491][168]CompilerResultsLog:   [1/4] Grabber.cpp
+[2020.04.22-01.37.37:491][168]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Private\Grabber.cpp(94) : error C2059: syntax error: '}'
+[2020.04.22-01.37.37:491][168]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Private\Grabber.cpp(114): warning C4458: declaration of 'IsHit' hides class member
+[2020.04.22-01.37.37:492][168]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Public\Grabber.h(41): note: see declaration of 'UGrabber::IsHit'
+[2020.04.22-01.37.37:492][168]LogMainFrame: MainFrame: Module compiling took 41.626 seconds
+[2020.04.22-01.37.37:492][168]Warning: HotReload failed, recompile failed
+[2020.04.22-01.37.57:465][249]Candidate modules for hot reload:
+[2020.04.22-01.37.57:465][249]  MoneyHeist
+[2020.04.22-01.37.57:466][249]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,1737 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.22-01.37.57:492][249]Warning: Starting HotReload took  0.1s.
+[2020.04.22-01.38.13:640][311]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 11:38:13 AM
+[2020.04.22-01.38.13:660][311]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.22-01.38.13:660][311]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.22-01.38.13:660][311]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.22-01.38.13:660][311]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 11.2585991 seconds
+[2020.04.22-01.38.13:660][311]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.22-01.38.13:660][311]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.22-01.38.13:660][311]CompilerResultsLog: [Upgrade]
+[2020.04.22-01.38.13:660][311]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.22-01.38.13:660][311]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.22-01.38.13:660][311]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.22-01.38.13:661][311]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.22-01.38.13:661][311]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.22-01.38.13:661][311]CompilerResultsLog: [Upgrade]
+[2020.04.22-01.38.13:661][311]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.04.22-01.38.13:661][311]CompilerResultsLog:   [1/4] Grabber.cpp
+[2020.04.22-01.38.13:661][311]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Private\Grabber.cpp(69) : error C3867: 'FHitResult::GetActor': non-standard syntax; use '&' to create a pointer to member
+[2020.04.22-01.38.13:661][311]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Private\Grabber.cpp(117): warning C4458: declaration of 'IsHit' hides class member
+[2020.04.22-01.38.13:662][311]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Public\Grabber.h(41): note: see declaration of 'UGrabber::IsHit'
+[2020.04.22-01.38.13:662][311]LogMainFrame: MainFrame: Module compiling took 16.212 seconds
+[2020.04.22-01.38.13:662][311]Warning: HotReload failed, recompile failed
+[2020.04.22-01.38.49:096][587]Candidate modules for hot reload:
+[2020.04.22-01.38.49:096][587]  MoneyHeist
+[2020.04.22-01.38.49:096][587]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,1040 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.22-01.38.49:118][587]Warning: Starting HotReload took  0.1s.
+[2020.04.22-01.39.24:904][698]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 11:39:24 AM
+[2020.04.22-01.39.24:933][698]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.22-01.39.24:933][698]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.22-01.39.24:933][698]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.22-01.39.24:933][698]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 17.1671991 seconds
+[2020.04.22-01.39.24:933][698]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.22-01.39.24:933][698]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.22-01.39.24:933][698]CompilerResultsLog: [Upgrade]
+[2020.04.22-01.39.24:933][698]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.22-01.39.24:933][698]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.22-01.39.24:933][698]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.22-01.39.24:933][698]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.22-01.39.24:933][698]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.22-01.39.24:933][698]CompilerResultsLog: [Upgrade]
+[2020.04.22-01.39.24:933][698]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.04.22-01.39.24:934][698]CompilerResultsLog:   [1/4] Grabber.cpp
+[2020.04.22-01.39.24:934][698]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Private\Grabber.cpp(118): warning C4458: declaration of 'IsHit' hides class member
+[2020.04.22-01.39.24:934][698]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Public\Grabber.h(41): note: see declaration of 'UGrabber::IsHit'
+[2020.04.22-01.39.24:934][698]CompilerResultsLog:   [2/4] UE4Editor-MoneyHeist-1040.lib
+[2020.04.22-01.39.24:934][698]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-1040.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-1040.exp
+[2020.04.22-01.39.24:934][698]CompilerResultsLog:   [3/4] UE4Editor-MoneyHeist-1040.dll
+[2020.04.22-01.39.24:934][698]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-1040.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-1040.suppressed.exp
+[2020.04.22-01.39.24:934][698]CompilerResultsLog:   [4/4] MoneyHeistEditor.target
+[2020.04.22-01.39.24:934][698]CompilerResultsLog: Total time in Parallel executor: 15.45 seconds
+[2020.04.22-01.39.24:934][698]CompilerResultsLog: Total execution time: 35.30 seconds
+[2020.04.22-01.39.24:934][698]LogMainFrame: MainFrame: Module compiling took 35.861 seconds
+[2020.04.22-01.39.25:313][698]LogUObjectHash: Compacting FUObjectHashTables data took  13.46ms
+[2020.04.22-01.39.26:544][698]LogContentBrowser: Native class hierarchy updated for 'MoneyHeist' in 0.0010 seconds. Added 3 classes and 3 folders.
+[2020.04.22-01.39.26:554][698]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.22-01.39.26:889][698]LogUObjectHash: Compacting FUObjectHashTables data took   5.47ms
+[2020.04.22-01.39.26:920][698]LogContentBrowser: Native class hierarchy populated in 0.0147 seconds. Added 3020 classes and 723 folders.
+[2020.04.22-01.39.26:920][698]Display: HotReload took 37.9s.
