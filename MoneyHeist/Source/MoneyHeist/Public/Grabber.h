@@ -30,4 +30,7 @@ private:
 	bool IsHit = false;
 
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
+	UInputComponent* InputComponent = nullptr;
+
+	void Grab();
 };

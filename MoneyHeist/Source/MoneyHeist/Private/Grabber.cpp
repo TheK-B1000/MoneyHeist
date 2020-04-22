@@ -29,6 +29,14 @@ void UGrabber::BeginPlay()
 	{
 		UE_LOG(LogTemp, Error, TEXT("%s is missing a PhysicsHandle"), *GetOwner()->GetName());
 	}
+
+	InputComponent = GetOwner()->FindComponentByClass<UInputComponent>();
+
+	if (!InputComponent)
+	{
+		UE_LOG(LogTemp, Error, TEXT("%s is missing an InputComponent"), *GetOwner()->GetName());
+	}
+
 }
 
 
@@ -81,5 +89,9 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	}
 
 	// See what it hits
+}
+
+void UGrabber::Grab()
+{
 }
 
