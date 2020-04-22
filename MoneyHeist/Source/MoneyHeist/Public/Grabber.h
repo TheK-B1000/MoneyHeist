@@ -21,6 +21,10 @@ protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
+	FVector GetPlayerReach();
+
+	FVector GetPlayerViewPointLocation();
+
 	void SetupInputComponent();
 
 	void FindPhysicsHandle();
@@ -43,4 +47,6 @@ private:
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
 	UInputComponent* InputComponent = nullptr;
 
+	FRotator PlayerViewPointRotation;
+	FVector PlayerViewPointLocation;
 };
