@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeMoneyHeist_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xF7604937,
+				0x870321AF,
 				0xD50BA037,
 				METADATA_PARAMS(nullptr, 0)
 			};

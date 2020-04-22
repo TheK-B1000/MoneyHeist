@@ -17,7 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeOpenDoor() {}
 	MONEYHEIST_API UClass* Z_Construct_UClass_UOpenDoor();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_MoneyHeist();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_ATriggerVolume_NoRegister();
 // End Cross Module References
 	void UOpenDoor::StaticRegisterNativesUOpenDoor()
@@ -33,10 +32,6 @@ void EmptyLinkFunctionForGeneratedCodeOpenDoor() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ActorThatOpens_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ActorThatOpens;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PressurePlate_MetaData[];
 #endif
@@ -77,13 +72,6 @@ void EmptyLinkFunctionForGeneratedCodeOpenDoor() {}
 		{ "ModuleRelativePath", "Public/OpenDoor.h" },
 	};
 #endif
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOpenDoor_Statics::NewProp_ActorThatOpens_MetaData[] = {
-		{ "Category", "OpenDoor" },
-		{ "ModuleRelativePath", "Public/OpenDoor.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UOpenDoor_Statics::NewProp_ActorThatOpens = { "ActorThatOpens", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UOpenDoor, ActorThatOpens), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UOpenDoor_Statics::NewProp_ActorThatOpens_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UOpenDoor_Statics::NewProp_ActorThatOpens_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOpenDoor_Statics::NewProp_PressurePlate_MetaData[] = {
 		{ "Category", "OpenDoor" },
@@ -127,7 +115,6 @@ void EmptyLinkFunctionForGeneratedCodeOpenDoor() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UOpenDoor_Statics::NewProp_OpenAngle = { "OpenAngle", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UOpenDoor, OpenAngle), METADATA_PARAMS(Z_Construct_UClass_UOpenDoor_Statics::NewProp_OpenAngle_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UOpenDoor_Statics::NewProp_OpenAngle_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UOpenDoor_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UOpenDoor_Statics::NewProp_ActorThatOpens,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UOpenDoor_Statics::NewProp_PressurePlate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UOpenDoor_Statics::NewProp_MassToOpen,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UOpenDoor_Statics::NewProp_DoorCloseSpeed,
@@ -162,7 +149,7 @@ void EmptyLinkFunctionForGeneratedCodeOpenDoor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UOpenDoor, 875302069);
+	IMPLEMENT_CLASS(UOpenDoor, 3935800766);
 	template<> MONEYHEIST_API UClass* StaticClass<UOpenDoor>()
 	{
 		return UOpenDoor::StaticClass();
