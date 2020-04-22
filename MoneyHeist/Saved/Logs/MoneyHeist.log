@@ -6745,3 +6745,347 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.21-22.42.52:488][351]AssetCheck: New page: Asset Save: multiple assets
 [2020.04.21-22.42.52:500][351]LogContentValidation: Display: Validating World /Game/LaCasaDelPapel.LaCasaDelPapel
 [2020.04.21-22.42.52:505][351]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/LaCasaDelPapel_BuiltData.LaCasaDelPapel_BuiltData
+[2020.04.21-23.22.58:674][550]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.04.21-23.22.58:686][550]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.04.21-23.36.43:115][ 37]Candidate modules for hot reload:
+[2020.04.21-23.36.43:115][ 37]  MoneyHeist
+[2020.04.21-23.36.43:122][ 37]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,6011 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.21-23.36.43:162][ 37]Warning: Starting HotReload took  0.2s.
+[2020.04.21-23.37.01:786][999]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Prop_Couch_02)
+[2020.04.21-23.37.03:074][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Prop_Couch_02)
+[2020.04.21-23.37.44:234][723]LogUObjectHash: Compacting FUObjectHashTables data took 177.63ms
+[2020.04.21-23.37.50:218][723]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/LaCasaDelPapel_Auto8FDC24C6846578F2E4F581F80134A6C97.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/Autosaves/Game/LaCasaDelPapel_Auto8.umap'
+[2020.04.21-23.37.50:250][723]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LaCasaDelPapel' took 9.460
+[2020.04.21-23.37.50:250][723]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 9.460
+[2020.04.21-23.37.57:242][736]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 9:37:57 AM
+[2020.04.21-23.37.57:247][736]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.21-23.37.57:248][736]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.21-23.37.57:248][736]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.21-23.37.57:248][736]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 19.1528588 seconds
+[2020.04.21-23.37.57:248][736]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.21-23.37.57:248][736]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.21-23.37.57:248][736]CompilerResultsLog: [Upgrade]
+[2020.04.21-23.37.57:248][736]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.21-23.37.57:248][736]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.21-23.37.57:248][736]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.21-23.37.57:248][736]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.21-23.37.57:248][736]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.21-23.37.57:248][736]CompilerResultsLog: [Upgrade]
+[2020.04.21-23.37.57:248][736]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.04.21-23.37.57:248][736]CompilerResultsLog:   [1/4] Grabber.cpp
+[2020.04.21-23.37.57:249][736]CompilerResultsLog:   [2/4] UE4Editor-MoneyHeist-6011.lib
+[2020.04.21-23.37.57:249][736]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-6011.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-6011.exp
+[2020.04.21-23.37.57:249][736]CompilerResultsLog:   [3/4] UE4Editor-MoneyHeist-6011.dll
+[2020.04.21-23.37.57:249][736]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-6011.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-6011.suppressed.exp
+[2020.04.21-23.37.57:249][736]CompilerResultsLog:   [4/4] MoneyHeistEditor.target
+[2020.04.21-23.37.57:249][736]CompilerResultsLog: Total time in Parallel executor: 51.04 seconds
+[2020.04.21-23.37.57:249][736]CompilerResultsLog: Total execution time: 73.68 seconds
+[2020.04.21-23.37.57:250][736]LogMainFrame: MainFrame: Module compiling took 74.202 seconds
+[2020.04.21-23.37.57:347][736]LogUObjectHash: Compacting FUObjectHashTables data took   5.91ms
+[2020.04.21-23.37.58:581][736]LogContentBrowser: Native class hierarchy updated for 'MoneyHeist' in 0.0223 seconds. Added 3 classes and 3 folders.
+[2020.04.21-23.37.58:595][736]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.21-23.37.58:821][736]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2020.04.21-23.37.59:128][736]LogContentBrowser: Native class hierarchy populated in 0.1103 seconds. Added 3020 classes and 723 folders.
+[2020.04.21-23.37.59:130][736]Display: HotReload took 76.2s.
+[2020.04.21-23.42.51:671][620]Candidate modules for hot reload:
+[2020.04.21-23.42.51:671][620]  MoneyHeist
+[2020.04.21-23.42.51:671][620]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,3981 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.21-23.42.51:688][620]Warning: Starting HotReload took  0.1s.
+[2020.04.21-23.43.26:476][ 45]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 9:43:26 AM
+[2020.04.21-23.43.26:481][ 45]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.21-23.43.26:481][ 45]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.21-23.43.26:481][ 45]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.21-23.43.26:481][ 45]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 15.4939124 seconds
+[2020.04.21-23.43.26:481][ 45]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.21-23.43.26:481][ 45]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.21-23.43.26:481][ 45]CompilerResultsLog: [Upgrade]
+[2020.04.21-23.43.26:481][ 45]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.21-23.43.26:481][ 45]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.21-23.43.26:481][ 45]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.21-23.43.26:481][ 45]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.21-23.43.26:481][ 45]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.21-23.43.26:481][ 45]CompilerResultsLog: [Upgrade]
+[2020.04.21-23.43.26:481][ 45]CompilerResultsLog: Building 5 actions with 4 processes...
+[2020.04.21-23.43.26:482][ 45]LogMainFrame: MainFrame: Module compiling took 34.829 seconds
+[2020.04.21-23.43.26:484][ 45]Warning: HotReload failed, recompile failed
+[2020.04.21-23.43.27:258][ 80]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.04.21-23.43.27:262][ 80]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.04.21-23.43.27:280][ 80]Candidate modules for hot reload:
+[2020.04.21-23.43.27:280][ 80]  MoneyHeist
+[2020.04.21-23.43.27:280][ 80]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,8742 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.21-23.43.27:303][ 80]Warning: Starting HotReload took  0.1s.
+[2020.04.21-23.43.32:869][136]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 9:43:32 AM
+[2020.04.21-23.43.32:870][136]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.21-23.43.32:870][136]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.21-23.43.32:870][136]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.21-23.43.32:870][136]LogMainFrame: MainFrame: Module compiling took 5.608 seconds
+[2020.04.21-23.43.32:870][136]Warning: HotReload failed, recompile failed
+[2020.04.21-23.43.39:564][266]Candidate modules for hot reload:
+[2020.04.21-23.43.39:564][266]  MoneyHeist
+[2020.04.21-23.43.39:564][266]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,8632 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.21-23.43.39:592][266]Warning: Starting HotReload took  0.1s.
+[2020.04.21-23.44.18:474][368]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 9:44:18 AM
+[2020.04.21-23.44.18:478][368]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.21-23.44.18:478][368]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.21-23.44.18:478][368]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.21-23.44.18:478][368]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 10.5204159 seconds
+[2020.04.21-23.44.18:478][368]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.21-23.44.18:479][368]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.21-23.44.18:479][368]CompilerResultsLog: [Upgrade]
+[2020.04.21-23.44.18:479][368]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.21-23.44.18:479][368]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.21-23.44.18:479][368]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.21-23.44.18:479][368]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.21-23.44.18:479][368]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.21-23.44.18:479][368]CompilerResultsLog: [Upgrade]
+[2020.04.21-23.44.18:479][368]CompilerResultsLog: Building 5 actions with 4 processes...
+[2020.04.21-23.44.18:479][368]CompilerResultsLog:   [1/5] Grabber.cpp
+[2020.04.21-23.44.18:479][368]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Private\Grabber.cpp(64): warning C4458: declaration of 'IsHit' hides class member
+[2020.04.21-23.44.18:479][368]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Public\Grabber.h(29): note: see declaration of 'UGrabber::IsHit'
+[2020.04.21-23.44.18:479][368]CompilerResultsLog:   [2/5] Grabber.gen.cpp
+[2020.04.21-23.44.18:479][368]CompilerResultsLog:   [3/5] UE4Editor-MoneyHeist-8632.lib
+[2020.04.21-23.44.18:479][368]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-8632.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-8632.exp
+[2020.04.21-23.44.18:479][368]CompilerResultsLog:   [4/5] UE4Editor-MoneyHeist-8632.dll
+[2020.04.21-23.44.18:479][368]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-8632.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-8632.suppressed.exp
+[2020.04.21-23.44.18:479][368]CompilerResultsLog:   [5/5] MoneyHeistEditor.target
+[2020.04.21-23.44.18:479][368]CompilerResultsLog: Total time in Parallel executor: 23.16 seconds
+[2020.04.21-23.44.18:479][368]CompilerResultsLog: Total execution time: 37.10 seconds
+[2020.04.21-23.44.18:479][368]LogMainFrame: MainFrame: Module compiling took 38.930 seconds
+[2020.04.21-23.44.20:515][368]LogUObjectHash: Compacting FUObjectHashTables data took  13.38ms
+[2020.04.21-23.44.21:319][368]LogContentBrowser: Native class hierarchy updated for 'MoneyHeist' in 0.0007 seconds. Added 3 classes and 3 folders.
+[2020.04.21-23.44.21:337][368]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.21-23.44.21:851][368]LogUObjectHash: Compacting FUObjectHashTables data took  12.31ms
+[2020.04.21-23.44.21:966][368]LogContentBrowser: Native class hierarchy populated in 0.0703 seconds. Added 3020 classes and 723 folders.
+[2020.04.21-23.44.21:967][368]Display: HotReload took 42.4s.
+[2020.04.21-23.46.00:458][703]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.21-23.46.00:525][703]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.21-23.46.00:534][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.21-23.46.00:534][703]PIE: New page: PIE session: LaCasaDelPapel (Apr 21, 2020, 9:46:00 AM)
+[2020.04.21-23.46.00:548][703]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LaCasaDelPapel
+[2020.04.21-23.46.00:811][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.260735s)
+[2020.04.21-23.46.00:879][703]LogAIModule: Creating AISystem for world LaCasaDelPapel
+[2020.04.21-23.46.00:897][703]LogPlayLevel: PIE: World Init took: (0.085177s)
+[2020.04.21-23.46.00:899][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LaCasaDelPapel.LaCasaDelPapel to /Game/UEDPIE_0_LaCasaDelPapel.LaCasaDelPapel (0.352056s)
+[2020.04.21-23.46.01:021][703]LogUObjectHash: Compacting FUObjectHashTables data took   8.79ms
+[2020.04.21-23.46.01:029][703]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.21-23.46.01:029][703]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.21-23.46.01:029][703]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.21-23.46.01:029][703]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.21-23.46.01:029][703]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.21-23.46.01:029][703]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.21-23.46.01:029][703]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.21-23.46.01:030][703]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.21-23.46.01:033][703]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.21-23.46.01:033][703]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.21-23.46.01:072][703]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.21-23.46.01:072][703]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.21-23.46.01:072][703]LogAudioMixer: Display: Is Default: Yes
+[2020.04.21-23.46.01:072][703]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.21-23.46.01:072][703]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.21-23.46.01:072][703]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.21-23.46.01:072][703]LogAudioMixer: Display: Channel Order:
+[2020.04.21-23.46.01:072][703]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.21-23.46.01:072][703]LogAudioMixer: Display: 1: FrontRight
+[2020.04.21-23.46.01:191][703]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.21-23.46.01:236][703]LogInit: FAudioDevice initialized.
+[2020.04.21-23.46.01:334][703]LogLoad: Game class is 'MoneyHeistGameModeBase_BP_C'
+[2020.04.21-23.46.01:508][703]LogWorld: Bringing World /Game/UEDPIE_0_LaCasaDelPapel.LaCasaDelPapel up for play (max tick rate 60) at 2020.04.21-16.46.01
+[2020.04.21-23.46.01:515][703]LogWorld: Bringing up level for play took: 0.170159
+[2020.04.21-23.46.01:528][703]LogOnline: OSS: Creating online subsystem instance for: :Context_62
+[2020.04.21-23.46.01:571][703]LogTemp: Error: SM_Env_Door_261 is missing an ActorThatOpens
+[2020.04.21-23.46.01:581][703]PIE: Play in editor start time for /Game/UEDPIE_0_LaCasaDelPapel 0.641
+[2020.04.21-23.46.01:582][703]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.21-23.46.07:741][ 31]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.07:756][ 32]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.07:772][ 33]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.07:791][ 34]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.07:808][ 35]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.07:829][ 36]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.07:846][ 37]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.07:861][ 38]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.07:878][ 39]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.07:896][ 40]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.07:913][ 41]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.07:931][ 42]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.07:947][ 43]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.07:965][ 44]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.07:981][ 45]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:011][ 46]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:021][ 47]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:038][ 48]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:056][ 49]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:074][ 50]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:102][ 51]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:117][ 52]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:135][ 53]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:154][ 54]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:177][ 55]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:191][ 56]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:216][ 57]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:230][ 58]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:250][ 59]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:268][ 60]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:284][ 61]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:301][ 62]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:319][ 63]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:336][ 64]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:353][ 65]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:370][ 66]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:388][ 67]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:409][ 68]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:434][ 69]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:450][ 70]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:470][ 71]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.08:492][ 72]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.18:163][626]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.18:180][627]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.18:197][628]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.18:214][629]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.18:229][630]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.18:246][631]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.18:582][650]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.18:601][651]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.18:630][652]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.18:643][653]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.18:663][654]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.18:680][655]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.18:696][656]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.18:713][657]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.18:734][658]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.18:758][659]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.18:776][660]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.18:794][661]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.18:810][662]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.18:833][663]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.18:850][664]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.19:623][705]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.19:640][706]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.19:660][707]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.19:675][708]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.19:694][709]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.19:711][710]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.19:729][711]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.19:747][712]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.19:764][713]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.19:781][714]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.19:799][715]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.19:815][716]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.19:832][717]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.19:850][718]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.19:867][719]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.19:884][720]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.19:902][721]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.19:925][722]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.19:942][723]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.19:959][724]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.19:976][725]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.19:994][726]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.20:013][727]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.20:032][728]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.20:047][729]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.20:068][730]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.20:083][731]LogTemp: Warning: You hit: SM_Prop_Couch_02_175
+[2020.04.21-23.46.59:084][ 10]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:102][ 11]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:118][ 12]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:134][ 13]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:151][ 14]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:168][ 15]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:183][ 16]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:200][ 17]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:217][ 18]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:235][ 19]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:251][ 20]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:269][ 21]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:284][ 22]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:301][ 23]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:317][ 24]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:334][ 25]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:351][ 26]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:367][ 27]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:384][ 28]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:410][ 29]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:431][ 30]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:448][ 31]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:464][ 32]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:481][ 33]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:501][ 34]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:517][ 35]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:533][ 36]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:551][ 37]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:568][ 38]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:586][ 39]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:603][ 40]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:771][ 41]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.46.59:790][ 42]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_01_5
+[2020.04.21-23.47.00:695][ 84]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.00:711][ 85]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.00:731][ 86]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.00:748][ 87]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.00:765][ 88]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.00:785][ 89]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.00:810][ 90]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.00:820][ 91]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.00:842][ 92]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.00:861][ 93]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.00:873][ 94]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.00:895][ 95]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.00:912][ 96]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.00:929][ 97]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.00:949][ 98]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.00:966][ 99]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.00:984][100]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.01:002][101]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.01:022][102]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.01:041][103]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.01:060][104]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.01:077][105]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.01:096][106]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.01:113][107]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.01:131][108]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.01:149][109]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.01:166][110]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.01:186][111]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.01:211][112]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.01:228][113]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.01:247][114]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.01:264][115]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_8
+[2020.04.21-23.47.02:215][166]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_14
+[2020.04.21-23.47.02:232][167]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_14
+[2020.04.21-23.47.02:300][168]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_14
+[2020.04.21-23.47.03:085][211]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_11
+[2020.04.21-23.47.03:100][212]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_11
+[2020.04.21-23.47.03:118][213]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_11
+[2020.04.21-23.47.03:134][214]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_11
+[2020.04.21-23.47.03:150][215]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_11
+[2020.04.21-23.47.03:168][216]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_11
+[2020.04.21-23.47.03:187][217]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_11
+[2020.04.21-23.47.03:204][218]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_11
+[2020.04.21-23.47.03:450][219]LogTemp: Warning: You hit: SK_Veh_Car_Police_Heist_11
+[2020.04.21-23.47.03:949][240]LogTemp: Warning: You hit: SK_Veh_SwatVan_17
+[2020.04.21-23.47.03:973][241]LogTemp: Warning: You hit: SK_Veh_SwatVan_17
+[2020.04.21-23.47.03:996][242]LogTemp: Warning: You hit: SK_Veh_SwatVan_17
+[2020.04.21-23.47.04:010][243]LogTemp: Warning: You hit: SK_Veh_SwatVan_17
+[2020.04.21-23.47.04:028][244]LogTemp: Warning: You hit: SK_Veh_SwatVan_17
+[2020.04.21-23.47.04:044][245]LogTemp: Warning: You hit: SK_Veh_SwatVan_17
+[2020.04.21-23.47.08:695][445]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-23.47.08:695][445]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-23.47.08:699][445]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.21-23.47.08:703][445]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.21-23.47.08:703][445]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LaCasaDelPapel
+[2020.04.21-23.47.08:707][445]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-23.47.08:709][445]LogWorld: UWorld::CleanupWorld for LaCasaDelPapel, bSessionEnded=true, bCleanupResources=true
+[2020.04.21-23.47.08:721][445]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.21-23.47.08:735][445]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.21-23.47.08:735][445]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.21-23.47.08:745][445]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.21-23.47.08:823][445]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.21-23.47.08:829][445]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.21-23.47.08:853][445]LogUObjectHash: Compacting FUObjectHashTables data took   6.84ms
+[2020.04.21-23.47.08:902][446]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2020.04.22-00.01.47:196][975]BlueprintLog: New page: Compile DefaultPawn_BP
+[2020.04.22-00.01.47:690][975]LogUObjectHash: Compacting FUObjectHashTables data took   8.09ms
+[2020.04.22-00.01.47:985][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultPawn_BP" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/DefaultPawn_BP.uasset" SILENT=true
+[2020.04.22-00.01.48:057][977]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/DefaultPawn_BP157D327A430DCD5C66365E86646D913C.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/DefaultPawn_BP.uasset'
+[2020.04.22-00.01.48:081][977]AssetCheck: New page: Asset Save: DefaultPawn_BP
+[2020.04.22-00.01.48:081][977]LogContentValidation: Display: Validating Blueprint /Game/DefaultPawn_BP.DefaultPawn_BP
