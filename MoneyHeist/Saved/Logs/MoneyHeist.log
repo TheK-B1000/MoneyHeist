@@ -7607,3 +7607,514 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.22-01.39.26:889][698]LogUObjectHash: Compacting FUObjectHashTables data took   5.47ms
 [2020.04.22-01.39.26:920][698]LogContentBrowser: Native class hierarchy populated in 0.0147 seconds. Added 3020 classes and 723 folders.
 [2020.04.22-01.39.26:920][698]Display: HotReload took 37.9s.
+[2020.04.22-01.41.57:251][209]Candidate modules for hot reload:
+[2020.04.22-01.41.57:251][209]  MoneyHeist
+[2020.04.22-01.41.57:251][209]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,3864 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.22-01.41.57:317][209]Warning: Starting HotReload took  0.2s.
+[2020.04.22-01.42.52:279][382]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 11:42:52 AM
+[2020.04.22-01.42.52:308][382]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.22-01.42.52:308][382]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.22-01.42.52:309][382]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.22-01.42.52:309][382]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 16.706687 seconds
+[2020.04.22-01.42.52:309][382]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.22-01.42.52:309][382]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.22-01.42.52:313][382]CompilerResultsLog: [Upgrade]
+[2020.04.22-01.42.52:313][382]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.22-01.42.52:313][382]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.22-01.42.52:313][382]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.22-01.42.52:313][382]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.22-01.42.52:313][382]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.22-01.42.52:313][382]CompilerResultsLog: [Upgrade]
+[2020.04.22-01.42.52:313][382]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.04.22-01.42.52:313][382]CompilerResultsLog:   [1/4] Grabber.cpp
+[2020.04.22-01.42.52:313][382]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Private\Grabber.cpp(132): warning C4458: declaration of 'IsHit' hides class member
+[2020.04.22-01.42.52:314][382]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Public\Grabber.h(41): note: see declaration of 'UGrabber::IsHit'
+[2020.04.22-01.42.52:314][382]CompilerResultsLog:   [2/4] UE4Editor-MoneyHeist-3864.lib
+[2020.04.22-01.42.52:314][382]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-3864.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-3864.exp
+[2020.04.22-01.42.52:314][382]CompilerResultsLog:   [3/4] UE4Editor-MoneyHeist-3864.dll
+[2020.04.22-01.42.52:314][382]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-3864.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-3864.suppressed.exp
+[2020.04.22-01.42.52:314][382]CompilerResultsLog:   [4/4] MoneyHeistEditor.target
+[2020.04.22-01.42.52:314][382]CompilerResultsLog: Total time in Parallel executor: 31.31 seconds
+[2020.04.22-01.42.52:314][382]CompilerResultsLog: Total execution time: 52.88 seconds
+[2020.04.22-01.42.52:314][382]LogMainFrame: MainFrame: Module compiling took 55.090 seconds
+[2020.04.22-01.42.52:730][382]LogUObjectHash: Compacting FUObjectHashTables data took  19.98ms
+[2020.04.22-01.42.54:919][382]LogContentBrowser: Native class hierarchy updated for 'MoneyHeist' in 0.0009 seconds. Added 3 classes and 3 folders.
+[2020.04.22-01.42.54:966][382]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.22-01.42.55:628][382]LogUObjectHash: Compacting FUObjectHashTables data took  17.93ms
+[2020.04.22-01.42.55:685][382]LogContentBrowser: Native class hierarchy populated in 0.0204 seconds. Added 3020 classes and 723 folders.
+[2020.04.22-01.42.55:685][382]Display: HotReload took 58.5s.
+[2020.04.22-01.43.17:677][476]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Prop_Table_2)
+[2020.04.22-01.43.19:642][495]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.22-01.43.19:748][495]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.22-01.43.19:753][495]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.22-01.43.19:754][495]PIE: New page: PIE session: LaCasaDelPapel (Apr 21, 2020, 11:43:19 AM)
+[2020.04.22-01.43.19:770][495]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LaCasaDelPapel
+[2020.04.22-01.43.20:182][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.409245s)
+[2020.04.22-01.43.20:251][495]LogAIModule: Creating AISystem for world LaCasaDelPapel
+[2020.04.22-01.43.20:273][495]LogPlayLevel: PIE: World Init took: (0.089888s)
+[2020.04.22-01.43.20:276][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LaCasaDelPapel.LaCasaDelPapel to /Game/UEDPIE_0_LaCasaDelPapel.LaCasaDelPapel (0.507159s)
+[2020.04.22-01.43.20:441][495]LogUObjectHash: Compacting FUObjectHashTables data took  10.54ms
+[2020.04.22-01.43.20:468][495]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.22-01.43.20:469][495]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.22-01.43.20:469][495]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.22-01.43.20:469][495]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.22-01.43.20:469][495]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.22-01.43.20:469][495]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.22-01.43.20:469][495]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.22-01.43.20:469][495]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.22-01.43.20:472][495]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.22-01.43.20:472][495]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.22-01.43.20:522][495]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.22-01.43.20:522][495]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.22-01.43.20:522][495]LogAudioMixer: Display: Is Default: Yes
+[2020.04.22-01.43.20:522][495]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.22-01.43.20:522][495]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.22-01.43.20:522][495]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.22-01.43.20:522][495]LogAudioMixer: Display: Channel Order:
+[2020.04.22-01.43.20:522][495]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.22-01.43.20:522][495]LogAudioMixer: Display: 1: FrontRight
+[2020.04.22-01.43.20:686][495]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.22-01.43.20:725][495]LogInit: FAudioDevice initialized.
+[2020.04.22-01.43.20:906][495]LogLoad: Game class is 'MoneyHeistGameModeBase_BP_C'
+[2020.04.22-01.43.21:141][495]LogWorld: Bringing World /Game/UEDPIE_0_LaCasaDelPapel.LaCasaDelPapel up for play (max tick rate 60) at 2020.04.21-18.43.21
+[2020.04.22-01.43.21:148][495]LogWorld: Bringing up level for play took: 0.229238
+[2020.04.22-01.43.21:162][495]LogOnline: OSS: Creating online subsystem instance for: :Context_65
+[2020.04.22-01.43.21:210][495]LogTemp: Error: SM_Env_Door_261 is missing an ActorThatOpens
+[2020.04.22-01.43.21:220][495]PIE: Play in editor start time for /Game/UEDPIE_0_LaCasaDelPapel 2.281
+[2020.04.22-01.43.21:221][495]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.22-01.43.23:059][549]Cmd: LevelEditor.ToggleImmersive
+[2020.04.22-01.43.36:581][266]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.22-01.43.36:581][266]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.22-01.43.36:585][266]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.22-01.43.36:600][266]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.22-01.43.36:600][266]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LaCasaDelPapel
+[2020.04.22-01.43.36:608][266]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.22-01.43.36:612][266]LogWorld: UWorld::CleanupWorld for LaCasaDelPapel, bSessionEnded=true, bCleanupResources=true
+[2020.04.22-01.43.36:631][266]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.22-01.43.36:670][266]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.22-01.43.36:671][266]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.22-01.43.36:685][266]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.22-01.43.36:843][266]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.22-01.43.36:851][266]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.22-01.43.36:969][266]LogUObjectHash: Compacting FUObjectHashTables data took   8.24ms
+[2020.04.22-01.43.37:030][267]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2020.04.22-01.43.38:186][313]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Prop_Plant_23)
+[2020.04.22-01.43.39:519][378]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Wall_Interior_Window_Ground_23)
+[2020.04.22-01.43.40:120][402]Cmd: SELECT NONE
+[2020.04.22-01.43.40:743][433]Cmd: SELECT NONE
+[2020.04.22-01.43.45:486][657]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Prop_Desk_23)
+[2020.04.22-01.43.48:233][774]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Prop_Desk_11)
+[2020.04.22-01.43.49:283][818]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Desk_14)
+[2020.04.22-01.43.50:065][850]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Computer_20)
+[2020.04.22-01.43.50:497][865]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Computer_21)
+[2020.04.22-01.43.51:748][910]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Seat_13)
+[2020.04.22-01.43.52:388][933]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Seat_20)
+[2020.04.22-01.43.52:808][946]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Env_Floor_88)
+[2020.04.22-01.43.54:231][  2]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Prop_Seat_14)
+[2020.04.22-01.43.55:354][ 44]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Seat_13)
+[2020.04.22-01.43.55:856][ 61]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Computer_20)
+[2020.04.22-01.43.56:329][ 75]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Computer_21)
+[2020.04.22-01.43.56:679][ 86]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Desk_14)
+[2020.04.22-01.43.57:128][100]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Desk_11)
+[2020.04.22-01.43.57:577][115]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Seat_20)
+[2020.04.22-01.43.59:205][180]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Seat_21)
+[2020.04.22-01.43.59:628][194]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Computer_18)
+[2020.04.22-01.44.00:125][211]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Desk_12)
+[2020.04.22-01.44.00:643][229]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Computer_19)
+[2020.04.22-01.44.01:030][242]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Desk_13)
+[2020.04.22-01.44.01:658][265]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Seat_28)
+[2020.04.22-01.44.03:222][323]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Desk_23)
+[2020.04.22-01.44.03:711][340]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Desk_26)
+[2020.04.22-01.44.04:484][367]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Desk_24)
+[2020.04.22-01.44.05:063][386]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Computer_15)
+[2020.04.22-01.44.07:070][461]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Seat_22)
+[2020.04.22-01.44.07:767][486]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Computer_14)
+[2020.04.22-01.44.08:282][504]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Desk_25)
+[2020.04.22-01.44.08:805][522]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Seat_27)
+[2020.04.22-01.44.09:178][534]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Seat_23)
+[2020.04.22-01.44.09:687][551]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Desk_16)
+[2020.04.22-01.44.11:496][619]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Computer_17)
+[2020.04.22-01.44.11:974][634]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Seat_19)
+[2020.04.22-01.44.12:376][646]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Desk_26)
+[2020.04.22-01.44.13:155][675]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Computer_16)
+[2020.04.22-01.44.16:813][825]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Desk_18)
+[2020.04.22-01.44.17:138][834]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Desk_15)
+[2020.04.22-01.44.17:638][853]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Computer_12)
+[2020.04.22-01.44.18:287][878]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Computer_13)
+[2020.04.22-01.44.18:772][895]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Seat_18)
+[2020.04.22-01.44.19:204][911]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Seat_16)
+[2020.04.22-01.44.20:482][962]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Seat_15)
+[2020.04.22-01.44.22:806][ 54]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Desk_17)
+[2020.04.22-01.44.23:236][ 69]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Computer_11)
+[2020.04.22-01.44.23:639][ 82]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Desk_16)
+[2020.04.22-01.44.24:136][100]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Computer_10)
+[2020.04.22-01.44.25:964][176]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Seat_26)
+[2020.04.22-01.44.26:403][192]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Seat_24)
+[2020.04.22-01.44.26:897][209]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Computer_6)
+[2020.04.22-01.44.27:286][223]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Computer_7)
+[2020.04.22-01.44.28:050][253]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Desk_20)
+[2020.04.22-01.44.30:414][346]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Seat_25)
+[2020.04.22-01.44.30:808][359]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Desk_21)
+[2020.04.22-01.44.31:994][403]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Desk_19)
+[2020.04.22-01.44.33:180][447]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Computer_8)
+[2020.04.22-01.44.33:914][473]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Computer_9)
+[2020.04.22-01.44.35:657][533]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Seat_17)
+[2020.04.22-01.44.36:911][563]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Prop_Seat_18)
+[2020.04.22-01.44.38:232][582]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Prop_Desk_18)
+[2020.04.22-01.44.39:470][607]Cmd: TRANSACTION UNDO
+[2020.04.22-01.44.39:471][607]LogEditorTransaction: Undo Clicking on Actors
+[2020.04.22-01.44.39:960][613]Cmd: TRANSACTION UNDO
+[2020.04.22-01.44.39:960][613]LogEditorTransaction: Undo Clicking on Actors
+[2020.04.22-01.44.40:526][623]Cmd: TRANSACTION UNDO
+[2020.04.22-01.44.40:527][623]LogEditorTransaction: Undo Move Actors
+[2020.04.22-01.44.45:444][761]Cmd: TRANSACTION UNDO
+[2020.04.22-01.44.45:445][761]LogEditorTransaction: Undo Move Actors
+[2020.04.22-01.44.46:368][786]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Seat_17)
+[2020.04.22-01.44.46:961][806]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Prop_Desk_22)
+[2020.04.22-01.44.53:951][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.04.22-01.44.55:358][ 17]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/LaCasaDelPapelD4D8AF0C4CD059B440F5EDADC5B6C3E2.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/LaCasaDelPapel.umap'
+[2020.04.22-01.46.21:828][ 17]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Saved/LaCasaDelPapel_BuiltDataC5600436413C417F810488A15CF9104E.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/Content/LaCasaDelPapel_BuiltData.uasset'
+[2020.04.22-01.46.27:431][ 17]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.22-01.46.27:437][ 17]LogContentValidation: Display: Validating World /Game/LaCasaDelPapel.LaCasaDelPapel
+[2020.04.22-01.46.27:441][ 17]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/LaCasaDelPapel_BuiltData.LaCasaDelPapel_BuiltData
+[2020.04.22-04.58.48:916][523]LogHttp: Warning: 000001E473D4CF40: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDAB31D9F-4512-DBF2-1F15-9AA76131153F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.04.22-04.58.48:926][523]LogHttp: Warning: 000001E473D4CF40: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.04.22-04.58.48:926][523]LogHttp: Warning: 000001E473D4CF40: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e2dbb53f70 [can pipeline])
+[2020.04.22-04.58.48:926][523]LogHttp: Warning: 000001E473D4CF40: libcurl info message cache 1 (Re-using existing connection! (#231) with host datarouter.ol.epicgames.com)
+[2020.04.22-04.58.48:926][523]LogHttp: Warning: 000001E473D4CF40: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (107.23.15.61) port 443 (#231))
+[2020.04.22-04.58.48:927][523]LogHttp: Warning: 000001E473D4CF40: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.04.22-04.58.48:927][523]LogHttp: Warning: 000001E473D4CF40: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.04.22-04.58.48:927][523]LogHttp: Warning: 000001E473D4CF40: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.04.22-04.58.48:927][523]LogHttp: Warning: 000001E473D4CF40: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.04.22-04.58.48:927][523]LogHttp: Warning: 000001E473D4CF40: libcurl info message cache 7 (Closing connection 231)
+[2020.04.22-04.58.48:929][523]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDAB31D9F-4512-DBF2-1F15-9AA76131153F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.04.22-04.59.05:650][632]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.22-04.59.07:496][632]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.22-04.59.07:521][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.22-04.59.07:547][632]PIE: New page: PIE session: LaCasaDelPapel (Apr 21, 2020, 2:59:07 PM)
+[2020.04.22-04.59.07:612][632]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LaCasaDelPapel
+[2020.04.22-04.59.08:856][632]LogPlayLevel: PIE: StaticDuplicateObject took: (1.232882s)
+[2020.04.22-04.59.08:962][632]LogAIModule: Creating AISystem for world LaCasaDelPapel
+[2020.04.22-04.59.09:010][632]LogPlayLevel: PIE: World Init took: (0.153301s)
+[2020.04.22-04.59.09:015][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LaCasaDelPapel.LaCasaDelPapel to /Game/UEDPIE_0_LaCasaDelPapel.LaCasaDelPapel (1.403427s)
+[2020.04.22-04.59.10:787][632]LogUObjectHash: Compacting FUObjectHashTables data took 117.36ms
+[2020.04.22-04.59.11:072][632]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.22-04.59.11:072][632]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.22-04.59.11:072][632]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.22-04.59.11:072][632]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.22-04.59.11:072][632]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.22-04.59.11:072][632]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.22-04.59.11:072][632]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.22-04.59.11:073][632]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.22-04.59.11:085][632]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.22-04.59.11:086][632]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.22-04.59.11:156][632]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.22-04.59.11:156][632]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.22-04.59.11:156][632]LogAudioMixer: Display: Is Default: Yes
+[2020.04.22-04.59.11:156][632]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.22-04.59.11:156][632]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.22-04.59.11:156][632]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.22-04.59.11:156][632]LogAudioMixer: Display: Channel Order:
+[2020.04.22-04.59.11:156][632]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.22-04.59.11:156][632]LogAudioMixer: Display: 1: FrontRight
+[2020.04.22-04.59.11:319][632]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.22-04.59.11:400][632]LogInit: FAudioDevice initialized.
+[2020.04.22-04.59.11:596][632]LogLoad: Game class is 'MoneyHeistGameModeBase_BP_C'
+[2020.04.22-04.59.11:917][632]LogWorld: Bringing World /Game/UEDPIE_0_LaCasaDelPapel.LaCasaDelPapel up for play (max tick rate 60) at 2020.04.21-21.59.11
+[2020.04.22-04.59.11:922][632]LogWorld: Bringing up level for play took: 0.293937
+[2020.04.22-04.59.11:943][632]LogOnline: OSS: Creating online subsystem instance for: :Context_66
+[2020.04.22-04.59.12:061][632]LogTemp: Error: SM_Env_Door_261 is missing an ActorThatOpens
+[2020.04.22-04.59.12:124][632]PIE: Play in editor start time for /Game/UEDPIE_0_LaCasaDelPapel 7.189
+[2020.04.22-04.59.12:129][632]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.22-05.00.49:894][103]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.22-05.00.49:895][103]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.22-05.00.49:901][103]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.22-05.00.49:925][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.22-05.00.49:925][103]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LaCasaDelPapel
+[2020.04.22-05.00.49:944][103]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.22-05.00.49:949][103]LogWorld: UWorld::CleanupWorld for LaCasaDelPapel, bSessionEnded=true, bCleanupResources=true
+[2020.04.22-05.00.49:974][103]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.22-05.00.50:006][103]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.22-05.00.50:008][103]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.22-05.00.50:034][103]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.22-05.00.50:174][103]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.22-05.00.50:223][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.22-05.00.50:336][103]LogUObjectHash: Compacting FUObjectHashTables data took  12.53ms
+[2020.04.22-05.00.50:415][104]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2020.04.22-05.02.47:325][536]Candidate modules for hot reload:
+[2020.04.22-05.02.47:325][536]  MoneyHeist
+[2020.04.22-05.02.47:329][536]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MoneyHeist,2676 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/MyGame/MoneyHeist/MoneyHeist.uproject"  -IgnoreJunk]
+[2020.04.22-05.02.47:372][536]Warning: Starting HotReload took  0.2s.
+[2020.04.22-05.03.37:431][732]CompilerResultsLog: New page: Compilation - Apr 21, 2020, 3:03:37 PM
+[2020.04.22-05.03.37:451][732]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame).
+[2020.04.22-05.03.37:451][732]CompilerResultsLog: Parsing headers for MoneyHeistEditor
+[2020.04.22-05.03.37:451][732]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\MoneyHeist.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\MoneyHeistEditor\Development\MoneyHeistEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.22-05.03.37:451][732]CompilerResultsLog: Reflection code generated for MoneyHeistEditor in 18.2272909 seconds
+[2020.04.22-05.03.37:451][732]CompilerResultsLog: Building MoneyHeistEditor...
+[2020.04.22-05.03.37:451][732]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.22-05.03.37:451][732]CompilerResultsLog: [Upgrade]
+[2020.04.22-05.03.37:451][732]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.22-05.03.37:451][732]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.22-05.03.37:451][732]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.22-05.03.37:451][732]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.22-05.03.37:451][732]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MoneyHeistEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.22-05.03.37:451][732]CompilerResultsLog: [Upgrade]
+[2020.04.22-05.03.37:451][732]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.04.22-05.03.37:451][732]CompilerResultsLog:   [1/4] Grabber.cpp
+[2020.04.22-05.03.37:451][732]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Private\Grabber.cpp(137): warning C4458: declaration of 'IsHit' hides class member
+[2020.04.22-05.03.37:451][732]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Source\MoneyHeist\Public\Grabber.h(41): note: see declaration of 'UGrabber::IsHit'
+[2020.04.22-05.03.37:451][732]CompilerResultsLog:   [2/4] UE4Editor-MoneyHeist-2676.lib
+[2020.04.22-05.03.37:451][732]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-2676.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-2676.exp
+[2020.04.22-05.03.37:451][732]CompilerResultsLog:   [3/4] UE4Editor-MoneyHeist-2676.dll
+[2020.04.22-05.03.37:451][732]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-2676.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\MyGame\MoneyHeist\Intermediate\Build\Win64\UE4Editor\Development\MoneyHeist\UE4Editor-MoneyHeist-2676.suppressed.exp
+[2020.04.22-05.03.37:451][732]CompilerResultsLog:   [4/4] MoneyHeistEditor.target
+[2020.04.22-05.03.37:451][732]CompilerResultsLog: Total time in Parallel executor: 25.41 seconds
+[2020.04.22-05.03.37:452][732]CompilerResultsLog: Total execution time: 49.31 seconds
+[2020.04.22-05.03.37:454][732]LogMainFrame: MainFrame: Module compiling took 50.224 seconds
+[2020.04.22-05.03.37:571][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2020.04.22-05.03.39:102][732]LogContentBrowser: Native class hierarchy updated for 'MoneyHeist' in 0.0237 seconds. Added 3 classes and 3 folders.
+[2020.04.22-05.03.39:118][732]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.22-05.03.40:234][732]LogUObjectHash: Compacting FUObjectHashTables data took   5.99ms
+[2020.04.22-05.03.40:647][732]LogContentBrowser: Native class hierarchy populated in 0.1155 seconds. Added 3020 classes and 723 folders.
+[2020.04.22-05.03.40:648][732]Display: HotReload took 53.5s.
+[2020.04.22-05.05.00:207][ 44]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.22-05.05.00:283][ 44]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.22-05.05.00:283][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.22-05.05.00:283][ 44]PIE: New page: PIE session: LaCasaDelPapel (Apr 21, 2020, 3:05:00 PM)
+[2020.04.22-05.05.00:285][ 44]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LaCasaDelPapel
+[2020.04.22-05.05.00:505][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.218932s)
+[2020.04.22-05.05.00:510][ 44]LogAIModule: Creating AISystem for world LaCasaDelPapel
+[2020.04.22-05.05.00:517][ 44]LogPlayLevel: PIE: World Init took: (0.011541s)
+[2020.04.22-05.05.00:518][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LaCasaDelPapel.LaCasaDelPapel to /Game/UEDPIE_0_LaCasaDelPapel.LaCasaDelPapel (0.231738s)
+[2020.04.22-05.05.01:180][ 44]LogUObjectHash: Compacting FUObjectHashTables data took  13.22ms
+[2020.04.22-05.05.01:188][ 44]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.22-05.05.01:188][ 44]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.22-05.05.01:188][ 44]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.22-05.05.01:188][ 44]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.22-05.05.01:188][ 44]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.22-05.05.01:188][ 44]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.22-05.05.01:188][ 44]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.22-05.05.01:188][ 44]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.22-05.05.01:189][ 44]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.22-05.05.01:189][ 44]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.22-05.05.01:227][ 44]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.22-05.05.01:227][ 44]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.22-05.05.01:227][ 44]LogAudioMixer: Display: Is Default: Yes
+[2020.04.22-05.05.01:227][ 44]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.22-05.05.01:227][ 44]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.22-05.05.01:227][ 44]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.22-05.05.01:227][ 44]LogAudioMixer: Display: Channel Order:
+[2020.04.22-05.05.01:227][ 44]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.22-05.05.01:227][ 44]LogAudioMixer: Display: 1: FrontRight
+[2020.04.22-05.05.01:361][ 44]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.22-05.05.01:370][ 44]LogInit: FAudioDevice initialized.
+[2020.04.22-05.05.01:392][ 44]LogLoad: Game class is 'MoneyHeistGameModeBase_BP_C'
+[2020.04.22-05.05.01:490][ 44]LogWorld: Bringing World /Game/UEDPIE_0_LaCasaDelPapel.LaCasaDelPapel up for play (max tick rate 60) at 2020.04.21-22.05.01
+[2020.04.22-05.05.01:492][ 44]LogWorld: Bringing up level for play took: 0.097533
+[2020.04.22-05.05.01:493][ 44]LogOnline: OSS: Creating online subsystem instance for: :Context_67
+[2020.04.22-05.05.01:505][ 44]LogTemp: Error: SM_Env_Door_261 is missing an ActorThatOpens
+[2020.04.22-05.05.01:507][ 44]PIE: Play in editor start time for /Game/UEDPIE_0_LaCasaDelPapel 0.576
+[2020.04.22-05.05.01:507][ 44]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.22-05.05.10:462][427]LogTemp: Warning: You hit: SM_Prop_Computer_374
+[2020.04.22-05.05.13:130][526]LogTemp: Warning: You hit: SM_Prop_Computer_374
+[2020.04.22-05.05.16:242][655]LogTemp: Warning: You hit: SM_Prop_Computer_374
+[2020.04.22-05.05.16:454][664]LogTemp: Warning: You hit: SM_Prop_Computer_374
+[2020.04.22-05.05.18:669][752]LogTemp: Warning: You hit: SM_Prop_Computer_374
+[2020.04.22-05.05.19:076][768]LogTemp: Warning: You hit: SM_Prop_Computer_374
+[2020.04.22-05.05.21:179][852]LogTemp: Warning: You hit: SM_Prop_Desk_321
+[2020.04.22-05.05.21:900][887]LogTemp: Warning: You hit: SM_Prop_Desk_321
+[2020.04.22-05.05.27:111][101]Cmd: LevelEditor.ToggleImmersive
+[2020.04.22-05.05.28:426][135]LogTemp: Warning: You hit: SM_Prop_Desk_12
+[2020.04.22-05.05.28:921][155]LogTemp: Warning: You hit: SM_Prop_Desk_12
+[2020.04.22-05.05.30:814][214]LogTemp: Warning: You hit: SM_Prop_Desk_12
+[2020.04.22-05.05.34:112][354]LogTemp: Warning: You hit: SM_Prop_Desk_12
+[2020.04.22-05.05.36:045][433]LogTemp: Warning: You hit: SM_Prop_Desk_12
+[2020.04.22-05.05.36:628][458]LogTemp: Warning: You hit: SM_Prop_Desk_15
+[2020.04.22-05.05.37:332][488]LogTemp: Warning: You hit: SM_Prop_Desk_12
+[2020.04.22-05.05.37:404][491]LogTemp: Warning: You hit: SM_Prop_Desk_12
+[2020.04.22-05.05.39:679][594]LogTemp: Warning: You hit: SM_Prop_Desk_12
+[2020.04.22-05.05.40:337][621]LogTemp: Warning: You hit: SM_Prop_Desk_12
+[2020.04.22-05.05.41:094][652]LogTemp: Warning: You hit: SM_Prop_Desk_12
+[2020.04.22-05.05.43:570][757]LogTemp: Warning: You hit: SM_Prop_Desk_21
+[2020.04.22-05.05.47:125][875]LogTemp: Warning: You hit: SM_Prop_Desk_21
+[2020.04.22-05.05.47:305][884]LogTemp: Warning: You hit: SM_Prop_Desk_21
+[2020.04.22-05.05.50:544][  8]LogTemp: Warning: You hit: SM_Prop_Computer_9
+[2020.04.22-05.05.52:854][100]LogTemp: Warning: You hit: SM_Prop_Computer_9
+[2020.04.22-05.05.55:855][214]LogTemp: Warning: You hit: SM_Prop_Seat_17
+[2020.04.22-05.06.44:157][116]LogTemp: Warning: You hit: SM_Prop_Seat_17
+[2020.04.22-05.06.44:971][162]LogTemp: Warning: You hit: SM_Prop_Seat_17
+[2020.04.22-05.06.45:341][184]LogTemp: Warning: You hit: SM_Prop_Seat_17
+[2020.04.22-05.06.46:816][262]LogTemp: Warning: You hit: SM_Prop_Seat_17
+[2020.04.22-05.06.47:157][281]LogTemp: Warning: You hit: SM_Prop_Seat_17
+[2020.04.22-05.06.48:336][338]LogTemp: Warning: You hit: SM_Prop_Seat_17
+[2020.04.22-05.06.49:006][375]LogTemp: Warning: You hit: SM_Prop_Seat_17
+[2020.04.22-05.06.50:281][431]LogTemp: Warning: You hit: SM_Prop_Seat_17
+[2020.04.22-05.06.50:507][443]LogTemp: Warning: You hit: SM_Prop_Seat_17
+[2020.04.22-05.06.52:295][536]LogTemp: Warning: You hit: SM_Prop_Seat_17
+[2020.04.22-05.06.54:112][619]LogTemp: Warning: You hit: SM_Prop_Seat_17
+[2020.04.22-05.06.55:388][674]LogTemp: Warning: You hit: SM_Prop_Seat_17
+[2020.04.22-05.07.02:984][ 20]LogTemp: Warning: You hit: SM_Prop_Seat_17
+[2020.04.22-05.07.14:645][554]LogTemp: Warning: You hit: SM_Prop_Seat_17
+[2020.04.22-05.07.19:199][738]LogTemp: Warning: You hit: SM_Prop_Seat_17
+[2020.04.22-05.07.20:015][770]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.22-05.07.20:015][770]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.22-05.07.20:015][770]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.22-05.07.20:016][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.22-05.07.20:017][770]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LaCasaDelPapel
+[2020.04.22-05.07.20:017][770]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.22-05.07.20:021][770]LogWorld: UWorld::CleanupWorld for LaCasaDelPapel, bSessionEnded=true, bCleanupResources=true
+[2020.04.22-05.07.20:084][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.22-05.07.20:113][770]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.22-05.07.20:114][770]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.22-05.07.20:127][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.22-05.07.20:197][770]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.22-05.07.20:206][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.22-05.07.20:240][770]LogUObjectHash: Compacting FUObjectHashTables data took   9.93ms
+[2020.04.22-05.07.20:303][771]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2020.04.22-05.07.42:250][447]LogSlate: Window 'Project Settings' being destroyed
+[2020.04.22-05.07.42:268][447]LogSlate: Window 'Project Settings' being destroyed
+[2020.04.22-05.07.43:006][472]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.22-05.07.43:063][472]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.22-05.07.43:064][472]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.22-05.07.43:064][472]PIE: New page: PIE session: LaCasaDelPapel (Apr 21, 2020, 3:07:43 PM)
+[2020.04.22-05.07.43:067][472]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LaCasaDelPapel
+[2020.04.22-05.07.43:213][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.146958s)
+[2020.04.22-05.07.43:215][472]LogAIModule: Creating AISystem for world LaCasaDelPapel
+[2020.04.22-05.07.43:221][472]LogPlayLevel: PIE: World Init took: (0.007674s)
+[2020.04.22-05.07.43:221][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LaCasaDelPapel.LaCasaDelPapel to /Game/UEDPIE_0_LaCasaDelPapel.LaCasaDelPapel (0.155379s)
+[2020.04.22-05.07.43:308][472]LogUObjectHash: Compacting FUObjectHashTables data took   7.34ms
+[2020.04.22-05.07.43:313][472]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.22-05.07.43:313][472]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.22-05.07.43:313][472]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.22-05.07.43:313][472]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.22-05.07.43:314][472]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.22-05.07.43:314][472]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.22-05.07.43:314][472]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.22-05.07.43:314][472]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.22-05.07.43:314][472]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.22-05.07.43:314][472]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.22-05.07.43:348][472]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.22-05.07.43:349][472]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.22-05.07.43:349][472]LogAudioMixer: Display: Is Default: Yes
+[2020.04.22-05.07.43:349][472]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.22-05.07.43:349][472]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.22-05.07.43:349][472]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.22-05.07.43:349][472]LogAudioMixer: Display: Channel Order:
+[2020.04.22-05.07.43:349][472]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.22-05.07.43:349][472]LogAudioMixer: Display: 1: FrontRight
+[2020.04.22-05.07.43:494][472]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.22-05.07.43:499][472]LogInit: FAudioDevice initialized.
+[2020.04.22-05.07.43:515][472]LogLoad: Game class is 'MoneyHeistGameModeBase_BP_C'
+[2020.04.22-05.07.43:584][472]LogWorld: Bringing World /Game/UEDPIE_0_LaCasaDelPapel.LaCasaDelPapel up for play (max tick rate 60) at 2020.04.21-22.07.43
+[2020.04.22-05.07.43:586][472]LogWorld: Bringing up level for play took: 0.069334
+[2020.04.22-05.07.43:586][472]LogOnline: OSS: Creating online subsystem instance for: :Context_68
+[2020.04.22-05.07.43:596][472]LogTemp: Error: SM_Env_Door_261 is missing an ActorThatOpens
+[2020.04.22-05.07.43:596][472]PIE: Play in editor start time for /Game/UEDPIE_0_LaCasaDelPapel 0.666
+[2020.04.22-05.07.43:597][472]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.22-05.07.51:104][806]LogTemp: Warning: You hit: SM_Prop_Desk_12
+[2020.04.22-05.07.51:968][842]LogTemp: Warning: You hit: SM_Prop_Desk_25
+[2020.04.22-05.07.55:252][975]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.22-05.07.55:252][975]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.22-05.07.55:253][975]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.22-05.07.55:271][975]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.22-05.07.55:271][975]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LaCasaDelPapel
+[2020.04.22-05.07.55:271][975]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.22-05.07.55:274][975]LogWorld: UWorld::CleanupWorld for LaCasaDelPapel, bSessionEnded=true, bCleanupResources=true
+[2020.04.22-05.07.55:308][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.22-05.07.55:327][975]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.22-05.07.55:329][975]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.22-05.07.55:347][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.22-05.07.55:445][975]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.22-05.07.55:452][975]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.22-05.07.55:491][975]LogUObjectHash: Compacting FUObjectHashTables data took  10.92ms
+[2020.04.22-05.07.55:551][976]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2020.04.22-05.07.56:284][994]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.22-05.07.56:343][994]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.22-05.07.56:344][994]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.22-05.07.56:344][994]PIE: New page: PIE session: LaCasaDelPapel (Apr 21, 2020, 3:07:56 PM)
+[2020.04.22-05.07.56:345][994]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LaCasaDelPapel
+[2020.04.22-05.07.56:466][994]LogPlayLevel: PIE: StaticDuplicateObject took: (0.120294s)
+[2020.04.22-05.07.56:468][994]LogAIModule: Creating AISystem for world LaCasaDelPapel
+[2020.04.22-05.07.56:469][994]LogPlayLevel: PIE: World Init took: (0.001993s)
+[2020.04.22-05.07.56:469][994]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LaCasaDelPapel.LaCasaDelPapel to /Game/UEDPIE_0_LaCasaDelPapel.LaCasaDelPapel (0.122930s)
+[2020.04.22-05.07.56:539][994]LogUObjectHash: Compacting FUObjectHashTables data took   8.07ms
+[2020.04.22-05.07.56:548][994]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.22-05.07.56:548][994]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.22-05.07.56:548][994]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.22-05.07.56:548][994]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.22-05.07.56:548][994]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.22-05.07.56:548][994]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.22-05.07.56:548][994]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.22-05.07.56:548][994]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.22-05.07.56:548][994]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.22-05.07.56:548][994]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.22-05.07.56:579][994]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.22-05.07.56:579][994]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.22-05.07.56:579][994]LogAudioMixer: Display: Is Default: Yes
+[2020.04.22-05.07.56:579][994]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.22-05.07.56:579][994]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.22-05.07.56:579][994]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.22-05.07.56:579][994]LogAudioMixer: Display: Channel Order:
+[2020.04.22-05.07.56:579][994]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.22-05.07.56:579][994]LogAudioMixer: Display: 1: FrontRight
+[2020.04.22-05.07.56:715][994]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.22-05.07.56:718][994]LogInit: FAudioDevice initialized.
+[2020.04.22-05.07.56:732][994]LogLoad: Game class is 'MoneyHeistGameModeBase_BP_C'
+[2020.04.22-05.07.56:806][994]LogWorld: Bringing World /Game/UEDPIE_0_LaCasaDelPapel.LaCasaDelPapel up for play (max tick rate 60) at 2020.04.21-22.07.56
+[2020.04.22-05.07.56:808][994]LogWorld: Bringing up level for play took: 0.074285
+[2020.04.22-05.07.56:808][994]LogOnline: OSS: Creating online subsystem instance for: :Context_69
+[2020.04.22-05.07.56:812][994]LogTemp: Error: SM_Env_Door_261 is missing an ActorThatOpens
+[2020.04.22-05.07.56:813][994]PIE: Play in editor start time for /Game/UEDPIE_0_LaCasaDelPapel -0.119
+[2020.04.22-05.07.56:813][994]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.22-05.08.02:298][231]LogTemp: Warning: You hit: SM_Prop_Desk_12
+[2020.04.22-05.08.04:541][327]Cmd: LevelEditor.ToggleImmersive
+[2020.04.22-05.08.04:781][330]LogTemp: Warning: You hit: SM_Prop_Desk_12
+[2020.04.22-05.08.10:193][565]LogTemp: Warning: You hit: SM_Prop_Desk_12
+[2020.04.22-05.08.12:062][648]LogTemp: Warning: You hit: SM_Prop_Desk_12
+[2020.04.22-05.08.20:466][ 24]LogTemp: Warning: You hit: SM_Prop_Desk_12
+[2020.04.22-05.08.21:406][ 67]LogTemp: Warning: You hit: SM_Prop_Desk_12
+[2020.04.22-05.08.40:233][908]LogTemp: Warning: You hit: SM_Prop_Desk_12
+[2020.04.22-05.08.49:396][322]LogTemp: Warning: You hit: SM_Prop_Desk_12
+[2020.04.22-05.08.57:263][628]LogTemp: Warning: You hit: SM_Prop_Desk_16
+[2020.04.22-05.09.07:636][116]LogTemp: Warning: You hit: SM_Prop_Seat_21
+[2020.04.22-05.09.43:746][585]LogTemp: Warning: You hit: SM_Prop_Seat_21
+[2020.04.22-05.10.05:781][505]LogTemp: Warning: You hit: SM_Prop_Seat_337
+[2020.04.22-05.10.31:983][601]LogTemp: Warning: You hit: SM_Prop_Seat_337
+[2020.04.22-05.10.32:123][606]LogTemp: Warning: You hit: SM_Prop_Seat_337
+[2020.04.22-05.10.33:998][675]LogTemp: Warning: You hit: SM_Prop_Seat_337
+[2020.04.22-05.10.35:941][752]LogTemp: Warning: You hit: SM_Prop_Seat_337
+[2020.04.22-05.11.23:652][703]LogTemp: Warning: You hit: SM_Prop_Desk_21
+[2020.04.22-05.11.25:486][795]LogTemp: Warning: You hit: SM_Prop_Desk_21
+[2020.04.22-05.11.25:931][819]LogTemp: Warning: You hit: SM_Prop_Desk_21
+[2020.04.22-05.11.26:100][828]LogTemp: Warning: You hit: SM_Prop_Desk_21
+[2020.04.22-05.11.32:175][ 75]LogTemp: Warning: You hit: SM_Prop_Desk_20
+[2020.04.22-05.11.32:302][ 81]LogTemp: Warning: You hit: SM_Prop_Desk_20
+[2020.04.22-05.11.32:754][100]LogTemp: Warning: You hit: SM_Prop_Desk_20
+[2020.04.22-05.11.32:808][102]LogTemp: Warning: You hit: SM_Prop_Desk_20
+[2020.04.22-05.11.33:977][153]LogTemp: Warning: You hit: SM_Prop_Desk_20
+[2020.04.22-05.11.39:684][391]LogTemp: Warning: You hit: SM_Prop_Desk_20
+[2020.04.22-05.11.39:754][394]LogTemp: Warning: You hit: SM_Prop_Desk_20
+[2020.04.22-05.11.42:526][515]LogTemp: Warning: You hit: SM_Prop_Seat_22
+[2020.04.22-05.11.43:792][569]LogTemp: Warning: You hit: SM_Prop_Seat_22
+[2020.04.22-05.11.43:910][574]LogTemp: Warning: You hit: SM_Prop_Seat_22
+[2020.04.22-05.13.49:755][592]LogTemp: Warning: You hit: SM_Prop_Desk_12
+[2020.04.22-05.13.49:805][594]LogTemp: Warning: You hit: SM_Prop_Desk_12
+[2020.04.22-05.13.50:434][617]LogTemp: Warning: You hit: SM_Prop_Desk_12
+[2020.04.22-05.13.50:521][620]LogTemp: Warning: You hit: SM_Prop_Seat_23
+[2020.04.22-05.13.52:747][713]LogTemp: Warning: You hit: SM_Prop_Computer_374
+[2020.04.22-05.13.55:048][815]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.22-05.13.55:052][815]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.22-05.13.55:071][815]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.22-05.13.55:072][815]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.22-05.13.55:076][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.22-05.13.55:076][815]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LaCasaDelPapel
+[2020.04.22-05.13.55:076][815]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.22-05.13.55:077][815]LogWorld: UWorld::CleanupWorld for LaCasaDelPapel, bSessionEnded=true, bCleanupResources=true
+[2020.04.22-05.13.55:094][815]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.22-05.13.55:123][815]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.22-05.13.55:124][815]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel' has LevelScriptBlueprint '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel' with GeneratedClass '/Game/LaCasaDelPapel.LaCasaDelPapel_C' with ClassGeneratedBy '/Game/LaCasaDelPapel.LaCasaDelPapel:PersistentLevel.LaCasaDelPapel'
+[2020.04.22-05.13.55:137][815]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.22-05.13.55:205][815]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.22-05.13.55:213][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.22-05.13.55:245][815]LogUObjectHash: Compacting FUObjectHashTables data took   6.12ms
+[2020.04.22-05.13.55:306][816]LogPlayLevel: Display: Destroying online subsystem :Context_69

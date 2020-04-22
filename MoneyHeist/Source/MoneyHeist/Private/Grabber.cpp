@@ -79,7 +79,12 @@ void UGrabber::Grab()
 
 void UGrabber::Release()
 {
-	// TODO remove / release the PhysicsHandle
+	FHitResult HitResult = GetFirstPhysicsBodyInReach();
+
+	if (HitResult.GetActor())
+	{
+		PhysicsHandle->ReleaseComponent();
+	}
 }
 
 
@@ -89,10 +94,24 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
+	FRotator PlayerViewPointRotation;
+	FVector PlayerViewPointLocation;
+
+	// Get player viewpoint
+	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint
+	(
+		OUT PlayerViewPointLocation,
+		OUT PlayerViewPointRotation
+	);
+
+	FVector LineTraceDirection = PlayerViewPointRotation.Vector();
+	FVector LineTraceEnd = PlayerViewPointLocation + (LineTraceDirection * Reach);
+
 	// if the physics handle is attach
-	if (PhysicsHandle)
+	if (PhysicsHandle->GetGrabbedComponent())
 	{
 		// move the object we are holding
+		PhysicsHandle->SetTargetLocation(LineTraceEnd);
 
 	}
 }
