@@ -118,11 +118,6 @@ FHitResult UGrabber::GetFirstPhysicsBodyInReach()
 		GetPlayerReach(),
 		FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
 		TraceParams
-	);
-
-	if (IsHit)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("You hit: %s"), *Hit.GetActor()->GetName());
-	}
+	);	
 	return Hit;
 }
